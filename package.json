@@ -21,7 +21,10 @@
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "mysql2": "^3.6.0",
+    "pg": "^8.11.0",
+    "sqlite3": "^5.1.6"
   },
   "jest": {
     "testEnvironment": "node",
