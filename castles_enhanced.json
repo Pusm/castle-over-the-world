@@ -1,0 +1,445 @@
+[
+  {
+    "id": "neuschwanstein_castle",
+    "castleName": "Neuschwanstein Castle",
+    "country": "Germany",
+    "location": "Bavarian Alps, near Füssen",
+    "architecturalStyle": "Romantic Revival (Gothic Revival, Romanesque, Byzantine)",
+    "yearBuilt": "1869-1886",
+    "shortDescription": "A fairy-tale castle commissioned by King Ludwig II of Bavaria, Neuschwanstein embodies 19th-century Romantic ideals with its blend of medieval architectural styles. Despite contemporary critics dismissing it as 'kitsch,' it stands today as one of Europe's most iconic examples of historicism and has inspired countless fairy tale adaptations.",
+    "keyFeatures": [
+      "Double-helix staircase design",
+      "Throne Hall with Byzantine décor",
+      "Gothic Revival towers and spires",
+      "Advanced 19th-century technical achievements",
+      "Romanesque geometric forms",
+      "Inspiration for Disney's Sleeping Beauty Castle"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "summer": "9am-6pm (April 1 - October 15)",
+        "winter": "10am-4pm (October 16 - March 31)",
+        "closedDates": "January 1, December 24, 25, 31"
+      },
+      "ticketPrices": {
+        "adult": "€21",
+        "reduced": "€20",
+        "bookingFee": "€2.50 (online)",
+        "children": "Free (with booking fee)"
+      },
+      "tours": {
+        "guidedTourDuration": "30 minutes",
+        "languages": ["German", "English"],
+        "audioGuides": ["Japanese", "French", "Spanish", "Italian", "Czech", "Slovenian", "Russian", "Polish", "Chinese (Mandarin)", "Portuguese", "Hungarian", "Greek", "Dutch", "Korean", "Thai", "Arabic", "Hebrew"],
+        "booking": "Online at www.hohenschwangau.de - advance booking essential"
+      },
+      "accessibility": {
+        "restrictions": "Backpacks, prams, child carriers prohibited",
+        "photography": "Forbidden inside castle",
+        "drones": "Prohibited on property"
+      },
+      "bestTimeToVisit": "Early morning 8am arrival recommended for same-day tickets"
+    },
+    "heritage": {
+      "unescoStatus": "Added to UNESCO World Heritage List July 12, 2025 as 'The Palaces of King Ludwig II of Bavaria'",
+      "conservationChallenges": "Climate change impacts on limestone exterior, tourism pressure with over 1.3 million annual visitors"
+    },
+    "restoration": {
+      "currentProjects": "Meticulous restoration since 2017 across all exhibition spaces",
+      "completed": "Singers' Hall and Throne Hall fully refurbished",
+      "ongoing": "Progressive restoration affecting filming access until further notice"
+    },
+    "modernRelevance": {
+      "culturalImpact": "Global icon of romantic architecture, inspiration for Disney's Sleeping Beauty Castle",
+      "economicValue": "Major tourism driver for Bavaria region",
+      "educationalRole": "Symbol of 19th-century Romantic movement and historicism"
+    }
+  },
+  {
+    "id": "windsor_castle",
+    "castleName": "Windsor Castle",
+    "country": "United Kingdom",
+    "location": "Windsor, Berkshire, England",
+    "architecturalStyle": "Georgian and Victorian design on Medieval structure",
+    "yearBuilt": "11th century (rebuilt multiple times)",
+    "shortDescription": "The world's oldest occupied castle, Windsor embodies nearly a millennium of architectural evolution. Originally built after the Norman Conquest, it seamlessly blends Classical, Gothic, and Rococo styles within its medieval framework, serving as both a royal residence and a symbol of British monarchy through the ages.",
+    "keyFeatures": [
+      "Britain's oldest crown jewels (Honours of Scotland)",
+      "Georgian state apartments",
+      "Gothic features in modern interpretation",
+      "Jacobethan elements",
+      "Rococo decorative schemes",
+      "Finest expression of later Georgian taste"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "regular": "Thursday-Monday: 10:00-17:15 (last admission 16:00)",
+        "winter": "November-February: 10am-4:15pm (last admission 3pm)",
+        "closed": "Tuesdays and Wednesdays (except special dates)",
+        "specialOpening": "Select Tuesdays in July, August, September 2025"
+      },
+      "ticketPrices": {
+        "discountOnline": "Advance booking recommended for price reduction",
+        "children": "Under 5 free",
+        "localDiscount": "50% off for RBWM Advantage Card holders from January 1, 2025",
+        "familyDiscounts": "Available for groups of 15+"
+      },
+      "tours": {
+        "multimediaGuide": "Free - introduced by His Majesty The King",
+        "specialTours": "Expert-guided tours after hours, Great Kitchen tours, Conquer the Tower tours",
+        "languages": "British Sign Language (BSL) available",
+        "audioFeatures": "Induction loop for hearing impaired"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Accessible lift to State Apartments and Semi-State Rooms",
+        "companion": "Free access companion ticket available",
+        "facilities": "Accessible café, toilets, Changing Places facility",
+        "support": "Dementia Friends trained wardens, assistance dogs welcome"
+      },
+      "visitDuration": "Minimum 2 hours recommended (12+ acres to explore)"
+    },
+    "heritage": {
+      "workingPalace": "Active royal residence - closures possible with short notice",
+      "royalCollectionTrust": "Income supports registered charity for care and conservation"
+    },
+    "restoration": {
+      "ongoing": "Continuous maintenance as working royal palace",
+      "challenges": "Balancing public access with royal residence functions"
+    },
+    "modernRelevance": {
+      "constitutionalRole": "Official residence of British monarchy",
+      "culturalSymbol": "Represents continuity of British royal tradition",
+      "educationalValue": "Living museum of nearly 1000 years of English history"
+    }
+  },
+  {
+    "id": "palace_of_versailles",
+    "castleName": "Palace of Versailles",
+    "country": "France",
+    "location": "Versailles, Île-de-France",
+    "architecturalStyle": "French Baroque to Neoclassical",
+    "yearBuilt": "1630s-1780s",
+    "shortDescription": "A testament to French architectural mastery spanning 150 years, Versailles evolved from a hunting lodge into the epitome of European palace design. Its influence on architecture and horticulture spread across the continent, inspiring countless royal residences and establishing the template for grandiose palatial complexes.",
+    "keyFeatures": [
+      "Hall of Mirrors",
+      "French Baroque chapel with Gothic elements",
+      "Neoclassical Ministers' Wings",
+      "Enveloppe inspired by Italian Renaissance villas",
+      "Extensive formal gardens",
+      "Symbol of absolute monarchy"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "palace": "Tuesday-Sunday: 9:00 AM - 6:30 PM (last entry 6:00 PM)",
+        "trianon": "Daily except Mondays: 12:00 PM - 5:30 PM (last admission 5:00 PM)",
+        "gardens": "Daily: 8:00 AM - 6:00 PM",
+        "closed": "Mondays, May 1st"
+      },
+      "ticketPrices": {
+        "palaceOnly": "€21",
+        "passport": "€32 (full estate access including Musical Fountain Show)",
+        "guidedTours": "€10 (plus Palace/Passport ticket)",
+        "freeAdmission": "First Sunday each month November-March (advance booking required)"
+      },
+      "tours": {
+        "guidedTours": "Palace staff-led tours to restricted areas",
+        "audioApp": "Free smartphone/tablet app with audio tours",
+        "languages": "Multiple language options available",
+        "location": "Guided tour desk in North Ministers' Wing"
+      },
+      "specialEvents2025": {
+        "musicalShows": "April 1 - October 31: Musical Gardens and Fountains",
+        "nightShows": "Every Saturday June 7 - September 20: Night Fountains Show 8:30pm-11:05pm",
+        "exhibitions": "June 3 - September 28: Louis XIV Bernini bust exhibition"
+      },
+      "visitDuration": "Full day recommended for complete estate"
+    },
+    "heritage": {
+      "unescoStatus": "UNESCO World Heritage Site",
+      "recentAcquisitions": "June 16, 2025: Count of Provence portrait by Élisabeth Vigée Le Brun"
+    },
+    "restoration": {
+      "ongoing": "Continuous conservation funded by visitor revenue and donations",
+      "economicChallenges": "Unprecedented economic crisis requiring online donation support"
+    },
+    "modernRelevance": {
+      "architecturalInfluence": "Template for European palace design",
+      "culturalSymbol": "Represents French artistic achievement and absolutism",
+      "educationalRole": "Living museum of French royal history and European diplomacy"
+    }
+  },
+  {
+    "id": "himeji_castle",
+    "castleName": "Himeji Castle",
+    "country": "Japan",
+    "location": "Himeji, Hyōgo Prefecture",
+    "architecturalStyle": "Japanese Medieval (Azuchi-Momoyama period)",
+    "yearBuilt": "1333 (rebuilt 1601-1609)",
+    "shortDescription": "Known as the 'White Heron Castle' for its elegant white appearance, Himeji represents the pinnacle of Japanese castle architecture. This UNESCO World Heritage site has survived 700 years virtually intact, showcasing sophisticated defensive systems and the refined aesthetic principles of Japanese design.",
+    "keyFeatures": [
+      "Network of 83 interconnected rooms",
+      "Advanced defensive maze systems",
+      "Traditional wooden construction",
+      "White plastered walls resembling heron wings",
+      "Complex multi-story design",
+      "Survived WWII bombing and earthquakes"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "regular": "9:00 AM - 5:00 PM daily",
+        "summer": "Extended hours June 1 - August 31, 2025: 9 AM - 6 PM",
+        "ticketSales": "Day of entry only - no reservation system"
+      },
+      "ticketPrices": {
+        "adult": "¥1,000 (increasing to ¥2,500 for non-residents March 2026)",
+        "children": "¥300",
+        "combination": "¥1,050 adult, ¥360 students (with Kokoen Garden)",
+        "priceIncrease": "Over 100% increase planned for non-local residents in 2026"
+      },
+      "tours": {
+        "duration": "1.5-2 hours recommended",
+        "crowdedSeason": "May require 1+ hour wait during peak times",
+        "accessibility": "Wheelchair users cannot visit independently due to steep hills"
+      },
+      "accessibility": {
+        "disabilityAccess": "Free entry for physically challenged visitors and one carer with certificate",
+        "limitations": "Numerous steep hills prevent wheelchair access to main keep"
+      },
+      "bestTimeToVisit": "Spring (late March-early April) for cherry blossoms, Autumn (late October-early November) for foliage"
+    },
+    "heritage": {
+      "unescoStatus": "Registered December 11, 1993 as first UNESCO World Heritage Site in Japan",
+      "recognition": "No. 1 Castle in Japan, finest example of wooden architecture worldwide"
+    },
+    "restoration": {
+      "majorRestoration": "Multi-year restoration completed March 27, 2015",
+      "results": "Restored brilliant white color, removed decades of dirt and grime",
+      "ongoing": "Continuous preservation of wooden interiors and exterior plaster"
+    },
+    "modernRelevance": {
+      "culturalSymbol": "Pinnacle of Japanese castle architecture and aesthetic principles",
+      "educationalValue": "Living example of traditional Japanese construction techniques",
+      "economicImpact": "Major tourism destination easily accessible from Kyoto and Osaka"
+    }
+  },
+  {
+    "id": "edinburgh_castle",
+    "castleName": "Edinburgh Castle",
+    "country": "Scotland",
+    "location": "Edinburgh, Scotland",
+    "architecturalStyle": "Medieval Scottish fortress (multiple periods)",
+    "yearBuilt": "12th century (on 2nd century foundations)",
+    "shortDescription": "Perched dramatically on Castle Rock, Edinburgh Castle has dominated Scotland's capital for nearly two millennia. This ancient fortress guards the Scottish Crown Jewels and embodies the turbulent history of Scotland, serving as both royal residence and military stronghold throughout the centuries.",
+    "keyFeatures": [
+      "Honours of Scotland (oldest crown jewels)",
+      "Castle Rock volcanic foundation",
+      "Great Hall with impressive timber roof",
+      "St Margaret's Chapel (oldest building)",
+      "One O'Clock Gun daily ceremony",
+      "Spectacular views over Edinburgh"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "summer": "9:30 AM - 6:00 PM (April-September)",
+        "winter": "9:30 AM - 5:00 PM (October-March)",
+        "lastEntry": "45 minutes before closing"
+      },
+      "ticketPrices": {
+        "historicScotlandMembers": "Free (online booking required)",
+        "youngScot": "£1 with Young Scot card",
+        "guidedTours": "£3.50 per visitor",
+        "audioGuides": "Adult £3.50, Concession £2.50, Child £1.50"
+      },
+      "tours": {
+        "guidedTours": "30-minute tours with Historic Scotland staff",
+        "schedule": "Multiple daily tours (varies by season)",
+        "audioGuides": "Available in 13 languages including BSL",
+        "voices": "Features Saoirse Ronan, Bill Paterson, Andrew Gower"
+      },
+      "accessibility": {
+        "parking": "Accessible parking spaces on esplanade",
+        "transport": "Mobility vehicle to Crown Square available",
+        "equipment": "Manual wheelchairs available first-come-first-served",
+        "sensorySupport": "Sensory backpacks with tactile aids, audio guides free for visually impaired"
+      },
+      "booking": "Advance online booking essential - tickets often sell out"
+    },
+    "heritage": {
+      "managedBy": "Historic Environment Scotland",
+      "unescoStatus": "Part of UNESCO World Heritage Site",
+      "significance": "Home to Honours of Scotland, Mons Meg, One o'Clock Gun"
+    },
+    "restoration": {
+      "ongoing": "Continuous conservation by Historic Environment Scotland",
+      "membership": "Historic Scotland membership provides access to all open sites"
+    },
+    "modernRelevance": {
+      "nationalSymbol": "Icon of Scottish independence and heritage",
+      "ceremonialRole": "Venue for military ceremonies and state occasions",
+      "tourism": "Scotland's most visited paid attraction"
+    }
+  },
+  {
+    "id": "prague_castle",
+    "castleName": "Prague Castle",
+    "country": "Czech Republic",
+    "location": "Prague, Hradčany",
+    "architecturalStyle": "Romanesque, Gothic, Renaissance, Baroque blend",
+    "yearBuilt": "9th century (continuously expanded)",
+    "shortDescription": "According to Guinness World Records, Prague Castle is the largest ancient castle complex in the world, spanning nearly 70,000 square meters. This millennium-spanning architectural marvel reflects the changing styles and powers that have shaped Central Europe, from Bohemian kings to Habsburg emperors.",
+    "keyFeatures": [
+      "Largest ancient castle complex (70,000 sq meters)",
+      "St. Vitus Cathedral with Gothic spires",
+      "Old Royal Palace with Vladislav Hall",
+      "Renaissance and Baroque additions",
+      "Official residence of Czech presidents",
+      "Architectural timeline of 1000+ years"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "buildings": "Monday-Saturday: 9:00-17:00, Sunday: 12:00-17:00",
+        "seasonal": "Summer: 9am-5pm, Winter: 9am-4pm"
+      },
+      "ticketPrices": {
+        "basicTour": "450 CZK ($19) adult, 300 CZK ($12.70) concessions",
+        "family": "950 CZK ($40.10) for 2 adults + up to 5 children",
+        "cathedral": "200 CZK ($8.65) adult for Tower View Gallery",
+        "validity": "2 days, each building accessible once"
+      },
+      "tours": {
+        "languages": "Czech, English, German, Italian, Spanish, Russian",
+        "audioGuided": "3-hour tours in 8 languages including Korean",
+        "specialTours": "75-minute Saint Vitus Cathedral tours with restricted access areas",
+        "booking": "Available through Ticketportal network"
+      },
+      "practical": {
+        "security": "All visitors must pass security checks",
+        "baggage": "Large baggage prohibited in castle area",
+        "visitDuration": "3-6 hours for Main Circuit",
+        "crowdTip": "Visit before noon to avoid peak crowds at 12 pm guard change"
+      },
+      "moneyTip": "Golden Lane free after 5pm (summer) / 4pm (winter), houses closed"
+    },
+    "heritage": {
+      "unescoStatus": "UNESCO World Heritage Site with 1000+ year tradition",
+      "significance": "Largest coherent castle complex worldwide",
+      "architecture": "10th century Romanesque to 14th century Gothic"
+    },
+    "restoration": {
+      "ongoing": "Continuous reconstruction since 1990",
+      "archaeology": "Archaeological research ongoing since 1925",
+      "approach": "Greatest possible public opening while preserving heritage"
+    },
+    "modernRelevance": {
+      "politicalRole": "Official residence of Czech presidents",
+      "culturalSymbol": "Icon of Czech national identity and Central European history",
+      "tourism": "Major driver of Prague's tourism economy"
+    }
+  },
+  {
+    "id": "chateau_de_chambord",
+    "castleName": "Château de Chambord",
+    "country": "France",
+    "location": "Loire Valley, Loir-et-Cher",
+    "architecturalStyle": "French Renaissance",
+    "yearBuilt": "1519-1547",
+    "shortDescription": "A masterpiece of French Renaissance architecture, Chambord showcases the architectural revolution that swept France in the 16th century. With its distinctive double-helix staircase possibly designed by Leonardo da Vinci, this château represents the perfect fusion of French medieval traditions with Italian Renaissance innovation.",
+    "keyFeatures": [
+      "440 rooms and 365 fireplaces",
+      "Double-helix staircase (possibly da Vinci design)",
+      "Distinctive French Renaissance silhouette",
+      "UNESCO World Heritage Site since 1981",
+      "Innovative roof terraces and towers",
+      "Largest château in Loire Valley"
+    ],
+    "visitorInformation": {
+      "openingHours": {
+        "regular": "Open daily except January 1, March 20, December 25",
+        "januaryMarch": "9am-5pm (January 5-March 28)",
+        "summerSeason": "9am-6pm (March 29-October 26)",
+        "autumnWinter": "9am-5pm (October 27-December 20)",
+        "lastAccess": "30 minutes before closure"
+      },
+      "ticketPrices": {
+        "validity": "Valid until August 20, 2025",
+        "cancellation": "Full refund up to 24 hours before",
+        "parking": "€6 per day at P0 (600m from château)",
+        "upgrades": "HistoPad for 3D recreations and treasure hunts"
+      },
+      "tours": {
+        "audioTours": "Available with ticket upgrades",
+        "skipLine": "Skip-the-line entry tickets available",
+        "combo": "Multi-château Loire Valley passes available"
+      },
+      "specialEvents2025": {
+        "activities": "April 5-September 28, 2025 and October 18-November 2, 2025",
+        "concert": "Black Eyed Peas June 22, 2025 (Chambord Live series)"
+      }
+    },
+    "heritage": {
+      "unescoStatus": "UNESCO World Heritage Site since 1981, Loire Valley since 2000",
+      "significance": "Largest Loire Valley château, 440 rooms in 5,440-hectare forest park"
+    },
+    "restoration": {
+      "recent": "Roof lanterns restoration completed June 2023",
+      "supervision": "François Chatillon, Chief Architect of Historic Monuments",
+      "lastWork": "No restoration on lanterns for 50+ years prior"
+    },
+    "modernRelevance": {
+      "architecturalIcon": "Symbol of French Renaissance achievement",
+      "leonardoConnection": "Living legacy of Leonardo da Vinci's architectural influence",
+      "culturalVenue": "Modern concert venue maintaining historical significance"
+    }
+  },
+  {
+    "id": "alhambra_palace",
+    "castleName": "The Alhambra",
+    "country": "Spain",
+    "location": "Granada, Andalusia",
+    "architecturalStyle": "Moorish (Islamic) Architecture",
+    "yearBuilt": "1238-1358",
+    "shortDescription": "The Alhambra stands as the finest example of Moorish architecture in the Western world, representing the sophisticated artistic achievement of Islamic Spain. Built by the Nasrid dynasty, this palace-fortress complex showcases intricate geometric patterns, muqarnas vaulting, and garden courtyards that influenced architectural traditions across the Mediterranean.",
+    "keyFeatures": [
+      "Intricate Islamic geometric patterns",
+      "Court of Lions with fountain system",
+      "Muqarnas (stalactite) vaulting",
+      "Arabic calligraphy decorations",
+      "Palatial gardens and water features",
+      "UNESCO World Heritage Site"
+    ],
+    "visitorInformation": {
+      "booking": {
+        "essential": "Advance booking mandatory - months ahead for peak periods",
+        "documentation": "Original ID/passport required for entry",
+        "capacity": "Limited daily visitors for conservation reasons"
+      },
+      "tours": {
+        "guided": "Small groups (max 10 people), 2.5-3 hours duration",
+        "languages": "Spanish, English, French, private tours in any language",
+        "features": "Skip-the-line access, hearing aid systems included",
+        "coverage": "Nasrid Palaces, Alcazaba, Generalife, Gardens"
+      },
+      "bestTimes": {
+        "seasonal": "April, May, June for pleasant weather and smaller crowds",
+        "daily": "8:30am first entry slot for best photos and fewer crowds",
+        "avoidance": "Saturdays, public holidays, August"
+      },
+      "ticketing": "Tour operators secure tickets months in advance for guaranteed access"
+    },
+    "heritage": {
+      "unescoStatus": "UNESCO World Heritage Site including Generalife and Albayzín",
+      "significance": "Best preserved Muslim Medieval City in the world",
+      "management": "Direction Plan balances tourism and heritage conservation"
+    },
+    "conservation": {
+      "challenges": "Balancing massive tourist demand with preservation needs",
+      "strategy": "Diversifying tourism promotion to reduce monument pressure",
+      "sustainability": "Knowledge-based management for long-term conservation"
+    },
+    "modernRelevance": {
+      "culturalBridge": "Symbol of Islamic heritage in Western Europe",
+      "architecturalInfluence": "Template for Islamic architectural preservation worldwide",
+      "tourism": "Anchor of Granada's tourism economy and cultural identity"
+    }
+  }
+]

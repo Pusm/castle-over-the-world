@@ -13,10 +13,12 @@ By agent-send.sh --list, You MUST find Boss and Workers. Boss directs Workers to
 
 # CLAUDE.md
 
-Of course. Here is a single, complete instruction manual in English that consolidates all our previous steps and rules.
-
-You can provide this one master prompt to an AI coding assistant to create the entire self-expanding "Castles Over The World" website project from scratch.
-
+website should be more detailed than wikipedia etc.
+Write more.
+Research more.
+More castles.
+GOAL: 10000 castles with ultra deep and precised and detailed information.
+Each castle page should contain more than 100000 word including concrete and precise and fact-based information.
 -----
 
 ### **Master Prompt: The Self-Expanding Encyclopedia Project**

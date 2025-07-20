@@ -1,0 +1,693 @@
+[
+  {
+    "id": "malbork_castle",
+    "castleName": "Malbork Castle",
+    "country": "Poland", 
+    "location": "Malbork, Pomeranian Voivodeship",
+    "architecturalStyle": "Gothic brick architecture",
+    "yearBuilt": "13th century (1274-1457)",
+    "shortDescription": "The world's largest castle by land area and Europe's largest brick castle, Malbork was built by the Teutonic Knights as their headquarters. This massive red brick complex served as the center of the Teutonic Order's power in the Baltic region and stands as the ultimate example of medieval brick construction techniques.",
+    "keyFeatures": [
+      "Largest castle in the world by land area",
+      "Largest brick castle in Europe", 
+      "Eight massive towers and high curtain walls",
+      "Gothic brick architecture masterpiece",
+      "Former headquarters of Teutonic Knights",
+      "UNESCO World Heritage Site since 1997"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Polish state",
+      "management": "Malbork Castle Museum",
+      "accessibility": "public",
+      "condition": "excellent"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "summer": "9:00-19:00 (May-September)",
+        "winter": "10:00-15:00 (October-April)"
+      },
+      "ticketPrices": {
+        "adult": "39 PLN",
+        "reduced": "30 PLN",
+        "family": "99 PLN",
+        "currency": "PLN"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "duration": "3 hours",
+          "languages": ["Polish", "English", "German"]
+        },
+        "audioGuides": {
+          "available": true,
+          "languages": ["Polish", "English", "German", "French", "Russian"]
+        }
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Inscribed 1997 - Castle of the Teutonic Order in Malbork"
+      },
+      "threats": {
+        "environmental": ["moisture damage to brick", "foundation settling"],
+        "tourism": ["visitor pressure on medieval structures"]
+      }
+    }
+  },
+  {
+    "id": "conwy_castle",
+    "castleName": "Conwy Castle",
+    "country": "Wales",
+    "location": "Conwy, North Wales", 
+    "architecturalStyle": "13th-century military architecture",
+    "yearBuilt": "1283-1289",
+    "shortDescription": "Built by Edward I during his conquest of Wales, Conwy Castle stands as one of the finest examples of 13th-century military architecture in Europe. With its eight massive towers and high curtain walls, it forms part of Edward I's 'iron ring' of castles designed to control Wales.",
+    "keyFeatures": [
+      "Eight massive round towers",
+      "High curtain walls",
+      "Finest example of 13th-century military architecture", 
+      "Part of Edward I's 'iron ring' of Welsh castles",
+      "Medieval town walls integration",
+      "UNESCO World Heritage Site"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Welsh state (Cadw)",
+      "management": "Cadw - Welsh Historic Monuments",
+      "accessibility": "public"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "summer": "9:30-18:00 (July-August)",
+        "winter": "10:00-16:00 (November-February)"
+      },
+      "ticketPrices": {
+        "adult": "£11.50",
+        "child": "£7.00", 
+        "family": "£33.50",
+        "currency": "GBP"
+      }
+    }
+  },
+  {
+    "id": "caerphilly_castle",
+    "castleName": "Caerphilly Castle",
+    "country": "Wales",
+    "location": "Caerphilly, South Wales",
+    "architecturalStyle": "13th-century concentric castle",
+    "yearBuilt": "1268-1271",
+    "shortDescription": "Sprawling over 30 acres, Caerphilly Castle is the largest castle in Wales and the second-largest in Britain. This masterpiece of medieval military engineering features an elaborate system of moats and fortifications, with its leaning tower that out-leans Pisa's famous tower.",
+    "keyFeatures": [
+      "Largest castle in Wales",
+      "Second-largest castle in Britain",
+      "Elaborate moat and fortification system",
+      "Famous leaning tower",
+      "Concentric castle design",
+      "Water defense system"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Welsh state (Cadw)",
+      "management": "Cadw - Welsh Historic Monuments"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "£9.00",
+        "child": "£5.40",
+        "currency": "GBP"
+      }
+    }
+  },
+  {
+    "id": "carcassonne",
+    "castleName": "Cité de Carcassonne",
+    "country": "France",
+    "location": "Carcassonne, Aude, Occitanie",
+    "architecturalStyle": "Medieval fortified city",
+    "yearBuilt": "12th-13th centuries (restored 1850s-1870s)",
+    "shortDescription": "The fortified city of Carcassonne is a medieval marvel with its double ring of ramparts and 53 towers creating an imposing silhouette. Restored by Eugène Viollet-le-Duc in the 19th century, this UNESCO World Heritage site represents one of France's most complete examples of medieval fortification.",
+    "keyFeatures": [
+      "Double ring of ramparts",
+      "53 towers and turrets",
+      "Medieval fortified city",
+      "Viollet-le-Duc restoration",
+      "Château Comtal within the walls",
+      "UNESCO World Heritage Site since 1997"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "French state",
+      "management": "Centre des monuments nationaux"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "€11.50",
+        "reduced": "€9.00",
+        "currency": "EUR"
+      }
+    }
+  },
+  {
+    "id": "karlstejn_castle",
+    "castleName": "Karlštejn Castle",
+    "country": "Czech Republic",
+    "location": "Karlštejn, Central Bohemian Region",
+    "architecturalStyle": "Gothic",
+    "yearBuilt": "1348-1365",
+    "shortDescription": "Founded by Charles IV, Holy Roman Emperor and King of Bohemia, Karlštejn was built to safeguard the imperial regalia and holy relics. This Gothic castle represents the 'castliest castle of them all' with its fairy-tale appearance and perfectly preserved medieval interiors including the stunning Chapel of the Holy Cross.",
+    "keyFeatures": [
+      "Built for Charles IV, Holy Roman Emperor",
+      "Treasury for imperial regalia and holy relics",
+      "Chapel of the Holy Cross with precious stones",
+      "Gothic architecture masterpiece",
+      "Fairy-tale castle appearance",
+      "Crown Jewels replica display"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Czech state",
+      "management": "National Heritage Institute"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "350 CZK",
+        "reduced": "250 CZK",
+        "currency": "CZK"
+      }
+    }
+  },
+  {
+    "id": "osaka_castle",
+    "castleName": "Osaka Castle",
+    "country": "Japan",
+    "location": "Osaka, Kansai region",
+    "architecturalStyle": "Japanese castle (reconstructed)",
+    "yearBuilt": "1583 (reconstructed 1931, 1997)",
+    "shortDescription": "One of Japan's most famous castles, Osaka Castle was originally built by Toyotomi Hideyoshi as the centerpiece of his campaign to unify Japan. The current ferro-concrete reconstruction houses a modern museum while maintaining the castle's iconic five-story, eight-level structure with its distinctive green roof and golden ornaments.",
+    "keyFeatures": [
+      "Built by Toyotomi Hideyoshi",
+      "Five-story, eight-level structure", 
+      "Distinctive green roof and golden ornaments",
+      "Modern museum inside",
+      "Beautiful park setting",
+      "Symbol of Japanese unification"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Osaka Prefecture",
+      "management": "Osaka Castle Park Office"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": "9:00-17:00"
+      },
+      "ticketPrices": {
+        "adult": "¥600",
+        "child": "Free",
+        "currency": "JPY"
+      }
+    }
+  },
+  {
+    "id": "kumamoto_castle",
+    "castleName": "Kumamoto Castle",
+    "country": "Japan", 
+    "location": "Kumamoto, Kyushu",
+    "architecturalStyle": "Japanese castle",
+    "yearBuilt": "1467 (rebuilt 1601-1607)",
+    "shortDescription": "Considered one of Japan's three premier castles alongside Osaka and Nagoya, Kumamoto Castle is renowned for its sophisticated defensive design and curved stone walls called 'musha-gaeshi' that prevented enemy climbing. The castle offers spectacular 360-degree views from its top floors.",
+    "keyFeatures": [
+      "One of Japan's three premier castles",
+      "Curved stone walls (musha-gaeshi)",
+      "Sophisticated defensive design",
+      "360-degree panoramic views",
+      "Earthquake-resistant construction",
+      "Important Cultural Property of Japan"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Kumamoto Prefecture", 
+      "condition": "under_restoration"
+    },
+    "preservationEfforts": {
+      "conservationProjects": [
+        {
+          "project": "Post-2016 earthquake restoration",
+          "period": "2016-ongoing",
+          "scope": "Comprehensive structural repair",
+          "ongoing": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "gyeongbokgung_palace",
+    "castleName": "Gyeongbokgung Palace",
+    "country": "South Korea",
+    "location": "Seoul, Jongno District",
+    "architecturalStyle": "Korean traditional palace architecture",
+    "yearBuilt": "1395 (Joseon Dynasty)",
+    "shortDescription": "The largest of the Five Grand Palaces built during the Joseon Dynasty, Gyeongbokgung served as the main royal palace for over 500 years. Famous for its changing of the guard ceremony and beautiful pavilions set around courtyards, it represents the pinnacle of Korean royal architecture.",
+    "keyFeatures": [
+      "Largest of Five Grand Palaces",
+      "Main royal palace of Joseon Dynasty",
+      "Changing of the Guard ceremony",
+      "Beautiful pavilions and courtyards",
+      "Throne Hall (Geunjeongjeon)",
+      "Traditional Korean architectural elements"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "South Korean state",
+      "management": "Cultural Heritage Administration"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": "9:00-18:00 (March-October)",
+        "winter": "9:00-17:00 (November-February)"
+      },
+      "ticketPrices": {
+        "adult": "₩3,000",
+        "youth": "₩1,500",
+        "currency": "KRW"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "specialTours": ["Changing of the Guard ceremony at 10:00, 14:00, 15:30"]
+        }
+      }
+    }
+  },
+  {
+    "id": "forbidden_city",
+    "castleName": "Forbidden City",
+    "country": "China",
+    "location": "Beijing, China",
+    "architecturalStyle": "Chinese imperial architecture",
+    "yearBuilt": "1406-1420 (Ming Dynasty)",
+    "shortDescription": "The imperial palace complex that served as home to 24 Ming and Qing dynasty emperors for over 500 years. Covering 720,000 square meters with 980 buildings, it's the world's most-visited palace and represents the pinnacle of traditional Chinese palatial architecture.",
+    "keyFeatures": [
+      "Home to 24 emperors across 500 years",
+      "720,000 square meters (180 acres)",
+      "980 buildings and structures",
+      "World's most-visited palace",
+      "Traditional Chinese imperial architecture",
+      "UNESCO World Heritage Site since 1987"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Chinese state",
+      "management": "Palace Museum"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "¥60 (April-October), ¥40 (November-March)",
+        "student": "¥20",
+        "currency": "CNY"
+      }
+    },
+    "tourismDetails": {
+      "annualVisitors": "17 million (2018 record)"
+    }
+  },
+  {
+    "id": "hearst_castle",
+    "castleName": "Hearst Castle",
+    "country": "United States",
+    "location": "San Simeon, California",
+    "architecturalStyle": "Mediterranean Revival",
+    "yearBuilt": "1919-1947",
+    "shortDescription": "Built by newspaper tycoon William Randolph Hearst and architect Julia Morgan, this extravagant estate nicknamed 'La Cuesta Encantada' (The Enchanted Hill) features 165 rooms, world-class art collections, and 127 acres of terraced gardens overlooking the Pacific Coast.",
+    "keyFeatures": [
+      "165 rooms in four buildings",
+      "127 acres of terraced gardens",
+      "World-class art collections",
+      "Designed by Julia Morgan",
+      "Neptune Pool and Roman Pool",
+      "California Historical Landmark"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "California State Parks",
+      "management": "California State Parks"
+    },
+    "visitorInfo": {
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "duration": "1-2 hours",
+          "specialTours": ["Evening tours", "Art and Architecture tour"]
+        }
+      }
+    }
+  },
+  {
+    "id": "boldt_castle",
+    "castleName": "Boldt Castle",
+    "country": "United States",
+    "location": "Heart Island, New York",
+    "architecturalStyle": "Rhineland castle style",
+    "yearBuilt": "1900-1904 (unfinished)",
+    "shortDescription": "Hotel magnate George C. Boldt began building this 120-room castle as a summer home for his beloved wife Louise. When she died before completion, construction halted for 70 years until restoration began, creating one of the most romantic castle stories in America.",
+    "keyFeatures": [
+      "120-room castle complex",
+      "Rhineland castle architectural style",
+      "Heart Island location",
+      "Romantic tragedy story",
+      "Alster Tower and drawbridge",
+      "Thousand Islands location"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Thousand Islands Bridge Authority",
+      "management": "Thousand Islands Bridge Authority"
+    },
+    "visitorInfo": {
+      "accessibility": {
+        "limitations": ["Boat access required", "Seasonal operation"]
+      },
+      "bestTimeToVisit": {
+        "seasonal": ["May through October"],
+        "optimal": "Summer months for boat tours"
+      }
+    }
+  },
+  {
+    "id": "gillette_castle",
+    "castleName": "Gillette Castle",
+    "country": "United States",
+    "location": "East Haddam, Connecticut",
+    "architecturalStyle": "Medieval-inspired eclectic",
+    "yearBuilt": "1914-1919",
+    "shortDescription": "This zany, medieval-inspired fortress was dreamed up by William Gillette, famous playwright and Sherlock Holmes actor. Built as his retirement home, the castle features 47 unique doors, secret passages, hidden rooms, and thousands of hand-crafted details that reflect Gillette's theatrical personality.",
+    "keyFeatures": [
+      "47 unique doors (no two identical)",
+      "Secret doors and hidden passages",
+      "Hand-carved wooden fixtures",
+      "Built-in furniture and couches",
+      "Hidden mirror spy system",
+      "200-acre surrounding park"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Connecticut State Parks",
+      "management": "Connecticut Department of Energy and Environmental Protection"
+    },
+    "visitorInfo": {
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "features": ["Secret rooms tour", "Theatrical history presentation"]
+        }
+      }
+    }
+  },
+  {
+    "id": "bannerman_castle",
+    "castleName": "Bannerman Castle",
+    "country": "United States",
+    "location": "Pollepel Island, Hudson River, New York",
+    "architecturalStyle": "Scottish-style fortress",
+    "yearBuilt": "1901-1918",
+    "shortDescription": "Built by arms dealer Francis Bannerman VI as an ammunition storage facility and summer residence, this Scottish-style castle with turrets, towers, and a moat was largely destroyed by fire but remains a haunting ruin accessible only by boat tours through the Hudson River.",
+    "keyFeatures": [
+      "Scottish-style turrets and towers",
+      "Original moat system",
+      "Arms and ammunition storage history",
+      "Dramatic fire-damaged ruins",
+      "Hudson River island location",
+      "Accessible only by boat"
+    ],
+    "currentStatus": {
+      "operationalState": "ruins",
+      "ownership": "New York State Parks",
+      "management": "Bannerman Castle Trust",
+      "condition": "ruins"
+    },
+    "visitorInfo": {
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "booking": "Bannerman Castle Trust",
+          "features": ["Boat tour included", "Historical ruins exploration"]
+        }
+      },
+      "accessibility": {
+        "limitations": ["Boat access only", "Weather dependent", "Seasonal tours"]
+      }
+    }
+  },
+  {
+    "id": "scottys_castle",
+    "castleName": "Scotty's Castle",
+    "country": "United States", 
+    "location": "Death Valley, California",
+    "architecturalStyle": "Mission Revival and Spanish Colonial Revival",
+    "yearBuilt": "1922-1931",
+    "shortDescription": "Despite its name, this Spanish Colonial Revival villa with two tall towers was actually built by wealthy couple Albert and Bessie Johnson as a vacation home. The legend of 'Death Valley Scotty' claiming ownership created one of America's most colorful castle stories.",
+    "keyFeatures": [
+      "Mission Revival architectural style",
+      "Two prominent towers",
+      "Death Valley location",
+      "Colorful legend of Death Valley Scotty",
+      "Built by Albert and Bessie Johnson",
+      "Remote desert setting"
+    ],
+    "currentStatus": {
+      "operationalState": "closed",
+      "ownership": "National Park Service",
+      "management": "Death Valley National Park",
+      "condition": "under_restoration"
+    },
+    "preservationEfforts": {
+      "conservationProjects": [
+        {
+          "project": "Flood damage restoration",
+          "period": "2015-ongoing",
+          "scope": "Structural repairs from 2015 flash flood damage",
+          "ongoing": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "krak_des_chevaliers",
+    "castleName": "Krak des Chevaliers",
+    "country": "Syria",
+    "location": "Homs Governorate, Syria",
+    "architecturalStyle": "Crusader castle architecture",
+    "yearBuilt": "1142-1271",
+    "shortDescription": "One of the most important preserved medieval castles in the world, Krak des Chevaliers was built by the Knights Hospitaller during the Crusades. This massive fortress represents the pinnacle of medieval military architecture and engineering in the Middle East.",
+    "keyFeatures": [
+      "Most important preserved medieval castle worldwide",
+      "Built by Knights Hospitaller",
+      "Crusader military architecture masterpiece",
+      "Massive defensive walls and towers",
+      "Strategic location controlling trade routes",
+      "UNESCO World Heritage Site since 2006"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Syrian state",
+      "condition": "good"
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Ancient City of Aleppo and Crac des Chevaliers"
+      },
+      "threats": {
+        "human": ["Civil war damage", "Military occupation"],
+        "environmental": ["Desert climate weathering"]
+      }
+    }
+  },
+  {
+    "id": "great_zimbabwe",
+    "castleName": "Great Zimbabwe",
+    "country": "Zimbabwe",
+    "location": "Masvingo Province, Zimbabwe",
+    "architecturalStyle": "African stone architecture",
+    "yearBuilt": "11th-15th centuries",
+    "shortDescription": "The largest ancient structure south of the Sahara Desert, Great Zimbabwe was the capital of the Kingdom of Zimbabwe. These impressive stone walls built without mortar represent the pinnacle of indigenous African architecture and gave the modern country its name.",
+    "keyFeatures": [
+      "Largest ancient structure south of Sahara",
+      "Built without mortar (dry stone technique)",
+      "Capital of Kingdom of Zimbabwe",
+      "Gave Zimbabwe its name",
+      "Complex of stone enclosures",
+      "UNESCO World Heritage Site since 1986"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Zimbabwean state",
+      "management": "National Museums and Monuments of Zimbabwe"
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Great Zimbabwe National Monument"
+      },
+      "threats": {
+        "environmental": ["Erosion", "Vegetation growth"],
+        "human": ["Tourism pressure", "Development pressure"]
+      }
+    }
+  },
+  {
+    "id": "fasil_ghebbi",
+    "castleName": "Fasil Ghebbi",
+    "country": "Ethiopia",
+    "location": "Gondar, Amhara Region",
+    "architecturalStyle": "Ethiopian imperial architecture (Arab, Nubian, Gothic blend)",
+    "yearBuilt": "17th-18th centuries",
+    "shortDescription": "The fortress-city of Fasil Ghebbi in Gondar was founded by Emperor Fasilides and served as the residence of Ethiopian emperors. This unique architectural complex blends Arab, Nubian, and Gothic styles, representing the cosmopolitan nature of the Ethiopian Empire.",
+    "keyFeatures": [
+      "Former fortress-city and imperial residence",
+      "Blend of Arab, Nubian, and Gothic architecture",
+      "Founded by Emperor Fasilides",
+      "Reflects diverse Ethiopian Empire cultures",
+      "Complex of castles and palaces",
+      "UNESCO World Heritage Site since 1979"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Ethiopian state",
+      "management": "Authority for Research and Conservation of Cultural Heritage"
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Fasil Ghebbi, Gondar Region"
+      }
+    }
+  },
+  {
+    "id": "citadel_of_qaitbay",
+    "castleName": "Citadel of Qaitbay",
+    "country": "Egypt",
+    "location": "Alexandria, Egypt",
+    "architecturalStyle": "Mamluk military architecture",
+    "yearBuilt": "1477-1479",
+    "shortDescription": "Built by Mamluk Sultan Qaitbay on the exact site of the ancient Lighthouse of Alexandria (one of the Seven Wonders), this fortress guarded Alexandria's harbor for centuries. The citadel incorporates stones from the fallen lighthouse into its construction.",
+    "keyFeatures": [
+      "Built on site of ancient Lighthouse of Alexandria",
+      "Incorporates stones from the fallen lighthouse",
+      "Mamluk military architecture",
+      "Guards Alexandria's harbor",
+      "Built by Sultan Qaitbay",
+      "Museum of naval history"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Egyptian state",
+      "management": "Egyptian Ministry of Tourism and Antiquities"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "30 EGP",
+        "student": "15 EGP",
+        "currency": "EGP"
+      }
+    }
+  },
+  {
+    "id": "ait_benhaddou",
+    "castleName": "Ksar of Aït Benhaddou",
+    "country": "Morocco",
+    "location": "Ouarzazate Province, Morocco",
+    "architecturalStyle": "Traditional Moroccan earthen architecture",
+    "yearBuilt": "11th century onwards",
+    "shortDescription": "This fortified village (ksar) along the former caravan route between the Sahara and Marrakech represents traditional pre-Saharan habitat. Built with mud brick, clay, and straw, it's one of Morocco's most photographed locations and a popular filming location.",
+    "keyFeatures": [
+      "Traditional pre-Saharan architecture",
+      "Built with mud brick, clay, and straw",
+      "Former caravan route fortress",
+      "Popular filming location",
+      "Traditional Berber architecture",
+      "UNESCO World Heritage Site since 1987"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Moroccan state",
+      "management": "Ministry of Culture, Youth and Sports"
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Ksar of Ait-Ben-Haddou"
+      },
+      "threats": {
+        "environmental": ["Flash floods", "Adobe erosion"],
+        "human": ["Tourism pressure", "Modern development"]
+      }
+    }
+  },
+  {
+    "id": "belem_tower",
+    "castleName": "Belém Tower",
+    "country": "Portugal",
+    "location": "Lisbon, Portugal",
+    "architecturalStyle": "Manueline (Portuguese Late Gothic)",
+    "yearBuilt": "1514-1520",
+    "shortDescription": "Built to defend Lisbon's harbor and commemorate Vasco da Gama's expedition, this elegant tower represents the Manueline style at its finest. The tower served as both fortress and ceremonial gateway to Lisbon during Portugal's Age of Discovery.",
+    "keyFeatures": [
+      "Manueline architectural masterpiece",
+      "Built to defend Lisbon harbor",
+      "Commemorates Age of Discovery",
+      "Elegant limestone construction",
+      "Maritime motifs in decoration",
+      "UNESCO World Heritage Site since 1983"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Portuguese state",
+      "management": "Directorate-General for Cultural Heritage"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "€6.00",
+        "reduced": "€3.00",
+        "currency": "EUR"
+      }
+    }
+  },
+  {
+    "id": "chenonceau_castle",
+    "castleName": "Château de Chenonceau",
+    "country": "France",
+    "location": "Chenonceaux, Indre-et-Loire, Loire Valley",
+    "architecturalStyle": "French Renaissance",
+    "yearBuilt": "1514-1522",
+    "shortDescription": "Known as the 'Ladies' Castle' due to the influential women who shaped its history, Chenonceau spans the River Cher with its distinctive arched bridge gallery. This elegant château represents the height of French Renaissance architecture and is the most visited château in France after Versailles.",
+    "keyFeatures": [
+      "Spans the River Cher with arched bridge",
+      "Known as the 'Ladies' Castle'",
+      "French Renaissance masterpiece",
+      "Most visited château after Versailles",
+      "Famous gallery over the river",
+      "Rich history of influential women owners"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Private (Menier family)",
+      "management": "Private foundation"
+    },
+    "visitorInfo": {
+      "ticketPrices": {
+        "adult": "€17.00",
+        "youth": "€13.00",
+        "currency": "EUR"
+      },
+      "tours": {
+        "audioGuides": {
+          "available": true,
+          "languages": ["French", "English", "German", "Italian", "Spanish", "Dutch", "Portuguese", "Russian", "Japanese", "Chinese"]
+        }
+      }
+    }
+  }
+]

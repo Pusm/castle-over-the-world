@@ -1,0 +1,793 @@
+{
+  "timestamp": "2025-07-20T08:36:29.559Z",
+  "baseUrl": "https://pusm.github.io/castle-over-the-world/",
+  "summary": {
+    "totalTests": 38,
+    "passed": 36,
+    "failed": 2,
+    "successRate": "94.7%"
+  },
+  "status": {
+    "deploymentWorking": true,
+    "expansionWorking": false,
+    "overallWorking": false
+  },
+  "deployment": {
+    "timestamp": "2025-07-20T08:36:28.936Z",
+    "baseUrl": "https://pusm.github.io/castle-over-the-world/",
+    "summary": {
+      "totalTests": 33,
+      "passed": 33,
+      "failed": 0,
+      "successRate": "100.0%"
+    },
+    "results": {
+      "accessibility": [
+        {
+          "test": "site_reachable",
+          "status": "PASS",
+          "statusCode": 200,
+          "responseTime": "N/A",
+          "contentLength": 14523
+        },
+        {
+          "test": "html_structure",
+          "status": "PASS",
+          "details": {
+            "hasTitle": true,
+            "hasH1": true,
+            "linkCount": 26
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Neuschwanstein Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Windsor Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Palace of Versailles"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Himeji Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Edinburgh Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/prague_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Prague Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/prague_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/chateau_de_chambord.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Château de Chambord"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/chateau_de_chambord.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/alhambra_palace.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "The Alhambra"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/alhambra_palace.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/warwick_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Warwick Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/warwick_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/alcazar_of_segovia.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Alcázar of Segovia"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/alcazar_of_segovia.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/mont_saint_michel.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Mont Saint-Michel"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/mont_saint_michel.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/bran_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Bran Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/bran_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/hohenzollern_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Hohenzollern Castle"
+        },
+        {
+          "url": "https://pusm.github.io/castle-over-the-world/articles/hohenzollern_castle.html",
+          "status": "PASS",
+          "statusCode": 200,
+          "linkText": "Explore Castle →"
+        }
+      ],
+      "performance": [],
+      "functionality": [
+        {
+          "test": "index_page_content",
+          "status": "PASS",
+          "details": {
+            "title": "Castles Over The World - Historic Castle Encyclopedia",
+            "h1Content": "Castles Over The World",
+            "castleLinksFound": 26,
+            "cssLinked": true,
+            "hasCastleTitle": true,
+            "hasCastleLinks": true
+          }
+        },
+        {
+          "test": "castle_pages",
+          "status": "PASS",
+          "details": [
+            {
+              "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+              "status": "PASS",
+              "details": {
+                "hasTitle": true,
+                "hasH1": true,
+                "contentLength": 1518,
+                "hasCSS": true,
+                "title": "Neuschwanstein Castle | Castles Over The World"
+              }
+            },
+            {
+              "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+              "status": "PASS",
+              "details": {
+                "hasTitle": true,
+                "hasH1": true,
+                "contentLength": 1518,
+                "hasCSS": true,
+                "title": "Neuschwanstein Castle | Castles Over The World"
+              }
+            },
+            {
+              "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+              "status": "PASS",
+              "details": {
+                "hasTitle": true,
+                "hasH1": true,
+                "contentLength": 1517,
+                "hasCSS": true,
+                "title": "Windsor Castle | Castles Over The World"
+              }
+            },
+            {
+              "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+              "status": "PASS",
+              "details": {
+                "hasTitle": true,
+                "hasH1": true,
+                "contentLength": 1517,
+                "hasCSS": true,
+                "title": "Windsor Castle | Castles Over The World"
+              }
+            },
+            {
+              "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+              "status": "PASS",
+              "details": {
+                "hasTitle": true,
+                "hasH1": true,
+                "contentLength": 1446,
+                "hasCSS": true,
+                "title": "Palace of Versailles | Castles Over The World"
+              }
+            }
+          ]
+        },
+        {
+          "test": "css_styling",
+          "status": "PASS",
+          "details": {
+            "hasBasicStyles": true,
+            "hasColorDefinitions": true,
+            "hasFontDefinitions": true,
+            "hasResponsiveDesign": true,
+            "cssSize": 5036
+          }
+        },
+        {
+          "test": "mobile_responsiveness",
+          "status": "PASS",
+          "details": {
+            "hasViewportMeta": true,
+            "viewportContent": "width=device-width, initial-scale=1.0",
+            "hasResponsiveCSS": true
+          }
+        },
+        {
+          "test": "seo_elements",
+          "status": "PASS",
+          "details": {
+            "title": "Castles Over The World - Historic Castle Encyclopedia",
+            "titleLength": 53,
+            "hasMetaDescription": true,
+            "h1Count": 1,
+            "hasLangAttribute": true,
+            "metaDescriptionLength": 116
+          }
+        }
+      ],
+      "errors": []
+    },
+    "overallStatus": "PASS"
+  },
+  "expansion": {
+    "timestamp": "2025-07-20T08:36:29.559Z",
+    "baseUrl": "https://pusm.github.io/castle-over-the-world/",
+    "summary": {
+      "totalTests": 5,
+      "passed": 3,
+      "failed": 2,
+      "successRate": "60.0%"
+    },
+    "results": {
+      "expansion": [
+        {
+          "test": "expansion_evidence",
+          "status": "PASS",
+          "details": {
+            "castleCount": 26,
+            "hasMultipleCastles": true,
+            "hasMinimumCastles": true,
+            "hasSystematicNaming": true,
+            "allHaveStructure": true,
+            "castleEntries": [
+              {
+                "href": "articles/neuschwanstein_castle.html",
+                "text": "Neuschwanstein Castle",
+                "hasProperStructure": true
+              },
+              {
+                "href": "articles/neuschwanstein_castle.html",
+                "text": "Explore Castle →",
+                "hasProperStructure": true
+              },
+              {
+                "href": "articles/windsor_castle.html",
+                "text": "Windsor Castle",
+                "hasProperStructure": true
+              },
+              {
+                "href": "articles/windsor_castle.html",
+                "text": "Explore Castle →",
+                "hasProperStructure": true
+              },
+              {
+                "href": "articles/palace_of_versailles.html",
+                "text": "Palace of Versailles",
+                "hasProperStructure": true
+              }
+            ]
+          }
+        }
+      ],
+      "structure": [
+        {
+          "test": "castle_data_structure",
+          "status": "PASS",
+          "details": {
+            "totalTested": 10,
+            "passed": 10,
+            "consistencyRate": "100.0%",
+            "castleTests": [
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+                "castleName": "Neuschwanstein Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+                "castleName": "Neuschwanstein Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+                "castleName": "Windsor Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+                "castleName": "Windsor Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+                "castleName": "Palace of Versailles",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+                "castleName": "Palace of Versailles",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+                "castleName": "Himeji Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+                "castleName": "Himeji Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+                "castleName": "Edinburgh Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              },
+              {
+                "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+                "castleName": "Edinburgh Castle",
+                "status": "PASS",
+                "structure": {
+                  "hasLocationInfo": true,
+                  "hasDescriptiveContent": true,
+                  "hasStructuredContent": true,
+                  "hasListContent": true,
+                  "hasConsistentStructure": true,
+                  "paragraphCount": 3,
+                  "headingCount": 4,
+                  "listCount": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "test": "generated_structure",
+          "status": "PASS",
+          "details": {
+            "hasConsistentMeta": true,
+            "hasConsistentViewport": true,
+            "hasConsistentCSS": true,
+            "hasSemanticStructure": true,
+            "hasSystematicFileNames": true,
+            "hasConsistentLinkTexts": false,
+            "totalLinks": 26,
+            "sampleFileNames": [
+              "articles/neuschwanstein_castle.html",
+              "articles/neuschwanstein_castle.html",
+              "articles/windsor_castle.html",
+              "articles/windsor_castle.html",
+              "articles/palace_of_versailles.html"
+            ]
+          }
+        }
+      ],
+      "data": [
+        {
+          "test": "expansion_integrity",
+          "status": "FAIL",
+          "details": {
+            "totalLinks": 26,
+            "validLinks": 13,
+            "integrityRate": "50.0%",
+            "tests": [
+              {
+                "linkText": "Neuschwanstein Castle",
+                "pageTitle": "Neuschwanstein Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Neuschwanstein Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/neuschwanstein_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Windsor Castle",
+                "pageTitle": "Windsor Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Windsor Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/windsor_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Palace of Versailles",
+                "pageTitle": "Palace of Versailles",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Palace of Versailles",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/palace_of_versailles.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Himeji Castle",
+                "pageTitle": "Himeji Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Himeji Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/himeji_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Edinburgh Castle",
+                "pageTitle": "Edinburgh Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Edinburgh Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/edinburgh_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Prague Castle",
+                "pageTitle": "Prague Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/prague_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Prague Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/prague_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Château de Chambord",
+                "pageTitle": "Château de Chambord",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/chateau_de_chambord.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Château de Chambord",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/chateau_de_chambord.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "The Alhambra",
+                "pageTitle": "The Alhambra",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/alhambra_palace.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "The Alhambra",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/alhambra_palace.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Warwick Castle",
+                "pageTitle": "Warwick Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/warwick_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Warwick Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/warwick_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Alcázar of Segovia",
+                "pageTitle": "Alcázar of Segovia",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/alcazar_of_segovia.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Alcázar of Segovia",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/alcazar_of_segovia.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Mont Saint-Michel",
+                "pageTitle": "Mont Saint-Michel",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/mont_saint_michel.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Mont Saint-Michel",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/mont_saint_michel.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Bran Castle",
+                "pageTitle": "Bran Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/bran_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Bran Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/bran_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              },
+              {
+                "linkText": "Hohenzollern Castle",
+                "pageTitle": "Hohenzollern Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/hohenzollern_castle.html",
+                "status": "PASS",
+                "linkMatchesPage": true
+              },
+              {
+                "linkText": "Explore Castle →",
+                "pageTitle": "Hohenzollern Castle",
+                "url": "https://pusm.github.io/castle-over-the-world/articles/hohenzollern_castle.html",
+                "status": "WARN",
+                "linkMatchesPage": false
+              }
+            ]
+          }
+        },
+        {
+          "test": "duplicate_check",
+          "status": "FAIL",
+          "details": {
+            "totalCastles": 26,
+            "uniqueUrls": 13,
+            "uniqueNames": 14,
+            "hasDuplicateUrls": true,
+            "hasDuplicateNames": true,
+            "duplicateUrls": [
+              "articles/neuschwanstein_castle.html",
+              "articles/windsor_castle.html",
+              "articles/palace_of_versailles.html",
+              "articles/himeji_castle.html",
+              "articles/edinburgh_castle.html",
+              "articles/prague_castle.html",
+              "articles/chateau_de_chambord.html",
+              "articles/alhambra_palace.html",
+              "articles/warwick_castle.html",
+              "articles/alcazar_of_segovia.html",
+              "articles/mont_saint_michel.html",
+              "articles/bran_castle.html",
+              "articles/hohenzollern_castle.html"
+            ],
+            "duplicateNames": [
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →",
+              "explore castle →"
+            ]
+          }
+        }
+      ],
+      "errors": []
+    },
+    "overallStatus": "FAIL",
+    "selfExpansionEvidence": {
+      "systemWorking": false,
+      "recommendedActions": [
+        "Review failed tests for expansion system issues",
+        "Check for data integrity problems",
+        "Verify automated generation is working correctly"
+      ]
+    }
+  }
+}

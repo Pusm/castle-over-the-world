@@ -88,52 +88,7 @@
       "Jacobethan elements",
       "Rococo decorative schemes",
       "Finest expression of later Georgian taste"
-    ],
-    "engineeringDetails": {
-      "foundationEngineering": {
-        "geologicalBase": "Natural chalk cliff rising 100 feet above Thames River with artificial chalk motte construction",
-        "formationProcess": "Massive motte created from chalk rubble excavated from surrounding 52ft wide and 21ft deep defensive ditch",
-        "engineeringAdvantages": [
-          "Natural chalk cliff provides 100ft elevation advantage over surrounding terrain",
-          "Chalk material excellent for both excavation and construction, readily available on-site",
-          "Artificial motte 50 feet high creates commanding position 150ft total above river level",
-          "Chalk cliff site allows for natural defensive position with steep approaches on three sides"
-        ]
-      },
-      "constructionTechniques": {
-        "normanEngineering": [
-          "Original motte-and-bailey design utilizing excavated chalk for motte construction",
-          "Timber piles driven into chalk motte for stabilization and structural integrity",
-          "Thick chalk rubble layer with timber pile reinforcement creates massive plinth foundation",
-          "Transition from timber palisades to stone walls following original defensive alignments"
-        ],
-        "medievalMasonry": [
-          "Mortared flint and chalk rubble walls with battered plinth construction",
-          "Coursed flint rubble facing with chalk ashlar for precision masonry work",
-          "External buttressing systems supporting tall walls and towers",
-          "Excellent ashlar stone cutting demonstrating high-quality Norman craftsmanship"
-        ]
-      },
-      "defensiveEngineering": [
-        "Round Tower construction providing curved walls resistant to siege projectiles",
-        "Wall thickness up to 7.3 meters (24 feet) designed to withstand catapult bombardment",
-        "Sally-ports and hidden tunnels beneath Curfew Tower for surprise counterattacks",
-        "Multiple defensive rings utilizing natural cliff faces integrated with built fortifications",
-        "Strategic positioning as part of defensive ring around London with day's march spacing"
-      ],
-      "innovativeFeatures": [
-        "Shell keep design replacing original wooden tower while maintaining motte advantage",
-        "Integration of Georgian and Victorian residential improvements within medieval defensive structure",
-        "Sophisticated drainage systems managing water flow on chalk foundation",
-        "Chalk-lined passages and staircases with sloping barrel vault construction techniques"
-      ],
-      "materialProperties": {
-        "chalk": "Remarkably pure limestone (98% calcium carbonate) providing excellent workability and local availability",
-        "flint": "Local flint provides extremely hard facing material when combined with chalk rubble core construction",
-        "ashlar": "Precision-cut stone used for decorative elements and structural precision requiring high masonry skill",
-        "timber": "Timber pile reinforcement systems providing flexibility and load distribution in chalk foundation"
-      }
-    }
+    ]
   },
   {
     "id": "palace_of_versailles",
@@ -150,51 +105,7 @@
       "Enveloppe inspired by Italian Renaissance villas",
       "Extensive formal gardens",
       "Symbol of absolute monarchy"
-    ],
-    "engineeringDetails": {
-      "foundationEngineering": {
-        "geologicalBase": "Stable Île-de-France limestone and clay subsoil supporting massive palace complex spanning 2,300 rooms",
-        "formationProcess": "Systematic expansion from original hunting lodge utilizing terraced construction on gradually sloping terrain",
-        "engineeringAdvantages": [
-          "Natural elevation provides drainage and commanding views over formal gardens extending 800 hectares",
-          "Limestone bedrock provides excellent foundation stability for monumental scale construction",
-          "Strategic position 20 kilometers southwest of Paris allows political isolation while maintaining access",
-          "Terraced site enables formal garden engineering with precise geometric water features and vista planning"
-        ]
-      },
-      "constructionTechniques": {
-        "frenchBaroque": [
-          "Jules Hardouin-Mansart's systematic brick and stone harmony construction methodology",
-          "Use of French materials over Italian - pink Languedoc marble, Campanian marble peristyles",
-          "Colossal order façades with classical columns and pilasters providing structural rhythm",
-          "Revolutionary cast iron pipeline systems replacing traditional terra cotta and wood conduits"
-        ],
-        "hydraulicEngineering": [
-          "Machine de Marly engineering marvel: 14 water wheels each 12 meters diameter driving 257 pumps",
-          "Multi-stage pumping system lifting 5,000 cubic meters daily from Seine River 150 meters elevation",
-          "Two intermediate pump relay stations enabling unprecedented hydraulic elevation differential",
-          "Standardized cast iron pipeline sections creating modular water distribution network throughout palace"
-        ]
-      },
-      "massiveScale": [
-        "Employed over 30,000 laborers, craftsmen, and engineers during peak construction phases",
-        "Material requirements: 850 metric tons steel and lead, 17,000 tons iron, 85,000 tons wood",
-        "6 miles of chains, 12,000 pounds tallow lubrication for hydraulic machinery maintenance",
-        "One-third of total construction budget dedicated to gardens and fountain engineering systems"
-      ],
-      "innovativeFeatures": [
-        "First palace complex with standardized modular cast iron water distribution eliminating welding requirements",
-        "Integration of residential palatial architecture with industrial-scale hydraulic engineering",
-        "Mathematical precision garden engineering with geometric water features spanning 1.6 kilometer Grand Canal",
-        "Advanced acoustic engineering in Hall of Mirrors utilizing 357 mirrors creating unprecedented interior light manipulation"
-      ],
-      "materialProperties": {
-        "languedocMarble": "Pink Languedoc marble provides distinctive French Baroque coloration and exceptional workability for detailed sculptural elements",
-        "castIron": "Revolutionary standardized cast iron sections enable rapid assembly and maintenance of extensive pipeline networks",
-        "brickAndStone": "Hardouin-Mansart's brick and stone harmony technique combining structural integrity with aesthetic French classical proportions",
-        "gilding": "Extensive gold leaf application requiring specialized techniques for weather resistance on massive exterior and interior surfaces"
-      }
-    }
+    ]
   },
   {
     "id": "himeji_castle",
