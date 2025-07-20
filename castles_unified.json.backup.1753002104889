@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "neuschwanstein_castle",
+    "castleName": "Neuschwanstein Castle",
+    "country": "Germany",
+    "location": "Bavarian Alps, near Füssen",
+    "architecturalStyle": "Romantic Revival (Gothic Revival, Romanesque, Byzantine)",
+    "yearBuilt": "1869-1886",
+    "shortDescription": "A fairy-tale castle commissioned by King Ludwig II of Bavaria, Neuschwanstein embodies 19th-century Romantic ideals with its blend of medieval architectural styles. Despite contemporary critics dismissing it as 'kitsch,' it stands today as one of Europe's most iconic examples of historicism and has inspired countless fairy tale adaptations.",
+    "keyFeatures": [
+      "Double-helix staircase design",
+      "Throne Hall with Byzantine décor",
+      "Gothic Revival towers and spires",
+      "Advanced 19th-century technical achievements",
+      "Romanesque geometric forms",
+      "Inspiration for Disney's Sleeping Beauty Castle"
+    ],
+    "culturalSignificance": "Known as the Castle of the Holy Grail, Neuschwanstein represents the intersection of Romantic idealism and tragic fate. Its cultural impact extends far beyond Bavaria, inspiring Walt Disney's Sleeping Beauty Castle and becoming one of the world's most photographed buildings. Over 61 million visitors have explored its halls, making it a global symbol of fairy-tale architecture.",
+    "legends": [
+      "The Mad King's Dream: Ludwig II designed Neuschwanstein as his personal retreat from reality, creating a medieval fantasy world where he could escape the pressures of modern kingship",
+      "The Parsifal Connection: Ludwig increasingly identified himself with Parsifal, the legendary Grail King from Wagner's operas, reimagining his castle as the Castle of the Holy Grail",
+      "The Swan Knight Legend: The castle's name 'New Swan Stone' reflects Ludwig's obsession with the swan knight Lohengrin from Wagner's opera"
+    ],
+    "historicalEvents": [
+      "1864: 18-year-old Ludwig II became King of Bavaria without political experience",
+      "1869: Construction began on what Ludwig called 'New Hohenschwangau Castle'",
+      "1886: Ludwig was declared insane by his government and deposed",
+      "June 13, 1886: Ludwig II found dead under mysterious circumstances in Lake Starnberg",
+      "1886: Castle opened to the public shortly after Ludwig's death"
+    ],
+    "politicalSignificance": "Neuschwanstein became a symbol of royal excess and the costs of absolute monarchy. Ludwig's lavish spending on the castle contributed to Bavaria's financial crisis and ultimately led to his deposition. The castle represents the tension between romantic idealism and political reality in 19th-century Germany.",
+    "literaryConnections": "The castle walls are decorated with frescoes depicting scenes from Wagner's operas including Tannhäuser, Tristan und Isolde, Lohengrin, and Parsifal. Wagner privately referred to Ludwig as 'Parsifal,' and the king's tragic story inspired countless literary works about mad kings and romantic excess.",
+    "folklore": "Local Bavarian folklore tells of the 'Fairy Tale King' who built castles in the clouds. Peasants believed Ludwig was under an enchantment, building impossible dreams that would bankrupt the kingdom. The castle is said to be haunted by Ludwig's restless spirit, still wandering the unfinished halls of his greatest creation.",
+    "socialHistory": "Construction employed hundreds of craftsmen and workers, representing the peak of 19th-century craftsmanship. The castle's construction costs of 6.2 million gold marks (€47 million today) strained Bavaria's resources, leading to social tensions between the monarchy and its subjects who bore the tax burden.",
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Alpine limestone bedrock at 965 meters above sea level",
+        "formationProcess": "Massive stone removal and reinforcement required due to steep mountain site",
+        "engineeringAdvantages": [
+          "Commanding views over Bavarian Alps and Hohenschwangau Castle",
+          "Natural defensive position on rocky Alpine outcrop",
+          "Isolation provided privacy for reclusive King Ludwig II",
+          "Stable limestone foundation suitable for heavy masonry construction"
+        ]
+      },
+      "constructionTechniques": {
+        "industrialInnovations": [
+          "First large steam-powered crane used in German castle construction",
+          "Steel framework hidden within romantic revival masonry",
+          "Throne Hall supported by revolutionary steel girder lattice system",
+          "Modern building techniques disguised with medieval aesthetic"
+        ],
+        "materialEngineering": [
+          "Brick walls clad with Kelheim limestone for aesthetic effect",
+          "Salzburg marble used for interior decorative elements",
+          "Steel framework provides structural integrity while maintaining romantic appearance",
+          "Bavarian pine timber for interior woodwork and roofing"
+        ]
+      },
+      "innovativeFeatures": [
+        "Central heating system throughout all floors - revolutionary for 1880s",
+        "Running water and flush toilets on every floor",
+        "Electric lighting system when electricity was still experimental",
+        "Telephone connection to Munich and Hohenschwangau Castle",
+        "Electric call system for servants throughout the castle",
+        "Hot air heating system with elaborate ductwork"
+      ],
+      "materialProperties": {
+        "steelFramework": "Hidden steel members provide earthquake resistance and support for elaborate throne hall ceiling",
+        "limestone": "Light-colored Kelheim limestone provides weather resistance and medieval aesthetic",
+        "brick": "Load-bearing brick walls allow for thinner construction than solid stone",
+        "marble": "Salzburg marble chosen for interior luxury and workability for detailed decoration"
+      }
+    },
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": {},
+        "seasonal": {
+          "summer": "9am-6pm (April 1 - October 15)",
+          "winter": "10am-4pm (October 16 - March 31)"
+        },
+        "closedDates": [
+          "January 1",
+          "December 24",
+          "25",
+          "31"
+        ]
+      },
+      "ticketPrices": {
+        "adult": "€21",
+        "child": "Free (with booking fee)",
+        "reduced": "€20",
+        "bookingFee": "€2.50 (online)",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": true,
+          "duration": "30 minutes",
+          "languages": [
+            "German",
+            "English"
+          ],
+          "booking": "Online at www.hohenschwangau.de - advance booking essential"
+        },
+        "audioGuides": {
+          "available": true,
+          "languages": [
+            "Japanese",
+            "French",
+            "Spanish",
+            "Italian",
+            "Czech",
+            "Slovenian",
+            "Russian",
+            "Polish",
+            "Chinese (Mandarin)",
+            "Portuguese",
+            "Hungarian",
+            "Greek",
+            "Dutch",
+            "Korean",
+            "Thai",
+            "Arabic",
+            "Hebrew"
+          ],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [
+          "Backpacks, prams, child carriers prohibited",
+          "Forbidden inside castle",
+          "Prohibited on property"
+        ],
+        "facilities": [],
+        "support": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "Early morning 8am arrival recommended for same-day tickets",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": true,
+        "platform": "www.hohenschwangau",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Added to UNESCO World Heritage List July 12, 2025 as 'The Palaces of King Ludwig II of Bavaria'",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "Meticulous restoration since 2017 across all exhibition spaces",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": "Singers' Hall and Throne Hall fully refurbished"
+        }
+      ],
+      "threats": {
+        "environmental": [
+          "Climate change impacts on limestone exterior",
+          "tourism pressure with over 1.3 million annual visitors"
+        ],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Progressive restoration affecting filming access until further notice"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "Global icon of romantic architecture, inspiration for Disney's Sleeping Beauty Castle",
+      "economicValue": "Major tourism driver for Bavaria region",
+      "educationalRole": "Symbol of 19th-century Romantic movement and historicism",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 80,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "windsor_castle",
+    "castleName": "Windsor Castle",
+    "country": "United Kingdom",
+    "location": "Windsor, Berkshire, England",
+    "architecturalStyle": "Georgian and Victorian design on Medieval structure",
+    "yearBuilt": "11th century (rebuilt multiple times)",
+    "shortDescription": "The world's oldest occupied castle, Windsor embodies nearly a millennium of architectural evolution. Originally built after the Norman Conquest, it seamlessly blends Classical, Gothic, and Rococo styles within its medieval framework, serving as both a royal residence and a symbol of British monarchy through the ages.",
+    "keyFeatures": [
+      "Britain's oldest crown jewels (Honours of Scotland)",
+      "Georgian state apartments",
+      "Gothic features in modern interpretation",
+      "Jacobethan elements",
+      "Rococo decorative schemes",
+      "Finest expression of later Georgian taste"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "national_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": "Thursday-Monday: 10:00-17:15 (last admission 16:00)",
+        "seasonal": {
+          "winter": "November-February: 10am-4:15pm (last admission 3pm)"
+        },
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "Under 5 free",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": "British Sign Language (BSL) available",
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": [
+            "Induction loop for hearing impaired"
+          ]
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": "Accessible lift to State Apartments and Semi-State Rooms",
+        "limitations": [],
+        "facilities": "Accessible café, toilets, Changing Places facility",
+        "support": "Dementia Friends trained wardens, assistance dogs welcome"
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "Minimum 2 hours recommended (12+ acres to explore)",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false,
+        "unescoDetails": "",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Continuous maintenance as working royal palace"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 40,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "palace_of_versailles",
+    "castleName": "Palace of Versailles",
+    "country": "France",
+    "location": "Versailles, Île-de-France",
+    "architecturalStyle": "French Baroque to Neoclassical",
+    "yearBuilt": "1630s-1780s",
+    "shortDescription": "A testament to French architectural mastery spanning 150 years, Versailles evolved from a hunting lodge into the epitome of European palace design. Its influence on architecture and horticulture spread across the continent, inspiring countless royal residences and establishing the template for grandiose palatial complexes.",
+    "keyFeatures": [
+      "Hall of Mirrors",
+      "French Baroque chapel with Gothic elements",
+      "Neoclassical Ministers' Wings",
+      "Enveloppe inspired by Italian Renaissance villas",
+      "Extensive formal gardens",
+      "Symbol of absolute monarchy"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": {},
+        "seasonal": {},
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": "Multiple language options available",
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "Full day recommended for complete estate",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "UNESCO World Heritage Site",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Continuous conservation funded by visitor revenue and donations"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "Living museum of French royal history and European diplomacy",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 40,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "himeji_castle",
+    "castleName": "Himeji Castle",
+    "country": "Japan",
+    "location": "Himeji, Hyōgo Prefecture",
+    "architecturalStyle": "Japanese Medieval (Azuchi-Momoyama period)",
+    "yearBuilt": "1333 (rebuilt 1601-1609)",
+    "shortDescription": "Known as the 'White Heron Castle' for its elegant white appearance, Himeji represents the pinnacle of Japanese castle architecture. This UNESCO World Heritage site has survived 700 years virtually intact, showcasing sophisticated defensive systems and the refined aesthetic principles of Japanese design.",
+    "keyFeatures": [
+      "Network of 83 interconnected rooms",
+      "Advanced defensive maze systems",
+      "Traditional wooden construction",
+      "White plastered walls resembling heron wings",
+      "Complex multi-story design",
+      "Survived WWII bombing and earthquakes"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Stone retaining walls using mortarless construction for earthquake resistance",
+        "formationProcess": "Massive stone foundations using diverse materials including tombstones and millstones",
+        "engineeringAdvantages": [
+          "Mortarless stone construction provides flexibility during earthquakes",
+          "Survived 1995 Great Hanshin earthquake with no damage",
+          "Curved stone walls (musha-gaeshi) deflect projectiles and prevent scaling",
+          "Multiple defensive layers force attackers through complex maze-like passages"
+        ]
+      },
+      "constructionTechniques": {
+        "earthquakeEngineering": [
+          "Mortarless stone walls flex during seismic activity without collapsing",
+          "Wooden superstructure uses traditional Japanese joinery for flexibility",
+          "Foundation stones arranged without mortar to allow controlled movement",
+          "Sake bottle test: during 1995 earthquake, sake bottle remained upright on top floor altar"
+        ],
+        "defensiveInnovations": [
+          "Over 1,000 loopholes (sama) in various shapes for archer and gunner fire positions",
+          "Stone drop windows (ishi-otoshi-mado) for dropping projectiles on attackers",
+          "Spiral approach system forces attackers through eight fortified gates",
+          "Complex maze design with multiple 180-degree turns creating killing zones"
+        ]
+      },
+      "materialEngineering": [
+        "White plaster (shiro-shikkui) made from stone-derived and shellfish lime provides fire resistance",
+        "Plaster applied to both interior and exterior walls for maximum protection",
+        "Plaster composition varies by location but typically includes lime from multiple sources",
+        "Roof tiles sealed with plaster to prevent fire damage from projectiles"
+      ],
+      "materialProperties": {
+        "whitePlaster": "Natural lime-based plaster provides fire resistance, humidity control, and reflects sunlight to disorient attackers",
+        "wood": "Primarily pine construction uses traditional Japanese joinery without nails for earthquake flexibility",
+        "stone": "Diverse stone types including recycled tombstones and millstones provide massive foundation stability",
+        "ironwork": "Minimal iron use - primarily traditional Japanese wooden joinery and rope techniques"
+      }
+    },
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": "9:00 AM - 5:00 PM daily",
+        "seasonal": {
+          "summer": "Extended hours June 1 - August 31, 2025: 9 AM - 6 PM"
+        },
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "¥1,000 (increasing to ¥2,500 for non-residents March 2026)",
+        "child": "¥300",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "JPY"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": [],
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": [],
+        "support": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "Spring (late March-early April) for cherry blossoms, Autumn (late October-early November) for foliage",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Registered December 11, 1993 as first UNESCO World Heritage Site in Japan",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Continuous preservation of wooden interiors and exterior plaster"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 50,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "edinburgh_castle",
+    "castleName": "Edinburgh Castle",
+    "country": "Scotland",
+    "location": "Edinburgh, Scotland",
+    "architecturalStyle": "Medieval Scottish fortress (multiple periods)",
+    "yearBuilt": "12th century (on 2nd century foundations)",
+    "shortDescription": "Perched dramatically on Castle Rock, Edinburgh Castle has dominated Scotland's capital for nearly two millennia. This ancient fortress guards the Scottish Crown Jewels and embodies the turbulent history of Scotland, serving as both royal residence and military stronghold throughout the centuries.",
+    "keyFeatures": [
+      "Honours of Scotland (oldest crown jewels)",
+      "Castle Rock volcanic foundation",
+      "Great Hall with impressive timber roof",
+      "St Margaret's Chapel (oldest building)",
+      "One O'Clock Gun daily ceremony",
+      "Spectacular views over Edinburgh"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "350-million-year-old volcanic plug formed from dolerite (coarser-grained basalt)",
+        "formationProcess": "Volcanic pipe cooled to form extremely hard dolerite, resisted glacial erosion creating crag-and-tail formation",
+        "engineeringAdvantages": [
+          "Natural defensive cliffs rising 80 meters above surrounding landscape",
+          "Summit 130 meters above sea level provides commanding position",
+          "Only accessible approach from east where ridge slopes gently",
+          "Impermeable basalt rock prevents water seepage but creates water supply challenges"
+        ]
+      },
+      "constructionTechniques": {
+        "stoneMasonry": [
+          "Medieval masons utilized volcanic stone and glacial debris from castle site",
+          "St Margaret's Chapel shows matrix-supported construction with big rocks in sand and gravel cement",
+          "Wall thickness varies from 1 meter to over 3 meters for defensive purposes",
+          "Different wall sections show evolution from rough volcanic stone to cut rectangular blocks"
+        ],
+        "defensiveAdaptations": [
+          "Walls built to follow natural rock contours maximizing defensive advantage",
+          "Integration of natural cliff faces with built fortifications",
+          "Spur design on eastern approach forces attackers through multiple gates",
+          "Artillery adaptations for cannon warfare from 15th century onwards"
+        ]
+      },
+      "siegeAdaptations": [
+        "26 recorded sieges over 1,100 years - most besieged place in Britain",
+        "Medieval defenses largely destroyed in 1573 Lang Siege by artillery bombardment",
+        "Fore Well provides siege-resistant water supply 28 meters deep into volcanic rock",
+        "Multiple defensive rings and gates force attackers through killing zones",
+        "Portcullis and drawbridge systems at vulnerable eastern entrance"
+      ],
+      "materialProperties": {
+        "volcanicRock": "Extremely hard dolerite provides excellent structural foundation but difficult to quarry and shape",
+        "importedStone": "Limestone imported for decorative work and fine masonry requiring precision cutting",
+        "mortar": "Traditional lime mortar used for flexibility during ground settlement",
+        "ironwork": "Extensive use of iron for portcullis mechanisms, door hinges, and window grilles"
+      }
+    },
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": {},
+        "seasonal": {
+          "summer": "9:30 AM - 6:00 PM (April-September)",
+          "winter": "9:30 AM - 5:00 PM (October-March)"
+        },
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": [],
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": true,
+          "languages": "Available in 13 languages including BSL",
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": [],
+        "support": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "Part of UNESCO World Heritage Site",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Continuous conservation by Historic Environment Scotland"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 50,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "prague_castle",
+    "castleName": "Prague Castle",
+    "country": "Czech Republic",
+    "location": "Prague, Hradčany",
+    "architecturalStyle": "Romanesque, Gothic, Renaissance, Baroque blend",
+    "yearBuilt": "9th century (continuously expanded)",
+    "shortDescription": "According to Guinness World Records, Prague Castle is the largest ancient castle complex in the world, spanning nearly 70,000 square meters. This millennium-spanning architectural marvel reflects the changing styles and powers that have shaped Central Europe, from Bohemian kings to Habsburg emperors.",
+    "keyFeatures": [
+      "Largest ancient castle complex (70,000 sq meters)",
+      "St. Vitus Cathedral with Gothic spires",
+      "Old Royal Palace with Vladislav Hall",
+      "Renaissance and Baroque additions",
+      "Official residence of Czech presidents",
+      "Architectural timeline of 1000+ years"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "under_restoration",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "ongoing"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": {},
+        "seasonal": {},
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": "Czech, English, German, Italian, Spanish, Russian",
+          "booking": "Available through Ticketportal network"
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "UNESCO World Heritage Site with 1000+ year tradition",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": true,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": [
+        "Continuous reconstruction since 1990"
+      ]
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 40,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "chateau_de_chambord",
+    "castleName": "Château de Chambord",
+    "country": "France",
+    "location": "Loire Valley, Loir-et-Cher",
+    "architecturalStyle": "French Renaissance",
+    "yearBuilt": "1519-1547",
+    "shortDescription": "A masterpiece of French Renaissance architecture, Chambord showcases the architectural revolution that swept France in the 16th century. With its distinctive double-helix staircase possibly designed by Leonardo da Vinci, this château represents the perfect fusion of French medieval traditions with Italian Renaissance innovation.",
+    "keyFeatures": [
+      "440 rooms and 365 fireplaces",
+      "Double-helix staircase (possibly da Vinci design)",
+      "Distinctive French Renaissance silhouette",
+      "UNESCO World Heritage Site since 1981",
+      "Innovative roof terraces and towers",
+      "Largest château in Loire Valley"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "good",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "annual"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": "Open daily except January 1, March 20, December 25",
+        "seasonal": {},
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": [],
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "UNESCO World Heritage Site since 1981, Loire Valley since 2000",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [
+        {
+          "project": "",
+          "period": "2017-ongoing",
+          "scope": "comprehensive restoration",
+          "ongoing": false,
+          "completed": ""
+        }
+      ],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": []
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 40,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "alhambra_palace",
+    "castleName": "The Alhambra",
+    "country": "Spain",
+    "location": "Granada, Andalusia",
+    "architecturalStyle": "Moorish (Islamic) Architecture",
+    "yearBuilt": "1238-1358",
+    "shortDescription": "The Alhambra stands as the finest example of Moorish architecture in the Western world, representing the sophisticated artistic achievement of Islamic Spain. Built by the Nasrid dynasty, this palace-fortress complex showcases intricate geometric patterns, muqarnas vaulting, and garden courtyards that influenced architectural traditions across the Mediterranean.",
+    "keyFeatures": [
+      "Intricate Islamic geometric patterns",
+      "Court of Lions with fountain system",
+      "Muqarnas (stalactite) vaulting",
+      "Arabic calligraphy decorations",
+      "Palatial gardens and water features",
+      "UNESCO World Heritage Site"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Granada plateau constructed using rammed earth (tapial) foundation system",
+        "formationProcess": "Muros de tapial construction compressing soil mixed with aggregates, lime and water into formwork",
+        "engineeringAdvantages": [
+          "Rammed earth construction provides excellent thermal mass for climate control",
+          "Elevated plateau position commands strategic views over Granada valley",
+          "Natural defensive position protected by steep cliffs and ravines",
+          "Tapial construction allows for rapid, cost-effective large-scale building"
+        ]
+      },
+      "constructionTechniques": {
+        "hydraulicEngineering": [
+          "Sultan's Canal (Saqiyat al-Sultan) brings mountain water to plateau via sophisticated elevation devices",
+          "Internal network of stone-lined acequias (canals) for water distribution throughout complex",
+          "Qanāt-like conduits and albercones (cisterns) for water storage and redirection",
+          "Integrated fountain and pool systems providing climate control and acoustic effects"
+        ],
+        "structuralSystems": [
+          "Rectangular courtyard units with central water features as basic architectural module",
+          "Arcaded porticoes flanking courtyards on two or four sides",
+          "Slender columns supporting delicate muqarnas vaulting systems",
+          "Precise geometric planning integrating decorative and structural elements"
+        ]
+      },
+      "materialEngineering": [
+        "Red clay bricks provide structural framework with excellent thermal properties",
+        "Gypsum plaster applied over rammed earth walls for smooth decorative surface",
+        "Pine timber used for roofs, ceilings, doors, and window shutters",
+        "Ceramics and natural pigments create intricate tile work and geometric patterns"
+      ],
+      "innovativeFeatures": [
+        "Sophisticated water distribution creating acoustic effects and climate control throughout palace",
+        "Muqarnas honeycomb vaulting systems providing structural support with minimal material",
+        "Integration of gardens and architecture for natural cooling and humidity control",
+        "Advanced geometric design principles creating optical illusions and spatial complexity"
+      ],
+      "materialProperties": {
+        "rammedEarth": "Tapial construction provides excellent thermal mass, earthquake flexibility, and rapid construction capability",
+        "gypsumPlaster": "Smooth decorative surface enabling intricate carved geometric patterns and Arabic calligraphy",
+        "ceramics": "Glazed tile work provides waterproofing and decorative geometric patterns resistant to weathering",
+        "pineTimber": "Lightweight roofing material with natural insect resistance suitable for Mediterranean climate"
+      }
+    },
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "unesco_heritage",
+      "management": "heritage_organization",
+      "accessibility": "public",
+      "condition": "good",
+      "lastInspection": "2025-07-20",
+      "maintenanceSchedule": "annual"
+    },
+    "visitorInfo": {
+      "openingHours": {
+        "regular": {},
+        "seasonal": {},
+        "closedDates": []
+      },
+      "ticketPrices": {
+        "adult": "",
+        "child": "",
+        "reduced": "",
+        "bookingFee": "",
+        "currency": "EUR"
+      },
+      "tours": {
+        "guidedTours": {
+          "available": false,
+          "duration": "",
+          "languages": "Spanish, English, French, private tours in any language",
+          "booking": ""
+        },
+        "audioGuides": {
+          "available": false,
+          "languages": [],
+          "features": []
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false,
+        "limitations": [],
+        "facilities": []
+      },
+      "bestTimeToVisit": {
+        "optimal": "",
+        "seasonal": [],
+        "crowds": "early morning recommended",
+        "weather": ""
+      },
+      "visitDuration": "2-3 hours",
+      "booking": {
+        "required": false,
+        "platform": "",
+        "advanceTime": "recommended"
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": true,
+        "unescoDetails": "UNESCO World Heritage Site including Generalife and Albayzín",
+        "national": true,
+        "regional": true
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [
+          "visitor pressure"
+        ],
+        "natural": [
+          "weather erosion"
+        ]
+      },
+      "futureProjects": []
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "educationalRole": "",
+      "annualVisitors": "",
+      "touristDemographics": {
+        "international": "60%",
+        "domestic": "40%",
+        "interests": [
+          "architecture",
+          "history",
+          "culture"
+        ]
+      },
+      "seasonalVariations": {
+        "peak": "summer months",
+        "factors": [
+          "weather",
+          "school holidays",
+          "tourism season"
+        ]
+      }
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "comprehensive",
+      "completeness": 50,
+      "version": "2.0-integrated-full",
+      "contributors": [
+        "Worker1-ComprehensiveData",
+        "Worker4-VisitorEnhancements"
+      ]
+    }
+  },
+  {
+    "id": "warwick_castle",
+    "castleName": "Warwick Castle",
+    "country": "United Kingdom",
+    "location": "Warwick, Warwickshire, England",
+    "architecturalStyle": "Norman Medieval with Georgian and Victorian additions",
+    "yearBuilt": "1068 (continuously evolved over 900+ years)",
+    "shortDescription": "Built by William the Conqueror in 1068, Warwick Castle exemplifies the evolution from Norman military fortress to stately home. Known as the 'Kingmaker's Castle' after Richard Neville, it represents the pinnacle of medieval English fortress evolution and has been central to English politics for nearly a millennium.",
+    "detailedDescription": "Warwick Castle stands as one of England's most significant medieval fortresses, strategically positioned on a cliff overlooking the River Avon. Originally built as a wooden motte-and-bailey fortress by William the Conqueror in 1068, it evolved into a formidable stone castle under successive earls. The castle served as the seat of the Earls of Warwick, most notably Richard Neville, the 'Kingmaker,' whose political manipulations during the Wars of the Roses gave him the power to 'make and unmake kings.' Five great families—the Beaumonts, Beauchamps, Nevilles, Dudleys, and Grevilles—shaped the castle over nine centuries, transforming it from Norman stronghold to palatial residence while maintaining its defensive capabilities.",
+    "historicalTimeline": [
+      { "year": "1068", "event": "William the Conqueror builds wooden motte-and-bailey fortress" },
+      { "year": "1264", "event": "Second Barons' War siege - castle captured by Simon de Montfort's forces" },
+      { "year": "1449-1471", "event": "Richard Neville, the 'Kingmaker,' wields unprecedented political power" },
+      { "year": "1471", "event": "Kingmaker killed at Battle of Barnet, ending Neville power" },
+      { "year": "1642", "event": "English Civil War siege - Parliamentary forces successfully defend castle" },
+      { "year": "1628", "event": "Sir Fulke Greville murdered in castle, beginning famous ghost hauntings" },
+      { "year": "1749-1757", "event": "Capability Brown redesigns castle grounds and parkland" },
+      { "year": "1978", "event": "Tussauds Group purchases castle, beginning major tourist development" }
+    ],
+    "dynastyInfo": {
+      "dynasty": "Multiple: Beaumont, Beauchamp, Neville, Dudley, Greville families",
+      "rulers": ["Henry de Beaumont (1st Earl)", "Richard Beauchamp (legendary knight)", "Richard Neville (the Kingmaker)", "Sir Fulke Greville (poet and courtier)"],
+      "significance": "Seat of Earls of Warwick for 900+ years, center of English political power during Wars of the Roses",
+      "dynastyOrigin": "Created 1068 by William the Conqueror, continuous noble residence until modern era"
+    },
+    "notableEvents": [
+      {
+        "date": "1264",
+        "event": "Second Barons' War Siege",
+        "significance": "Demonstrated castle's strategic importance when Simon de Montfort's rebel barons captured it, holding Earl and Countess for ransom"
+      },
+      {
+        "date": "1471",
+        "event": "Death of the Kingmaker",
+        "significance": "Richard Neville's death at Barnet ended unprecedented political manipulation from castle seat, marking transition in English power structures"
+      },
+      {
+        "date": "1628",
+        "event": "Murder of Sir Fulke Greville",
+        "significance": "Greville's brutal murder by his servant created one of England's most documented castle hauntings and marked dangers of social tension"
+      }
+    ],
+    "architecturalAnalysis": {
+      "structuralInnovations": [
+        "Strategic River Avon cliff-top position providing natural defensive advantage",
+        "Evolution from wooden motte-and-bailey to sophisticated stone fortress",
+        "Integration of residential palatial quarters with military fortifications",
+        "Capability Brown's 18th-century landscape integration with medieval structures",
+        "Modern engineering: world's largest working trebuchet (18m tall, 22 tonnes)"
+      ],
+      "defensiveFeatures": "Commanding cliff position, massive curtain walls, multiple towers including Caesar's Tower and Guy's Tower, strategic river control",
+      "materials": ["Local sandstone for primary construction", "Imported limestone for decorative elements", "Oak timber for internal structures", "Lead for roofing and guttering"],
+      "dimensions": "Total grounds: 2.8 square kilometers (690 acres), Great Hall: 62 feet long, Caesar's Tower: 147 feet high",
+      "rooms": "Over 60 rooms including Great Hall, State Rooms, Cedar Drawing Room, dungeons, and private apartments"
+    },
+    "constructionDetails": {
+      "chiefArchitects": "Various including Anthony Salvin (Victorian restoration 1861-63), Capability Brown (landscape 1749-57)",
+      "evolutionPeriods": [
+        "Norman Period (1068-1200): Wooden then stone fortress establishment",
+        "Medieval Expansion (1200-1400): Tower construction and curtain wall development",
+        "Tudor Modifications (1500-1600): Residential improvements and state room creation",
+        "Georgian Enhancement (1700-1800): Capability Brown landscaping and palatial upgrades",
+        "Victorian Restoration (1800-1900): Salvin's architectural restoration program",
+        "Modern Conservation (1900-present): Tourist development and heritage preservation"
+      ],
+      "challenges": [
+        "Building on irregular cliff face required innovative foundation engineering",
+        "Balancing defensive military needs with residential palatial requirements",
+        "Integrating nine centuries of architectural styles cohesively",
+        "Maintaining structural integrity while accommodating modern tourism demands",
+        "Preserving historical authenticity during commercial development"
+      ]
+    },
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Cliff-top position on sandstone outcrop overlooking River Avon meander",
+        "defensiveAdvantages": "Natural protection on three sides from river cliff, strategic control of river crossing and trade routes",
+        "waterSystems": "Historic water-powered mill demonstrating medieval hydraulic engineering capabilities"
+      },
+      "trebuchetEngineering": {
+        "specifications": "18 meters tall, 22 tonnes weight, constructed from 300+ pieces of oak",
+        "capabilities": "Hurls projectiles up to 150kg distances of 300 meters and heights of 25 meters",
+        "operation": "Requires 8 men, 30-minute loading process, 4-meter treadwheels lift 6-tonne counterweight",
+        "record": "Guinness World Record holder for largest trebuchet ever built (2001)"
+      },
+      "landscapeEngineering": {
+        "capabilityBrown": "1749-1757 re-landscaping cost £2,293 (£390,000 in 2025 values)",
+        "parkDesign": "2.8 square kilometer naturalistic landscape integrating castle with Warwickshire countryside",
+        "waterFeatures": "Integration of River Avon with designed landscape views and approaches"
+      }
+    },
+    "culturalSignificance": "Known as the 'Kingmaker's Castle' after Richard Neville, Earl of Warwick, who wielded unprecedented power during the Wars of the Roses. Warwick Castle represents the pinnacle of medieval English fortress evolution, serving continuously as both military stronghold and noble residence for nearly a millennium. Its strategic position controlling the Avon River crossing made it a crucial power center that shaped English history.",
+    "legends": [
+      {
+        "title": "The Kingmaker's Ghost",
+        "narrative": "Richard Neville, the 16th Earl of Warwick, known as 'Warwick the Kingmaker,' is said to haunt the battlements. Local legend tells of his restless spirit, still plotting and scheming, appearing on nights when political upheaval threatens England. Witnesses report seeing a figure in medieval armor surveying the castle's walls, as if planning his next move in the eternal game of thrones."
+      },
+      {
+        "title": "The Black Dog of Warwick",
+        "narrative": "A spectral black dog, larger than any earthly hound, is said to roam the castle grounds at midnight. Legend connects this creature to the ancient Earls of Warwick, serving as a supernatural guardian that appears during times of danger. The beast's glowing red eyes are said to warn of impending doom or betrayal."
+      },
+      {
+        "title": "The Watergate Tower Specter",
+        "narrative": "The Watergate Tower, known locally as the Ghost Tower, houses the spirit of an unknown medieval lady. Her tragic story remains a mystery, but her presence is felt through sudden drops in temperature, the scent of long-dead roses, and the sound of medieval music echoing through the ancient stones during full moons."
+      }
+    ],
+    "historicalBattles": [
+      {
+        "name": "Second Barons' War Siege (1264)",
+        "participants": "Simon de Montfort's rebel barons vs. William Mauduit, 8th Earl of Warwick",
+        "outcome": "Castle captured, Earl and Countess held for ransom",
+        "significance": "Demonstrated the castle's strategic importance in medieval English civil conflicts and the power of baronial rebellion against royal authority"
+      },
+      {
+        "name": "English Civil War Siege (1642)",
+        "participants": "Parliamentarian garrison under Robert Greville vs. Royalist forces",
+        "outcome": "Successful defense by Parliamentary forces, Royalists retreated to Worcester",
+        "significance": "Marked transition from medieval to early modern warfare, with artillery playing crucial role in siege operations"
+      }
+    ],
+    "ghostStories": [
+      {
+        "spirit": "Sir Fulke Greville",
+        "location": "South Tower (Watergate Tower)",
+        "story": "Brutally stabbed by his servant Ralph Heywood in 1628, Sir Fulke's agonized moans echo through the tower where he died. Visitors report seeing a bloodied figure emerging from his portrait, and the temperature drops dramatically in rooms where he spent his final hours. His ghost is considered one of England's most documented castle hauntings.",
+        "historicalContext": "Greville spent a fortune restoring the then-derelict castle, only to meet his violent end. His murder represents the dangers faced by wealthy nobles from their own servants during times of social tension."
+      },
+      {
+        "spirit": "The Grey Lady",
+        "location": "Throughout castle, particularly the Great Hall",
+        "story": "A mysterious medieval noblewoman in flowing grey robes, often seen weeping or walking silently through corridors. Her identity remains unknown, but she's associated with tragic love and loss during the turbulent Wars of the Roses period."
+      }
+    ],
+    "keyFeatures": [
+      "Great Hall with medieval weaponry displays and 62-foot length",
+      "Caesar's Tower - 147 feet high with historic prison cells",
+      "Guy's Tower - 14th-century defensive masterpiece",
+      "World's largest working trebuchet (18m tall, 22 tonnes)",
+      "Watergate Tower (Ghost Tower) - restored by Anthony Salvin",
+      "State Rooms with period furnishings and Cedar Drawing Room",
+      "Capability Brown landscaped grounds covering 690 acres",
+      "Medieval dungeon complex with torture chamber displays"
+    ],
+    "currentStatus": {
+      "operationalState": "unknown",
+      "ownership": "unknown",
+      "accessibility": "unknown",
+      "condition": "unknown"
+    },
+    "visitorInfo": {
+      "openingHours": {},
+      "ticketPrices": {},
+      "tours": {
+        "guidedTours": {
+          "available": false
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [],
+        "natural": []
+      }
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "touristDemographics": {}
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.064Z",
+      "dataQuality": "enhanced",
+      "completeness": 40,
+      "version": "2.0-integrated-partial"
+    }
+  },
+  {
+    "id": "alcazar_of_segovia",
+    "castleName": "Alcázar of Segovia",
+    "country": "Spain",
+    "location": "Segovia, Castile and León",
+    "architecturalStyle": "Moorish, Gothic, and Renaissance",
+    "yearBuilt": "12th century (on Roman/Moorish foundations)",
+    "shortDescription": "Rising dramatically from a rocky crag, the Alcázar of Segovia showcases the layered history of medieval Spain. Built on Roman foundations and expanded by Moorish, then Christian rulers, this distinctive bow-shaped castle-palace represents the cultural synthesis that defined medieval Iberia.",
+    "keyFeatures": [
+      "Distinctive bow-shaped design",
+      "Throne Room with Mudéjar ceiling",
+      "Torre del Homenaje (Keep Tower)",
+      "Royal apartments with period furnishings",
+      "Strategic hilltop position",
+      "UNESCO World Heritage Site"
+    ],
+    "currentStatus": {
+      "operationalState": "unknown",
+      "ownership": "unknown",
+      "accessibility": "unknown",
+      "condition": "unknown"
+    },
+    "visitorInfo": {
+      "openingHours": {},
+      "ticketPrices": {},
+      "tours": {
+        "guidedTours": {
+          "available": false
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [],
+        "natural": []
+      }
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "touristDemographics": {}
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.065Z",
+      "dataQuality": "enhanced",
+      "completeness": 40,
+      "version": "2.0-integrated-partial"
+    }
+  },
+  {
+    "id": "mont_saint_michel",
+    "castleName": "Mont Saint-Michel",
+    "country": "France",
+    "location": "Normandy, Manche",
+    "architecturalStyle": "Medieval abbey fortress",
+    "yearBuilt": "8th century onwards",
+    "shortDescription": "A tidal island and mainland commune featuring a medieval abbey built on a rocky tidal island. Accessible by causeway only at low tide, this architectural marvel appears to rise from the sea like a mystical fortress.",
+    "keyFeatures": [
+      "Gothic abbey church",
+      "Cloister gardens",
+      "Great Wheel",
+      "Medieval ramparts",
+      "Tidal causeway access"
+    ],
+    "currentStatus": {
+      "operationalState": "unknown",
+      "ownership": "unknown",
+      "accessibility": "unknown",
+      "condition": "unknown"
+    },
+    "visitorInfo": {
+      "openingHours": {},
+      "ticketPrices": {},
+      "tours": {
+        "guidedTours": {
+          "available": false
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [],
+        "natural": []
+      }
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "touristDemographics": {}
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.065Z",
+      "dataQuality": "enhanced",
+      "completeness": 40,
+      "version": "2.0-integrated-partial"
+    }
+  },
+  {
+    "id": "bran_castle",
+    "castleName": "Bran Castle",
+    "country": "Romania",
+    "location": "Bran, Brasov County",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1377-1388",
+    "shortDescription": "Often referred to as 'Dracula's Castle', this medieval fortress sits dramatically on a rocky outcrop. While Bram Stoker likely never visited, the castle's Gothic appearance made it the perfect inspiration for Count Dracula's Transylvanian home.",
+    "keyFeatures": [
+      "Gothic towers",
+      "Secret passages",
+      "Medieval courtyards",
+      "Royal apartments",
+      "Museum collections"
+    ],
+    "currentStatus": {
+      "operationalState": "unknown",
+      "ownership": "unknown",
+      "accessibility": "unknown",
+      "condition": "unknown"
+    },
+    "visitorInfo": {
+      "openingHours": {},
+      "ticketPrices": {},
+      "tours": {
+        "guidedTours": {
+          "available": false
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [],
+        "natural": []
+      }
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "touristDemographics": {}
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.065Z",
+      "dataQuality": "enhanced",
+      "completeness": 40,
+      "version": "2.0-integrated-partial"
+    }
+  },
+  {
+    "id": "hohenzollern_castle",
+    "castleName": "Hohenzollern Castle",
+    "country": "Germany",
+    "location": "Baden-Württemberg",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1850-1867",
+    "shortDescription": "Perched 855 meters above sea level, this castle is the ancestral seat of the imperial House of Hohenzollern. The current structure is the third castle built on this site, designed in the Gothic Revival style with stunning views of the Swabian Alps.",
+    "keyFeatures": [
+      "Crown of Prussia",
+      "Military museum",
+      "Ancestral portraits",
+      "Gothic Revival architecture",
+      "Panoramic Alpine views"
+    ],
+    "currentStatus": {
+      "operationalState": "unknown",
+      "ownership": "unknown",
+      "accessibility": "unknown",
+      "condition": "unknown"
+    },
+    "visitorInfo": {
+      "openingHours": {},
+      "ticketPrices": {},
+      "tours": {
+        "guidedTours": {
+          "available": false
+        }
+      },
+      "accessibility": {
+        "wheelchairAccess": false
+      }
+    },
+    "preservationEfforts": {
+      "heritageStatus": {
+        "unesco": false
+      },
+      "conservationProjects": [],
+      "threats": {
+        "environmental": [],
+        "tourism": [],
+        "natural": []
+      }
+    },
+    "tourismDetails": {
+      "culturalImpact": "",
+      "economicValue": "",
+      "touristDemographics": {}
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-20T08:50:00.065Z",
+      "dataQuality": "enhanced",
+      "completeness": 40,
+      "version": "2.0-integrated-partial"
+    }
+  }
+]

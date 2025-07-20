@@ -1,0 +1,169 @@
+{
+  "culturalNarrativeGeneratorConfig": {
+    "scalingParameters": {
+      "batchSize": 50,
+      "maxConcurrentRequests": 10,
+      "apiRequestDelay": 1.0,
+      "retryAttempts": 3,
+      "timeoutSeconds": 30,
+      "qualityThreshold": 0.7
+    },
+    "externalDataSources": {
+      "wikipedia": {
+        "baseUrl": "https://en.wikipedia.org/api/rest_v1/page/summary/",
+        "rateLimit": "100 requests per hour",
+        "authentication": false
+      },
+      "wikidata": {
+        "sparqlEndpoint": "https://query.wikidata.org/sparql",
+        "maxResultsPerQuery": 50,
+        "timeout": 30
+      },
+      "openStreetMap": {
+        "nominatimApi": "https://nominatim.openstreetmap.org/",
+        "rateLimit": "1 request per second"
+      },
+      "worker4Pipeline": {
+        "inputDataPath": "/data/worker4_castle_pipeline.json",
+        "outputDataPath": "/data/processed_cultural_narratives.json",
+        "backupPath": "/data/backup/",
+        "schema": "castle_data_v2.schema.json"
+      }
+    },
+    "narrativeTemplates": {
+      "culturalSignificance": {
+        "minLength": 150,
+        "maxLength": 500,
+        "requiredElements": ["architectural_style", "historical_context", "cultural_meaning"],
+        "qualityMetrics": ["coherence", "historical_accuracy", "cultural_depth"]
+      },
+      "legends": {
+        "maxCount": 5,
+        "minLength": 100,
+        "maxLength": 300,
+        "types": ["supernatural", "historical_figure", "architectural", "military"],
+        "culturalAuthenticity": true
+      },
+      "rulerBiographies": {
+        "maxRulersPerCastle": 3,
+        "requiredSections": [
+          "fullName", "lifespan", "epithet", "politicalAchievements", 
+          "militaryCareer", "culturalPatronage", "death", "legacy"
+        ],
+        "minWordsPerSection": 50,
+        "historicalVerification": true
+      },
+      "historicalEvents": {
+        "maxEventsPerCastle": 5,
+        "requiredFields": ["name", "participants", "outcome", "significance", "tactics", "legacy"],
+        "chronologicalOrdering": true,
+        "sourceVerification": true
+      },
+      "socialHistory": {
+        "sections": [
+          "feudalHousehold", "economicLife", "culturalLife", 
+          "dailyOperations", "internationalConnections"
+        ],
+        "minWordsPerSection": 75,
+        "socialContextRequired": true
+      }
+    },
+    "qualityAssurance": {
+      "dataValidation": {
+        "requiredFields": ["name", "location", "country"],
+        "optionalFields": ["built_year", "architectural_style", "notable_rulers"],
+        "fieldValidation": {
+          "built_year": {"type": "integer", "range": [500, 2000]},
+          "coordinates": {"type": "tuple", "precision": 4}
+        }
+      },
+      "contentQuality": {
+        "minimumSourceCount": 2,
+        "historicalAccuracyCheck": true,
+        "culturalSensitivityReview": true,
+        "languageQuality": {
+          "grammarCheck": true,
+          "readabilityScore": "university_level",
+          "terminologyConsistency": true
+        }
+      },
+      "outputValidation": {
+        "jsonSchemaValidation": true,
+        "contentLengthValidation": true,
+        "duplicateDetection": true,
+        "completenessCheck": true
+      }
+    },
+    "performanceOptimization": {
+      "caching": {
+        "enabledSources": ["wikipedia", "wikidata"],
+        "cacheExpiration": "7 days",
+        "maxCacheSize": "1GB"
+      },
+      "parallelProcessing": {
+        "maxWorkers": 8,
+        "taskDistribution": "round_robin",
+        "loadBalancing": true
+      },
+      "memoryManagement": {
+        "maxMemoryUsage": "4GB",
+        "garbageCollection": true,
+        "batchMemoryCleanup": true
+      }
+    },
+    "outputFormats": {
+      "primary": {
+        "format": "json",
+        "schema": "enhanced_cultural_narratives_v3.schema.json",
+        "compression": "gzip"
+      },
+      "backup": {
+        "format": "sqlite",
+        "indexing": ["castle_name", "country", "processing_timestamp"],
+        "replication": true
+      },
+      "export": {
+        "formats": ["json", "xml", "csv", "markdown"],
+        "customFormatting": true,
+        "bulkExport": true
+      }
+    },
+    "errorHandling": {
+      "retryStrategies": {
+        "networkErrors": "exponential_backoff",
+        "apiLimits": "rate_limiting_queue",
+        "dataErrors": "skip_and_log"
+      },
+      "logging": {
+        "level": "INFO",
+        "destinations": ["file", "console", "database"],
+        "logRotation": "daily",
+        "errorNotifications": true
+      },
+      "failureRecovery": {
+        "checkpointingSabled": true,
+        "progressPersistence": true,
+        "resumeProcessing": true
+      }
+    },
+    "integrativeFeatures": {
+      "worker4Integration": {
+        "realTimeProcessing": true,
+        "dataStreamConsumption": true,
+        "feedbackLoop": true,
+        "qualityMetrics": "shared"
+      },
+      "multiLanguageSupport": {
+        "enabled": false,
+        "supportedLanguages": ["en", "es", "fr", "de"],
+        "translationService": "google_translate_api"
+      },
+      "continuousImprovement": {
+        "templateLearning": true,
+        "qualityFeedback": true,
+        "templateOptimization": true,
+        "userFeedbackIntegration": true
+      }
+    }
+  }
+}

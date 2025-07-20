@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-20T09:25:51.587Z",
+  "data": [
+    {
+      "id": "list_of_castles_in_england",
+      "castleName": "List of castles in England",
+      "country": "England",
+      "location": "England is",
+      "architecturalStyle": "Medieval",
+      "yearBuilt": "1109",
+      "shortDescription": "This list of castles in England is not a list of every building and site that has \"castle\" as part of its name, nor does it list only buildings that conform to a strict definition of a castle as a...",
+      "keyFeatures": [
+        "Medieval fortifications",
+        "Stone construction",
+        "Defensive towers",
+        "Great hall",
+        "Courtyard design",
+        "Historic architecture"
+      ],
+      "source": "wikipedia",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_castles_in_England",
+      "lastUpdated": "2025-07-20T09:25:51.486Z"
+    }
+  ]
+}

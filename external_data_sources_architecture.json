@@ -1,0 +1,227 @@
+{
+  "external_data_research_2025": {
+    "executive_summary": {
+      "total_potential_sources": 15,
+      "estimated_castle_entries": "50,000+",
+      "automation_readiness": "high",
+      "scalability_rating": "excellent",
+      "api_coverage": "global"
+    },
+    "primary_data_sources": {
+      "1_wikidata_sparql": {
+        "name": "Wikidata SPARQL Endpoint",
+        "url": "https://query.wikidata.org/",
+        "estimated_castles": "15,000+",
+        "automation_level": "high",
+        "data_quality": "excellent",
+        "global_coverage": true,
+        "api_access": true,
+        "rate_limits": "reasonable",
+        "query_example": "SELECT DISTINCT ?castle ?castleLabel ?country ?coordinates WHERE { ?castle wdt:P31/wdt:P279* wd:Q23413 . ?castle wdt:P17 ?country . ?castle wdt:P625 ?coordinates . SERVICE wikibase:label { bd:serviceParam wikibase:language 'en' . } }",
+        "extraction_method": "automated_sparql_queries",
+        "update_frequency": "real_time",
+        "cost": "free",
+        "technical_requirements": "python_sparqlwrapper_library"
+      },
+      "2_openstreetmap_overpass": {
+        "name": "OpenStreetMap Overpass API",
+        "url": "https://overpass-api.de/",
+        "estimated_castles": "20,000+",
+        "automation_level": "high",
+        "data_quality": "good",
+        "global_coverage": true,
+        "api_access": true,
+        "rate_limits": "generous",
+        "query_example": "[out:json][timeout:25]; (node[historic=castle]; way[historic=castle]; relation[historic=castle];); out geom;",
+        "extraction_method": "overpass_ql_automated_queries",
+        "update_frequency": "real_time",
+        "cost": "free",
+        "technical_requirements": "requests_library_geojson_processing"
+      },
+      "3_wikipedia_api": {
+        "name": "Wikipedia MediaWiki API",
+        "url": "https://en.wikipedia.org/w/api.php",
+        "estimated_castles": "10,000+",
+        "automation_level": "medium",
+        "data_quality": "excellent",
+        "global_coverage": true,
+        "api_access": true,
+        "rate_limits": "strict_but_manageable",
+        "extraction_method": "category_based_crawling_with_beautifulsoup",
+        "categories": [
+          "Category:Castles_by_country",
+          "Category:Medieval_fortifications",
+          "Category:Renaissance_fortifications",
+          "Category:Archaeological_sites"
+        ],
+        "cost": "free",
+        "technical_requirements": "requests_beautifulsoup_wikitextparser"
+      },
+      "4_unesco_api": {
+        "name": "UNESCO World Heritage Sites API",
+        "url": "https://github.com/eprendergast/unesco-api",
+        "estimated_castles": "500+",
+        "automation_level": "high",
+        "data_quality": "exceptional",
+        "global_coverage": true,
+        "api_access": true,
+        "rate_limits": "minimal",
+        "extraction_method": "rest_api_calls",
+        "cost": "free",
+        "technical_requirements": "simple_http_requests"
+      },
+      "5_ebidat_database": {
+        "name": "European Castles Institute Database",
+        "url": "https://www.deutsche-burgen.org/en/institut/projekte/ebidat.html",
+        "estimated_castles": "8,000+",
+        "automation_level": "low_manual",
+        "data_quality": "excellent",
+        "regional_coverage": "europe_focused",
+        "api_access": false,
+        "extraction_method": "web_scraping_required",
+        "cost": "free",
+        "technical_requirements": "selenium_beautifulsoup_advanced_scraping"
+      },
+      "6_national_heritage_apis": {
+        "name": "National Heritage Databases Collection",
+        "sources": {
+          "historic_england": {
+            "url": "https://historicengland.org.uk/listing/the-list/",
+            "estimated_castles": "2,000+",
+            "api_access": "downloadable_datasets",
+            "coverage": "england"
+          },
+          "nps_national_register": {
+            "url": "https://www.nps.gov/subjects/nationalregister/data-downloads.htm",
+            "estimated_castles": "1,500+",
+            "api_access": "bulk_downloads",
+            "coverage": "united_states"
+          },
+          "ni_buildings_database": {
+            "url": "https://www.communities-ni.gov.uk/services/buildings-database",
+            "estimated_castles": "500+",
+            "api_access": "partial",
+            "coverage": "northern_ireland"
+          }
+        },
+        "automation_level": "medium",
+        "data_quality": "excellent",
+        "cost": "free",
+        "technical_requirements": "country_specific_adapters"
+      }
+    },
+    "scalable_data_pipeline_architecture": {
+      "tier_1_automated_sources": {
+        "priority": "high",
+        "sources": ["wikidata_sparql", "openstreetmap_overpass", "wikipedia_api", "unesco_api"],
+        "automation_approach": "scheduled_queries_every_24h",
+        "expected_yield": "35,000+ castles",
+        "implementation_effort": "medium",
+        "maintenance_effort": "low"
+      },
+      "tier_2_semi_automated_sources": {
+        "priority": "medium",
+        "sources": ["national_heritage_apis", "government_datasets"],
+        "automation_approach": "periodic_bulk_downloads_manual_processing",
+        "expected_yield": "5,000+ castles",
+        "implementation_effort": "high",
+        "maintenance_effort": "medium"
+      },
+      "tier_3_manual_sources": {
+        "priority": "low",
+        "sources": ["ebidat_database", "specialized_regional_databases"],
+        "automation_approach": "targeted_scraping_campaigns",
+        "expected_yield": "10,000+ castles",
+        "implementation_effort": "very_high",
+        "maintenance_effort": "high"
+      }
+    },
+    "technical_implementation_stack": {
+      "data_extraction": {
+        "languages": ["python", "nodejs"],
+        "libraries": {
+          "python": ["requests", "beautifulsoup4", "sparqlwrapper", "pandas", "geopandas", "scrapy"],
+          "nodejs": ["axios", "cheerio", "puppeteer", "sparql-http-client"]
+        },
+        "apis_and_tools": ["overpass_api", "mediawiki_api", "sparql_endpoints", "selenium_webdriver"]
+      },
+      "data_processing": {
+        "normalization": "json_schema_validation",
+        "deduplication": "fuzzy_matching_algorithms",
+        "geocoding": "nominatim_api_mapbox_api",
+        "enrichment": "cross_reference_multiple_sources"
+      },
+      "data_storage": {
+        "primary_database": "postgresql_with_postgis",
+        "search_engine": "elasticsearch",
+        "caching": "redis",
+        "backup": "cloud_storage_s3_compatible"
+      },
+      "automation_framework": {
+        "orchestration": "apache_airflow_or_prefect",
+        "monitoring": "prometheus_grafana",
+        "error_handling": "comprehensive_logging_alerting",
+        "scalability": "kubernetes_deployment"
+      }
+    },
+    "data_quality_and_validation": {
+      "automated_checks": {
+        "coordinate_validation": "verify_geographic_coordinates_within_country_bounds",
+        "temporal_validation": "construction_dates_historical_plausibility",
+        "cross_reference_validation": "verify_castle_existence_across_multiple_sources",
+        "architectural_style_validation": "style_period_consistency_checks"
+      },
+      "manual_review_triggers": {
+        "data_conflicts": "when_sources_provide_contradictory_information",
+        "missing_critical_fields": "castles_without_basic_information",
+        "outlier_detection": "unusual_architectural_or_historical_claims"
+      },
+      "quality_scoring": {
+        "completeness_score": "percentage_of_filled_fields",
+        "reliability_score": "based_on_source_credibility_and_cross_references",
+        "uniqueness_score": "deduplication_confidence_level"
+      }
+    },
+    "scalability_projections": {
+      "phase_1_immediate": {
+        "target": "10,000_castles",
+        "timeline": "3_months",
+        "effort": "1_developer_full_time",
+        "sources": ["wikidata", "openstreetmap", "wikipedia"],
+        "automation_level": "80%"
+      },
+      "phase_2_expansion": {
+        "target": "25,000_castles",
+        "timeline": "6_months",
+        "effort": "2_developers_plus_data_analyst",
+        "sources": ["all_tier_1_and_2_sources"],
+        "automation_level": "60%"
+      },
+      "phase_3_comprehensive": {
+        "target": "50,000+_castles",
+        "timeline": "12_months",
+        "effort": "3_developers_plus_domain_experts",
+        "sources": ["all_identified_sources_plus_new_discoveries"],
+        "automation_level": "70%"
+      }
+    },
+    "legal_and_ethical_considerations": {
+      "data_licensing": {
+        "openstreetmap": "odbl_license_attribution_required",
+        "wikipedia": "cc_by_sa_attribution_required",
+        "wikidata": "cc0_public_domain",
+        "government_databases": "varies_by_country_usually_public_domain"
+      },
+      "rate_limiting_compliance": {
+        "wikipedia": "max_200_requests_per_second",
+        "openstreetmap": "reasonable_use_policy",
+        "wikidata": "sparql_timeout_60_seconds"
+      },
+      "ethical_scraping": {
+        "robots_txt_compliance": "always_check_and_respect",
+        "server_load_consideration": "implement_delays_between_requests",
+        "data_accuracy_responsibility": "verify_information_before_publication"
+      }
+    }
+  }
+}

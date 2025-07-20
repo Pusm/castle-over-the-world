@@ -9,10 +9,10 @@ const path = require('path');
 
 class CastleDataIntegrator {
   constructor() {
-    this.baseCastlesPath = './castles.json';
-    this.enhancedVisitorPath = './castles_enhanced.json';
-    this.outputPath = './castles_unified.json';
-    this.backupPath = './castles_backup.json';
+    this.baseCastlesPath = './castles_unified.json';
+    this.enhancedVisitorPath = './new_castles_50.json';
+    this.outputPath = './castles_final_63.json';
+    this.backupPath = './castles_unified_backup.json';
   }
 
   async integrate() {
@@ -88,10 +88,24 @@ class CastleDataIntegrator {
       visitorMap.set(castle.id, castle);
     });
     
+    // Create lookup map for base castles to track which ones we've processed
+    const baseCastleIds = new Set();
+    
+    // First, integrate existing base castles with their enhancements
     baseCastles.forEach(baseCastle => {
+      baseCastleIds.add(baseCastle.id);
       const enhanced = visitorMap.get(baseCastle.id);
       const integrated_castle = this.integrateFields(baseCastle, enhanced);
       integrated.push(integrated_castle);
+    });
+    
+    // Then, add new castles that don't exist in base castles
+    enhancedVisitor.forEach(newCastle => {
+      if (!baseCastleIds.has(newCastle.id)) {
+        // This is a completely new castle, convert it to our unified format
+        const integrated_castle = this.convertNewCastleToUnifiedFormat(newCastle);
+        integrated.push(integrated_castle);
+      }
     });
     
     return integrated;
@@ -429,6 +443,86 @@ class CastleDataIntegrator {
     console.log(`   Comprehensive data: ${report.dataQuality.comprehensive} castles`);
     console.log(`   UNESCO sites: ${report.features.withUNESCO} castles`);
     console.log(`   10k scale ready: ${report.readyFor10kScale}`);
+  }
+
+  convertNewCastleToUnifiedFormat(newCastle) {
+    // Convert new castle format to unified format compatible with existing database
+    const result = {
+      id: newCastle.id,
+      castleName: newCastle.castleName,
+      country: newCastle.country,
+      location: newCastle.location,
+      architecturalStyle: newCastle.architecturalStyle,
+      yearBuilt: newCastle.yearBuilt,
+      shortDescription: newCastle.shortDescription,
+      keyFeatures: newCastle.keyFeatures || [],
+      
+      // Add enhanced fields from the new castle data
+      culturalSignificance: newCastle.culturalSignificance || "",
+      legends: newCastle.legends || [],
+      historicalEvents: newCastle.historicalEvents || [],
+      politicalSignificance: newCastle.politicalSignificance || "",
+      literaryConnections: newCastle.literaryConnections || "",
+      folklore: newCastle.folklore || "",
+      socialHistory: newCastle.socialHistory || "",
+      
+      // Engineering details if present
+      engineeringDetails: newCastle.engineeringDetails || null,
+      
+      // Map new castle visitor information
+      currentStatus: this.mapNewCastleCurrentStatus(newCastle),
+      visitorInfo: this.mapVisitorInformation(newCastle.visitorInformation),
+      preservationEfforts: this.mapPreservationEfforts(newCastle.heritage, newCastle.restoration),
+      tourismDetails: this.mapTourismDetails(newCastle.modernRelevance, newCastle.visitorInformation),
+      
+      // Research and multimedia
+      research: newCastle.research || {
+        academicSources: [],
+        culturalImpact: "",
+        scholarlyWorks: []
+      },
+      multimedia: newCastle.multimedia || {
+        images: [],
+        videos: [],
+        virtualTours: []
+      },
+      
+      // Interactive features
+      interactive: newCastle.interactive || {
+        tours: { virtual: false, audio: false, guided: false },
+        educational: { worksheets: false, activities: false },
+        social: { reviews: false, photos: false }
+      },
+      
+      // Metadata
+      metadata: {
+        lastUpdated: new Date().toISOString(),
+        dataQuality: "comprehensive",
+        completeness: this.calculateCompleteness({
+          ...newCastle,
+          currentStatus: true,
+          visitorInfo: true,
+          preservationEfforts: true,
+          tourismDetails: true
+        }),
+        version: "2.0-integrated-new",
+        contributors: ["Worker4-NewCastleData"]
+      }
+    };
+    
+    return result;
+  }
+
+  mapNewCastleCurrentStatus(newCastle) {
+    return {
+      operationalState: newCastle.visitorInformation?.openingHours ? "museum" : "heritage_site",
+      ownership: this.determineOwnership(newCastle.heritage?.unescoStatus),
+      management: "heritage_organization",
+      accessibility: "public",
+      condition: this.determineCondition(newCastle.restoration),
+      lastInspection: new Date().toISOString().split('T')[0],
+      maintenanceSchedule: newCastle.restoration?.ongoing ? "ongoing" : "annual"
+    };
   }
 }
 

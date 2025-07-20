@@ -689,5 +689,643 @@
         }
       }
     }
+  },
+  {
+    "id": "corfe_castle",
+    "castleName": "Corfe Castle",
+    "country": "England",
+    "location": "Dorset, England",
+    "architecturalStyle": "Norman medieval ruins",
+    "yearBuilt": "1086 onwards",
+    "shortDescription": "One of Britain's most iconic ruined castles, Corfe Castle stands dramatically on a natural hill controlling the gap in the Purbeck Hills. Slighted during the English Civil War, its romantic ruins have inspired artists and writers for centuries, representing the archetypal English castle ruin.",
+    "keyFeatures": [
+      "Dramatic hilltop ruins",
+      "Controls gap in Purbeck Hills",
+      "Norman stone keep",
+      "English Civil War history",
+      "Archetypal romantic ruin",
+      "National Trust property"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "National Trust",
+      "condition": "ruins"
+    }
+  },
+  {
+    "id": "stirling_castle",
+    "castleName": "Stirling Castle",
+    "country": "Scotland",
+    "location": "Stirling, Scotland",
+    "architecturalStyle": "Renaissance palace and medieval fortress",
+    "yearBuilt": "12th century onwards",
+    "shortDescription": "Known as the 'Key to Scotland' due to its strategic position, Stirling Castle has witnessed some of Scotland's most pivotal moments including the coronation of Mary Queen of Scots. The castle combines medieval fortification with one of Scotland's finest Renaissance palaces.",
+    "keyFeatures": [
+      "Known as the 'Key to Scotland'",
+      "Coronation site of Mary Queen of Scots",
+      "Renaissance palace within medieval fortress",
+      "Strategic position controlling Scotland",
+      "Great Hall and Chapel Royal",
+      "Historic Scotland management"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Historic Environment Scotland",
+      "management": "Historic Environment Scotland"
+    }
+  },
+  {
+    "id": "leeds_castle",
+    "castleName": "Leeds Castle",
+    "country": "England", 
+    "location": "Kent, England",
+    "architecturalStyle": "Norman castle on artificial islands",
+    "yearBuilt": "1119 onwards",
+    "shortDescription": "Known as the 'loveliest castle in the world,' Leeds Castle sits on two islands in a lake formed by the River Len. Once home to six medieval queens, this romantic castle combines Norman origins with later comfortable residential additions and stunning gardens.",
+    "keyFeatures": [
+      "Known as 'loveliest castle in the world'",
+      "Built on two artificial islands",
+      "Home to six medieval queens",
+      "Norman origins with later additions",
+      "Beautiful lake setting",
+      "Extensive gardens and grounds"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Leeds Castle Foundation",
+      "management": "Private charitable trust"
+    }
+  },
+  {
+    "id": "matsumoto_castle",
+    "castleName": "Matsumoto Castle",
+    "country": "Japan",
+    "location": "Matsumoto, Nagano Prefecture",
+    "architecturalStyle": "Japanese hirajiro (flatland castle)",
+    "yearBuilt": "1592-1614",
+    "shortDescription": "Known as 'Crow Castle' due to its striking black exterior, Matsumoto is one of Japan's most complete original castles. This National Treasure showcases sophisticated Japanese castle design with its distinctive black and white facade and complex defensive layout.",
+    "keyFeatures": [
+      "Known as 'Crow Castle'",
+      "Striking black exterior",
+      "One of Japan's 12 original castles",
+      "National Treasure of Japan",
+      "Complex six-story keep",
+      "Moated flatland design"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Matsumoto City",
+      "management": "Matsumoto Castle Management Office"
+    }
+  },
+  {
+    "id": "red_fort",
+    "castleName": "Red Fort (Lal Qila)",
+    "country": "India",
+    "location": "Delhi, India",
+    "architecturalStyle": "Mughal architecture",
+    "yearBuilt": "1639-1648",
+    "shortDescription": "Built by Mughal Emperor Shah Jahan as the fortified palace of Shahjahanabad, the Red Fort served as the main residence of the Mughal emperors for nearly 200 years. Its red sandstone walls and sophisticated Mughal architecture represent the zenith of Indo-Islamic architectural achievement.",
+    "keyFeatures": [
+      "Built by Mughal Emperor Shah Jahan",
+      "Main residence of Mughal emperors",
+      "Red sandstone walls",
+      "Sophisticated Mughal architecture",
+      "Diwan-i-Aam and Diwan-i-Khas",
+      "UNESCO World Heritage Site since 2007"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Archaeological Survey of India",
+      "management": "Government of India"
+    }
+  },
+  {
+    "id": "amber_fort",
+    "castleName": "Amber Fort",
+    "country": "India",
+    "location": "Jaipur, Rajasthan",
+    "architecturalStyle": "Rajput and Mughal architecture",
+    "yearBuilt": "1592 onwards",
+    "shortDescription": "Perched on a hilltop overlooking Maota Lake, Amber Fort is a magnificent example of Rajput architecture blended with Mughal influences. Known for its artistic Hindu-style elements and stunning mirror work in the Sheesh Mahal, it represents the golden age of Rajasthani palace architecture.",
+    "keyFeatures": [
+      "Hilltop location overlooking Maota Lake",
+      "Blend of Rajput and Mughal architecture",
+      "Sheesh Mahal (Mirror Palace)",
+      "Artistic Hindu-style elements",
+      "Elephant rides to entrance",
+      "UNESCO World Heritage Site"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Government of Rajasthan",
+      "management": "Archaeological Survey of India"
+    }
+  },
+  {
+    "id": "hohensalzburg_fortress",
+    "castleName": "Hohensalzburg Fortress",
+    "country": "Austria",
+    "location": "Salzburg, Austria",
+    "architecturalStyle": "Medieval fortress",
+    "yearBuilt": "1077 onwards",
+    "shortDescription": "One of the largest medieval castles in Europe, Hohensalzburg Fortress dominates Salzburg's skyline and has never been successfully besieged. Built by the Prince-Archbishops of Salzburg, this fortress represents over 900 years of continuous architectural development and strategic importance.",
+    "keyFeatures": [
+      "One of largest medieval castles in Europe",
+      "Never successfully besieged",
+      "Built by Prince-Archbishops",
+      "Dominates Salzburg skyline",
+      "900+ years of development",
+      "Funicular railway access"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Salzburg Museum",
+      "management": "Salzburg Museum"
+    }
+  },
+  {
+    "id": "schwerin_castle",
+    "castleName": "Schwerin Castle",
+    "country": "Germany",
+    "location": "Schwerin, Mecklenburg-Vorpommern",
+    "architecturalStyle": "Romantic Historicism",
+    "yearBuilt": "1845-1857 (rebuilt)",
+    "shortDescription": "Known as the 'Neuschwanstein of the North,' Schwerin Castle sits on a small island in Lake Schwerin. This fairy-tale palace serves as the seat of the Mecklenburg-Vorpommern state parliament and showcases 19th-century romantic castle architecture at its finest.",
+    "keyFeatures": [
+      "Known as 'Neuschwanstein of the North'",
+      "Built on island in Lake Schwerin",
+      "Seat of state parliament",
+      "Fairy-tale romantic architecture",
+      "365 towers and turrets",
+      "Beautiful palace gardens"
+    ],
+    "currentStatus": {
+      "operationalState": "government_building",
+      "ownership": "State of Mecklenburg-Vorpommern",
+      "management": "Mecklenburg-Vorpommern Parliament"
+    }
+  },
+  {
+    "id": "château_de_chantilly",
+    "castleName": "Château de Chantilly",
+    "country": "France",
+    "location": "Chantilly, Oise, Hauts-de-France",
+    "architecturalStyle": "Renaissance and 19th-century reconstruction",
+    "yearBuilt": "14th century (rebuilt 1870s-1880s)",
+    "shortDescription": "Home to the Duke of Aumale and containing the second-largest collection of antique paintings in France after the Louvre, Chantilly combines Renaissance architecture with 19th-century reconstruction. The château is famous for its magnificent stables and art collections.",
+    "keyFeatures": [
+      "Second-largest art collection in France",
+      "Magnificent Great Stables",
+      "Renaissance and 19th-century architecture",
+      "Home of Duke of Aumale",
+      "Condé Museum",
+      "Beautiful French formal gardens"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Institut de France",
+      "management": "Institut de France"
+    }
+  },
+  {
+    "id": "pena_palace",
+    "castleName": "Pena Palace",
+    "country": "Portugal",
+    "location": "Sintra, Portugal",
+    "architecturalStyle": "Romantic Revival (Gothic, Renaissance, Moorish, Manueline)",
+    "yearBuilt": "1842-1854",
+    "shortDescription": "One of Europe's most fantastical palaces, Pena Palace crowns the hills of Sintra with its colorful romantic architecture blending Gothic, Renaissance, Moorish, and Manueline styles. Built for King Ferdinand II, it represents the Portuguese romantic movement and showcases architectural eclecticism.",
+    "keyFeatures": [
+      "Colorful romantic architecture",
+      "Blend of multiple architectural styles",
+      "Built for King Ferdinand II",
+      "Crowns hills of Sintra",
+      "UNESCO World Heritage Site",
+      "Romantic movement masterpiece"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Portuguese state",
+      "management": "Parques de Sintra"
+    }
+  },
+  {
+    "id": "topkapi_palace",
+    "castleName": "Topkapi Palace",
+    "country": "Turkey",
+    "location": "Istanbul, Turkey",
+    "architecturalStyle": "Ottoman palace architecture",
+    "yearBuilt": "1459-1478",
+    "shortDescription": "The primary residence of the Ottoman sultans for nearly 400 years, Topkapi Palace overlooks the Bosphorus and Golden Horn. This vast complex of courtyards, pavilions, and gardens represents the pinnacle of Ottoman palace architecture and housed the heart of the Ottoman Empire.",
+    "keyFeatures": [
+      "Primary residence of Ottoman sultans",
+      "Overlooks Bosphorus and Golden Horn",
+      "400 years of Ottoman imperial history",
+      "Multiple courtyards and pavilions",
+      "Imperial Treasury and collections",
+      "UNESCO World Heritage Site"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Turkish Republic",
+      "management": "Ministry of Culture and Tourism"
+    }
+  },
+  {
+    "id": "dolmabahçe_palace",
+    "castleName": "Dolmabahçe Palace",
+    "country": "Turkey",
+    "location": "Istanbul, Turkey",
+    "architecturalStyle": "European Neo-Baroque and Neo-Classical",
+    "yearBuilt": "1843-1856",
+    "shortDescription": "Built to rival European palaces, Dolmabahçe served as the main administrative center of the Ottoman Empire in its final century. This opulent palace along the Bosphorus represents the Westernization of Ottoman architecture and the empire's attempt to modernize while maintaining imperial grandeur.",
+    "keyFeatures": [
+      "Built to rival European palaces",
+      "Ottoman Empire's administrative center",
+      "Neo-Baroque and Neo-Classical styles",
+      "Opulent Bosphorus waterfront location",
+      "Crystal Staircase and Ceremonial Hall",
+      "Represents Ottoman Westernization"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "National Palaces Administration",
+      "management": "Ministry of Culture and Tourism"
+    }
+  },
+  {
+    "id": "mysore_palace",
+    "castleName": "Mysore Palace",
+    "country": "India",
+    "location": "Mysore, Karnataka",
+    "architecturalStyle": "Indo-Saracenic architecture",
+    "yearBuilt": "1912 (current structure)",
+    "shortDescription": "Known as the 'Palace of Palaces,' Mysore Palace is a magnificent example of Indo-Saracenic architecture combining Hindu, Muslim, Rajput, and Gothic styles. The palace of the Wadiyar dynasty is famous for its illumination during Dussehra festival when 97,000 light bulbs transform it into a golden spectacle.",
+    "keyFeatures": [
+      "Known as 'Palace of Palaces'",
+      "Indo-Saracenic architectural fusion",
+      "Palace of Wadiyar dynasty",
+      "Famous Dussehra illumination",
+      "97,000 light bulbs illumination",
+      "Magnificent Durbar Hall"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Government of Karnataka",
+      "management": "Mysore Palace Board"
+    }
+  },
+  {
+    "id": "château_de_fontainebleau",
+    "castleName": "Château de Fontainebleau",
+    "country": "France",
+    "location": "Fontainebleau, Seine-et-Marne",
+    "architecturalStyle": "French Renaissance and Classical",
+    "yearBuilt": "12th century onwards (major Renaissance expansion)",
+    "shortDescription": "The only royal and imperial château continuously inhabited for seven centuries, Fontainebleau served as a residence for French monarchs from Louis VII to Napoleon III. This UNESCO site showcases the evolution of French decorative arts and architecture across multiple periods.",
+    "keyFeatures": [
+      "Continuously inhabited for seven centuries",
+      "Residence from Louis VII to Napoleon III",
+      "Evolution of French decorative arts",
+      "Gallery of Francis I",
+      "Napoleon's throne room",
+      "UNESCO World Heritage Site since 1981"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "French state",
+      "management": "Centre des monuments nationaux"
+    }
+  },
+  {
+    "id": "ashford_castle",
+    "castleName": "Ashford Castle",
+    "country": "Ireland",
+    "location": "County Mayo, Ireland",
+    "architecturalStyle": "Norman castle expanded as Victorian castle hotel",
+    "yearBuilt": "1228 (expanded 1800s)",
+    "shortDescription": "Dating from 1228, Ashford Castle evolved from a Norman stone fortress into one of Ireland's most luxurious castle hotels. Set on the shores of Lough Corrib, this 800-year-old castle combines medieval heritage with modern luxury hospitality.",
+    "keyFeatures": [
+      "800-year-old Norman origins",
+      "Luxury castle hotel",
+      "Shores of Lough Corrib",
+      "Victorian expansion and renovation",
+      "Medieval heritage with modern luxury",
+      "Award-winning hospitality"
+    ],
+    "currentStatus": {
+      "operationalState": "hotel",
+      "ownership": "Private ownership",
+      "management": "Red Carnation Hotels"
+    }
+  },
+  {
+    "id": "kilkenny_castle",
+    "castleName": "Kilkenny Castle",
+    "country": "Ireland",
+    "location": "Kilkenny, Ireland",
+    "architecturalStyle": "Norman castle with Victorian renovation",
+    "yearBuilt": "1195 onwards",
+    "shortDescription": "Built by the Norman-Welsh nobleman William Marshal, Kilkenny Castle dominated the crossing of the River Nore for over 800 years. The seat of the powerful Butler family, this castle represents the Norman conquest of Ireland and subsequent Irish aristocratic life.",
+    "keyFeatures": [
+      "Built by William Marshal",
+      "Dominated River Nore crossing for 800+ years",
+      "Seat of Butler family",
+      "Norman conquest of Ireland",
+      "Victorian renovation and restoration",
+      "Beautiful riverside gardens"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Irish state",
+      "management": "Office of Public Works"
+    }
+  },
+  {
+    "id": "château_de_blois",
+    "castleName": "Château de Blois",
+    "country": "France",
+    "location": "Blois, Loir-et-Cher, Loire Valley",
+    "architecturalStyle": "French Renaissance and Gothic",
+    "yearBuilt": "13th-17th centuries",
+    "shortDescription": "The residence of several French kings, Château de Blois showcases four distinct architectural styles in a single complex: Gothic, Flamboyant Gothic, Renaissance, and Classical. This royal château witnessed some of the most dramatic events in French history including royal murders and political intrigue.",
+    "keyFeatures": [
+      "Four distinct architectural styles",
+      "Residence of several French kings",
+      "Site of dramatic historical events",
+      "Famous spiral staircase",
+      "Royal murders and political intrigue",
+      "Sound and light show"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "City of Blois",
+      "management": "City of Blois"
+    }
+  },
+  {
+    "id": "prague_castle",
+    "castleName": "Prague Castle",
+    "country": "Czech Republic",
+    "location": "Prague, Hradčany",
+    "architecturalStyle": "Romanesque, Gothic, Renaissance, Baroque blend",
+    "yearBuilt": "9th century (continuously expanded)",
+    "shortDescription": "According to Guinness World Records, Prague Castle is the largest ancient castle complex in the world, spanning nearly 70,000 square meters. This millennium-spanning architectural marvel reflects the changing styles and powers that have shaped Central Europe, from Bohemian kings to Habsburg emperors.",
+    "keyFeatures": [
+      "Largest ancient castle complex (70,000 sq meters)",
+      "St. Vitus Cathedral with Gothic spires",
+      "Old Royal Palace with Vladislav Hall",
+      "Renaissance and Baroque additions",
+      "Official residence of Czech presidents",
+      "Architectural timeline of 1000+ years"
+    ],
+    "currentStatus": {
+      "operationalState": "government_building",
+      "ownership": "Czech Republic",
+      "management": "Prague Castle Administration"
+    }
+  },
+  {
+    "id": "spis_castle",
+    "castleName": "Spiš Castle",
+    "country": "Slovakia",
+    "location": "Spišské Podhradie, Slovakia",
+    "architecturalStyle": "Romanesque and Gothic",
+    "yearBuilt": "12th century onwards",
+    "shortDescription": "One of the largest castle complexes in the world, Spiš Castle spreads over 4 hectares atop a travertine hill. This UNESCO World Heritage site represents 800 years of architectural development and served as an important center of power in medieval Hungary.",
+    "keyFeatures": [
+      "One of largest castle complexes worldwide",
+      "Spreads over 4 hectares",
+      "Built on travertine hill",
+      "800 years of architectural development",
+      "Important center of medieval Hungary",
+      "UNESCO World Heritage Site since 1993"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Slovak Republic",
+      "management": "National Cultural Center"
+    }
+  },
+  {
+    "id": "miramare_castle",
+    "castleName": "Miramare Castle",
+    "country": "Italy",
+    "location": "Trieste, Friuli-Venezia Giulia",
+    "architecturalStyle": "Eclectic 19th-century romantic",
+    "yearBuilt": "1856-1860",
+    "shortDescription": "Built by Archduke Ferdinand Maximilian of Austria on a rocky promontory overlooking the Adriatic Sea, Miramare Castle combines romantic castle architecture with stunning coastal setting. The tragic story of Maximilian's execution in Mexico adds poignancy to this architectural gem.",
+    "keyFeatures": [
+      "Built by Archduke Ferdinand Maximilian",
+      "Rocky promontory overlooking Adriatic",
+      "Romantic 19th-century architecture",
+      "Tragic story of Maximilian's fate",
+      "Beautiful coastal gardens",
+      "Museum and historical collections"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Italian state",
+      "management": "Ministry of Cultural Heritage"
+    }
+  },
+  {
+    "id": "bran_castle",
+    "castleName": "Bran Castle",
+    "country": "Romania",
+    "location": "Bran, Brașov County",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1377-1388",
+    "shortDescription": "Often referred to as 'Dracula's Castle', this medieval fortress sits dramatically on a rocky outcrop. While Bram Stoker likely never visited, the castle's Gothic appearance made it the perfect inspiration for Count Dracula's Transylvanian home, creating one of the world's most famous literary-castle connections.",
+    "keyFeatures": [
+      "Known as 'Dracula's Castle'",
+      "Inspiration for Bram Stoker's novel",
+      "Medieval fortress on rocky outcrop",
+      "Gothic Revival architecture",
+      "Secret passages and courtyards",
+      "Museum collections and artifacts"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Archduke Dominic of Austria",
+      "management": "Private foundation"
+    }
+  },
+  {
+    "id": "peles_castle",
+    "castleName": "Peleș Castle",
+    "country": "Romania",
+    "location": "Sinaia, Prahova County",
+    "architecturalStyle": "Neo-Renaissance with Art Nouveau elements",
+    "yearBuilt": "1873-1914",
+    "shortDescription": "Built as a summer retreat for King Carol I of Romania, Peleș Castle is considered one of Europe's most beautiful castles. This architectural masterpiece in the Carpathian Mountains combines Neo-Renaissance style with Art Nouveau elements and features the first European castle with central heating and electricity.",
+    "keyFeatures": [
+      "Summer retreat of King Carol I",
+      "One of Europe's most beautiful castles",
+      "Carpathian Mountains setting",
+      "First castle with central heating",
+      "First castle with electricity",
+      "Neo-Renaissance and Art Nouveau blend"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Romanian state",
+      "management": "National Heritage Institute"
+    }
+  },
+  {
+    "id": "eilean_donan",
+    "castleName": "Eilean Donan Castle",
+    "country": "Scotland",
+    "location": "Kyle of Lochalsh, Highland",
+    "architecturalStyle": "Scottish baronial (20th-century reconstruction)",
+    "yearBuilt": "13th century (rebuilt 1919-1932)",
+    "shortDescription": "One of the most photographed castles in Scotland, Eilean Donan sits on a small tidal island connected to the mainland by a stone bridge. After being destroyed in 1719, it was lovingly reconstructed in the 20th century and now represents the archetypal Scottish Highland castle.",
+    "keyFeatures": [
+      "Most photographed castle in Scotland",
+      "Built on tidal island",
+      "Connected by stone bridge",
+      "20th-century faithful reconstruction",
+      "Archetypal Highland castle",
+      "Stunning loch setting"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Conchra Charitable Trust",
+      "management": "Private charitable trust"
+    }
+  },
+  {
+    "id": "hunyad_castle",
+    "castleName": "Hunyadi Castle (Corvin Castle)",
+    "country": "Romania",
+    "location": "Hunedoara, Hunedoara County",
+    "architecturalStyle": "Gothic-Renaissance",
+    "yearBuilt": "14th-15th centuries",
+    "shortDescription": "Built by John Hunyadi, regent of Hungary and father of Matthias Corvinus, this fairy-tale Gothic castle is one of the largest in Europe. With its impressive towers, drawbridge, and Gothic architecture, Hunyadi Castle represents the pinnacle of medieval Transylvanian fortification design.",
+    "keyFeatures": [
+      "Built by John Hunyadi",
+      "One of largest castles in Europe",
+      "Fairy-tale Gothic architecture",
+      "Impressive towers and drawbridge",
+      "Pinnacle of Transylvanian design",
+      "Knights' Hall and chapel"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Hunedoara County",
+      "management": "Hunedoara County Council"
+    }
+  },
+  {
+    "id": "predjama_castle",
+    "castleName": "Predjama Castle",
+    "country": "Slovenia",
+    "location": "Postojna, Inner Carniola",
+    "architecturalStyle": "Renaissance castle built into cliff face",
+    "yearBuilt": "1274 (rebuilt 16th century)",
+    "shortDescription": "Built dramatically into the mouth of a cave within a 123-meter-high cliff, Predjama Castle is listed in the Guinness Book of Records as the largest cave castle in the world. This architectural marvel seamlessly integrates human construction with natural rock formations.",
+    "keyFeatures": [
+      "Largest cave castle in the world",
+      "Built into 123-meter cliff face",
+      "Integrates with natural cave system",
+      "Renaissance reconstruction",
+      "Guinness World Record holder",
+      "Secret tunnel to cave system"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Postojna Cave",
+      "management": "Postojna Cave Tourism"
+    }
+  },
+  {
+    "id": "bojnice_castle",
+    "castleName": "Bojnice Castle",
+    "country": "Slovakia",
+    "location": "Bojnice, Trenčín Region",
+    "architecturalStyle": "Romantic castle (reconstruction)",
+    "yearBuilt": "12th century (rebuilt 1889-1910)",
+    "shortDescription": "Slovakia's most visited castle and often called the most beautiful castle in Slovakia, Bojnice was romantically rebuilt by Count János Ferenc Pálffy to resemble the châteaux of the Loire Valley. This fairy-tale castle now serves as a museum and popular filming location.",
+    "keyFeatures": [
+      "Most visited castle in Slovakia",
+      "Romantic reconstruction inspired by Loire Valley",
+      "Built by Count János Ferenc Pálffy",
+      "Fairy-tale appearance",
+      "Popular filming location",
+      "Museum and cultural events venue"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Slovak National Museum",
+      "management": "Slovak National Museum"
+    }
+  },
+  {
+    "id": "hohenzollern_castle",
+    "castleName": "Hohenzollern Castle",
+    "country": "Germany",
+    "location": "Baden-Württemberg",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1850-1867",
+    "shortDescription": "Perched 855 meters above sea level, this castle is the ancestral seat of the imperial House of Hohenzollern. The current structure is the third castle built on this site, designed in the Gothic Revival style with stunning views of the Swabian Alps and housing the Prussian royal crown.",
+    "keyFeatures": [
+      "Ancestral seat of House of Hohenzollern",
+      "855 meters above sea level",
+      "Third castle on this site",
+      "Houses Prussian royal crown",
+      "Gothic Revival architecture",
+      "Panoramic Alpine views"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "House of Hohenzollern",
+      "management": "Private family foundation"
+    }
+  },
+  {
+    "id": "wartburg_castle",
+    "castleName": "Wartburg Castle",
+    "country": "Germany",
+    "location": "Eisenach, Thuringia",
+    "architecturalStyle": "Romanesque",
+    "yearBuilt": "1067 onwards",
+    "shortDescription": "A UNESCO World Heritage site of outstanding cultural significance, Wartburg Castle is where Martin Luther translated the New Testament and where the legendary Sängerkrieg (Contest of Minnesingers) supposedly took place. This castle embodies nearly a thousand years of German history and culture.",
+    "keyFeatures": [
+      "Where Martin Luther translated New Testament",
+      "Site of legendary Sängerkrieg",
+      "Nearly 1000 years of German history",
+      "Romanesque architecture",
+      "UNESCO World Heritage Site since 1999",
+      "Symbol of German cultural heritage"
+    ],
+    "currentStatus": {
+      "operationalState": "heritage_site",
+      "ownership": "Wartburg Foundation",
+      "management": "Wartburg Foundation"
+    }
+  },
+  {
+    "id": "burg_eltz",
+    "castleName": "Burg Eltz",
+    "country": "Germany",
+    "location": "Rhineland-Palatinate",
+    "architecturalStyle": "Medieval hill castle",
+    "yearBuilt": "12th century onwards",
+    "shortDescription": "One of the few castles in the Rhineland that has never been destroyed, Burg Eltz has been owned by the same family for over 850 years. Nestled in a valley and surrounded by forest, this perfectly preserved medieval castle represents authentic German castle architecture spanning 500 years of development.",
+    "keyFeatures": [
+      "Never been destroyed in 850+ years",
+      "Owned by same family since 12th century",
+      "Perfectly preserved medieval architecture",
+      "Nestled in forested valley",
+      "500 years of architectural development",
+      "Authentic German castle design"
+    ],
+    "currentStatus": {
+      "operationalState": "museum",
+      "ownership": "Eltz family",
+      "management": "Private family ownership"
+    }
   }
 ]

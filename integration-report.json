@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-07-20T08:50:00.067Z",
-  "totalCastles": 13,
-  "countries": 9,
-  "averageCompleteness": 45,
+  "timestamp": "2025-07-20T09:02:54.304Z",
+  "totalCastles": 60,
+  "countries": 27,
+  "averageCompleteness": 46,
   "dataQuality": {
-    "comprehensive": 8,
+    "comprehensive": 55,
     "enhanced": 5,
     "basic": 0
   },
   "features": {
-    "withVisitorInfo": 13,
-    "withPreservation": 13,
-    "withEngineering": 4,
-    "withUNESCO": 7
+    "withVisitorInfo": 60,
+    "withPreservation": 60,
+    "withEngineering": 5,
+    "withUNESCO": 0
   },
   "readyFor10kScale": "Yes - under capacity"
 }

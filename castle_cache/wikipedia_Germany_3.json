@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-07-20T09:13:52.331Z",
+  "data": [
+    {
+      "id": "list_of_castles_in_germany",
+      "castleName": "List of castles in Germany",
+      "country": "Germany",
+      "location": "Germany",
+      "architecturalStyle": "Gothic",
+      "yearBuilt": "1359",
+      "shortDescription": "This is a list of castles and other such fortifications and palaces or country homes in Germany. Included are castles, forts, palaces, country or stately homes and manors, and even follies.",
+      "keyFeatures": [
+        "Medieval fortifications",
+        "Stone construction",
+        "Defensive towers",
+        "Great hall",
+        "Courtyard design",
+        "Historic architecture"
+      ],
+      "source": "wikipedia",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_castles_in_Germany",
+      "lastUpdated": "2025-07-20T09:13:50.242Z"
+    },
+    {
+      "id": "list_of_castles_in_europe",
+      "castleName": "List of castles in Europe",
+      "country": "Germany",
+      "location": "Europe",
+      "architecturalStyle": "Medieval",
+      "yearBuilt": "1266",
+      "shortDescription": "\nBelow are lists of castles in Europe, organized by country:",
+      "keyFeatures": [
+        "Medieval fortifications",
+        "Stone construction",
+        "Defensive towers",
+        "Great hall",
+        "Courtyard design",
+        "Historic architecture"
+      ],
+      "source": "wikipedia",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_castles_in_Europe",
+      "lastUpdated": "2025-07-20T09:13:51.210Z"
+    },
+    {
+      "id": "list_of_castles_in_berlin_and_brandenburg",
+      "castleName": "List of castles in Berlin and Brandenburg",
+      "country": "Germany",
+      "location": "the German",
+      "architecturalStyle": "Early Medieval",
+      "yearBuilt": "1000",
+      "shortDescription": "Numerous castles are found in the German states of Berlin and Brandenburg. These buildings, some of which have a history of over 1000 years, were the setting of historical events, domains of famous...",
+      "keyFeatures": [
+        "Medieval fortifications",
+        "Stone construction",
+        "Defensive towers",
+        "Great hall",
+        "Courtyard design",
+        "Historic architecture"
+      ],
+      "source": "wikipedia",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_castles_in_Berlin_and_Brandenburg",
+      "lastUpdated": "2025-07-20T09:13:52.231Z"
+    }
+  ]
+}

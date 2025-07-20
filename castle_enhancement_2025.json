@@ -1,0 +1,188 @@
+{
+  "enhancement_methodology_2025": {
+    "global_trends": {
+      "technology_integration": {
+        "vr_ar_experiences": "Virtual and augmented reality for immersive castle exploration",
+        "digital_ticketing": "Timed entry slots and advance booking systems",
+        "smart_guides": "AI-powered audio guides with personalized content"
+      },
+      "sustainable_tourism": {
+        "eco_taxes": "Environmental fees supporting conservation projects",
+        "slow_tourism": "Deep cultural immersion over landmark tourism",
+        "visitor_caps": "Limited daily visitors to prevent overtourism"
+      },
+      "unesco_developments": {
+        "bavarian_heritage_2025": "Neuschwanstein and related castles gained UNESCO status",
+        "visitor_management_mandates": "Required visitor control systems for heritage sites",
+        "20_30_percent_increase": "Expected tourism growth for new UNESCO sites"
+      },
+      "preservation_funding": {
+        "public_private_partnerships": "€500 billion German infrastructure fund example",
+        "annual_maintenance_costs": "€100 million+ for major castle complexes",
+        "monitoring_systems": "3D scanning and digital modeling for restoration"
+      }
+    }
+  },
+  "enhanced_castle_data": [
+    {
+      "id": "malbork_castle",
+      "visitor_enhancement_2025": {
+        "current_status": {
+          "operationalState": "active_museum",
+          "unesco_heritage": true,
+          "heritage_designation": "World's largest castle by land area and largest brick building",
+          "management": "Castle Museum in Malbork",
+          "accessibility": "wheelchair_accessible_limited",
+          "condition": "excellent_ongoing_conservation"
+        },
+        "visitor_information": {
+          "opening_hours": {
+            "spring_summer": "April 26 - September 30, 9:00-20:00",
+            "winter": "October 1 - April 25, 9:00-15:00, Tuesday-Sunday",
+            "special_monday": "Free visiting day, Castle Grounds Route only",
+            "monday_hours": {
+              "winter": "9:00-14:30",
+              "summer": "9:00-18:30"
+            },
+            "last_admission": "16:30 before closing"
+          },
+          "ticket_information": {
+            "validity": "14 days from purchase date",
+            "purchase_methods": ["online: bilety.zamek.malbork.pl", "on-site ticket office", "cashless vending machines"],
+            "pricing_strategy": "family_friendly",
+            "special_offers": "2+2 family ticket discount",
+            "children_policy": "free under 7 (must collect ticket '0')"
+          },
+          "tour_options": {
+            "historical_castle_route": {
+              "duration": "3.5 hours with guide, 2.5 hours with audio",
+              "type": "comprehensive_main_tour"
+            },
+            "castle_grounds_route": {
+              "duration": "1.5 hours",
+              "type": "basic_overview"
+            },
+            "castle_monastery_route": {
+              "duration": "2 hours",
+              "type": "religious_focus"
+            }
+          },
+          "languages": ["Polish", "English", "German", "Czech", "Russian", "French", "Spanish", "Ukrainian", "Italian"],
+          "accessibility_features": {
+            "wheelchair_access": true,
+            "mobility_impairment_support": true,
+            "stroller_access": true,
+            "limitations": "Historical architecture limits some areas"
+          }
+        },
+        "preservation_efforts_2025": {
+          "active_projects": {
+            "war_losses_research": "Since 2018, investigating WWII collection losses",
+            "treasures_digitization": "Virtual transfer of valuable artifacts",
+            "northern_bailey_conservation": "Tourist attractiveness improvement project"
+          },
+          "conservation_status": "active_ongoing_restoration",
+          "research_initiatives": "Interdisciplinary artifact preservation",
+          "funding_model": "museum_revenue_government_support"
+        },
+        "modern_significance_2025": {
+          "cultural_impact": "Symbol of Teutonic Order heritage and medieval architecture",
+          "tourism_statistics": "Major Baltic Sea tourism destination",
+          "educational_role": "Gothic brick castle architecture exemplar",
+          "global_recognition": "World's largest castle complex",
+          "accessibility_improvements": "Ongoing barrier-free access projects"
+        }
+      }
+    },
+    {
+      "id": "conwy_castle",
+      "visitor_enhancement_2025": {
+        "current_status": {
+          "operationalState": "heritage_site_museum",
+          "unesco_heritage": true,
+          "heritage_designation": "Edward I's Welsh castles collective UNESCO site",
+          "management": "Cadw (Welsh Government Historic Environment Service)",
+          "accessibility": "challenging_terrain",
+          "condition": "exceptionally_well_preserved"
+        },
+        "visitor_information": {
+          "opening_hours": {
+            "november_february": "10:00-16:00 daily",
+            "march_june": "9:30-17:00 daily",
+            "july_august": "9:30-18:00 daily"
+          },
+          "ticket_information": {
+            "advance_booking": "up to 24 hours ahead",
+            "online_discount": "5% off (non-refundable)",
+            "booking_advantage": "guaranteed best price",
+            "contact": "ConwyCastle@gov.wales, 03000 252239"
+          },
+          "accessibility_features": {
+            "train_access": "4-minute walk from Conwy station",
+            "parking": "council-run charging car park adjacent",
+            "accessible_spaces": "available at entrance",
+            "terrain_warning": "steep 50m path with steps to castle"
+          }
+        },
+        "preservation_efforts_2025": {
+          "heritage_status": "finest examples of late 13th/early 14th century military architecture",
+          "preservation_quality": "most intact medieval royal apartments in Wales",
+          "management_approach": "Welsh government conservation standards",
+          "architectural_significance": "complete defensive wall system intact"
+        },
+        "modern_significance_2025": {
+          "cultural_impact": "Symbol of medieval Welsh-English history",
+          "architectural_importance": "Best preserved medieval royal chambers in Britain",
+          "tourism_role": "North Wales heritage tourism anchor",
+          "educational_value": "Medieval military architecture exemplar"
+        }
+      }
+    },
+    {
+      "id": "osaka_castle",
+      "visitor_enhancement_2025": {
+        "current_status": {
+          "operationalState": "modern_museum_in_historic_reconstruction",
+          "cultural_asset_status": "13 structures designated as Japanese cultural assets",
+          "management": "Osaka Castle Museum",
+          "accessibility": "fully_modern_elevator_access",
+          "condition": "excellent_1997_renovation"
+        },
+        "visitor_information": {
+          "opening_hours": {
+            "regular": "9:00-17:00 (last entry 16:30)",
+            "extended_periods": "cherry blossom season, Golden Week, summer vacation",
+            "closed_days": "Mondays (or next day if Monday is holiday)",
+            "holiday_closure": "December 28 - January 4"
+          },
+          "ticket_information_2025": {
+            "price_increase": "1,200 yen adults (up from 600 yen)",
+            "students": "600 yen (high school/university)",
+            "children": "free under 15 (ID required)",
+            "combination_tickets": "1,000 yen with Osaka Museum of History",
+            "nishinomaru_garden": "200 yen additional"
+          },
+          "modern_features": {
+            "museum_artifacts": "10,000+ historical items",
+            "technology": "elevators, WiFi, exterior light shows",
+            "observation_deck": "panoramic Osaka city views",
+            "skip_the_line": "e-tickets available for 30+ minute waits"
+          }
+        },
+        "preservation_efforts_2025": {
+          "new_addition": "Toyotomi Stone Wall Museum opened 2025",
+          "original_elements": "Tokugawa-era stone walls and moat preserved",
+          "cultural_designations": "13 government-designated cultural assets",
+          "restoration_history": "Major 1997 renovation with modern amenities"
+        },
+        "modern_significance_2025": {
+          "cultural_impact": "Symbol of Osaka and Japanese castle architecture",
+          "tourism_statistics": "One of Japan's most visited castles",
+          "educational_role": "Comprehensive Japanese history museum",
+          "cherry_blossom_destination": "600 trees in Nishinomaru Garden",
+          "urban_integration": "Central Osaka landmark and transportation hub"
+        }
+      }
+    }
+  ]
+}

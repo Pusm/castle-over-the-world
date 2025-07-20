@@ -1,0 +1,83 @@
+[
+  {
+    "id": "kronborg_castle_unesco",
+    "castleName": "Kronborg Castle",
+    "country": "Denmark",
+    "location": "Helsingør, Zealand",
+    "architecturalStyle": "Renaissance",
+    "yearBuilt": "1574-1585",
+    "shortDescription": "Kronborg Castle is a magnificent Renaissance castle and UNESCO World Heritage Site, famous as the setting of Shakespeare's Hamlet. This fortress controlled the strategic Øresund strait for centuries.",
+    "keyFeatures": [
+      "UNESCO World Heritage Site",
+      "Renaissance architecture",
+      "Shakespeare's Hamlet setting",
+      "Maritime fortress",
+      "Royal apartments",
+      "Strategic position"
+    ],
+    "source": "unesco_fallback",
+    "unescoId": "696",
+    "unescoUrl": "https://whc.unesco.org/en/list/696/",
+    "inscriptionYear": "2000",
+    "qualityScore": 95,
+    "heritageStatus": {
+      "unescoStatus": "World Heritage Site",
+      "inscriptionYear": "2000",
+      "criteria": "Outstanding example of Renaissance castle"
+    }
+  },
+  {
+    "id": "wartburg_castle_unesco",
+    "castleName": "Wartburg Castle",
+    "country": "Germany",
+    "location": "Eisenach, Thuringia",
+    "architecturalStyle": "Medieval with Romanesque elements",
+    "yearBuilt": "1067",
+    "shortDescription": "Wartburg Castle is a UNESCO World Heritage Site and one of Germany's most important castles, where Martin Luther translated the New Testament and where the medieval Minnesänger tradition flourished.",
+    "keyFeatures": [
+      "UNESCO World Heritage Site",
+      "Luther's refuge",
+      "Medieval architecture",
+      "Minnesänger tradition",
+      "Historic significance",
+      "Romanesque elements"
+    ],
+    "source": "unesco_fallback",
+    "unescoId": "897",
+    "unescoUrl": "https://whc.unesco.org/en/list/897/",
+    "inscriptionYear": "1999",
+    "qualityScore": 96,
+    "heritageStatus": {
+      "unescoStatus": "World Heritage Site",
+      "inscriptionYear": "1999",
+      "criteria": "Outstanding cultural and religious significance"
+    }
+  },
+  {
+    "id": "beaumaris_castle_unesco",
+    "castleName": "Beaumaris Castle",
+    "country": "United Kingdom",
+    "location": "Anglesey, Wales",
+    "architecturalStyle": "Concentric castle design",
+    "yearBuilt": "1295",
+    "shortDescription": "Beaumaris Castle, part of the UNESCO World Heritage \"Castles and Town Walls of King Edward in Gwynedd\", represents the pinnacle of medieval military architecture with its innovative concentric design.",
+    "keyFeatures": [
+      "UNESCO World Heritage Site",
+      "Concentric castle design",
+      "Edward I fortification",
+      "Military architecture",
+      "Medieval engineering",
+      "Welsh castle"
+    ],
+    "source": "unesco_fallback",
+    "unescoId": "374",
+    "unescoUrl": "https://whc.unesco.org/en/list/374/",
+    "inscriptionYear": "1986",
+    "qualityScore": 94,
+    "heritageStatus": {
+      "unescoStatus": "World Heritage Site",
+      "inscriptionYear": "1986",
+      "criteria": "Outstanding example of military architecture"
+    }
+  }
+]

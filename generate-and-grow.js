@@ -3,6 +3,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const os = require('os');
+const EnhancedCastleDataProvider = require('./enhanced-castle-data-provider.js');
 
 class CastleGenerator {
   constructor() {
@@ -12,685 +13,12 @@ class CastleGenerator {
     this.stylesCssPath = path.join(this.projectRoot, 'style.css');
     this.indexHtmlPath = path.join(this.projectRoot, 'index.html');
     
-    this.realWorldCastles = [
-      {
-        id: "neuschwanstein_castle",
-        castleName: "Neuschwanstein Castle",
-        country: "Germany",
-        location: "Bavaria, near Fussen",
-        architecturalStyle: "Romanesque Revival with Gothic Revival elements",
-        yearBuilt: "1869-1886",
-        shortDescription: "A 19th-century Romanesque Revival palace commissioned by Ludwig II of Bavaria as a retreat and homage to Richard Wagner. This castle inspired Disney's Sleeping Beauty Castle and stands majestically in the Bavarian Alps.",
-        detailedDescription: "Neuschwanstein Castle represents the pinnacle of 19th-century romantic historicism, embodying Ludwig II's vision of a medieval knight's castle combined with the latest technological innovations. The castle was designed by Christian Jank, a theatrical set designer, which explains its fantastical appearance. Built as a personal refuge for the reclusive king, it incorporates advanced heating systems, running water on all floors, and even a telephone system - revolutionary for its time. The interior decoration draws heavily from Wagner's operas, particularly Tannhäuser, Lohengrin, and Parsifal, with elaborate murals depicting scenes from Germanic legends.",
-        historicalTimeline: [
-          { year: "1868", event: "Ludwig II orders the construction of 'New Hohenschwangau Castle'" },
-          { year: "1869", event: "Foundation stone laid on September 5th, construction begins" },
-          { year: "1873", event: "Palas (main building) construction starts" },
-          { year: "1880", event: "Lower floors completed, Ludwig moves in temporarily" },
-          { year: "1884", event: "Throne Hall completed with Byzantine-style mosaics" },
-          { year: "1886", event: "Ludwig II dies mysteriously, construction continues" },
-          { year: "1892", event: "Final completion of interior decoration" }
-        ],
-        dynastyInfo: {
-          dynasty: "House of Wittelsbach",
-          ruler: "Ludwig II of Bavaria (1845-1886)",
-          predecessors: ["Maximilian II of Bavaria"],
-          successors: ["Otto of Bavaria (declared insane)", "Luitpold, Prince Regent"],
-          dynastyOrigin: "Founded 1180, ruled Bavaria until 1918"
-        },
-        notableEvents: [
-          {
-            date: "1886",
-            event: "Mysterious death of Ludwig II",
-            significance: "Found dead in Lake Starnberg under suspicious circumstances, officially ruled suicide but evidence suggests assassination"
-          },
-          {
-            date: "1945",
-            event: "Allied liberation and Nazi art storage discovery",
-            significance: "Castle used by Nazis to store stolen art treasures, liberated by American forces"
-          },
-          {
-            date: "1955",
-            event: "Disney inspiration confirmed",
-            significance: "Walt Disney visited and used the castle as inspiration for Sleeping Beauty Castle at Disneyland"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Steel framework construction (revolutionary for castle architecture)",
-            "Central heating system throughout all floors",
-            "Running water and flush toilets on every floor",
-            "Electric call system for servants",
-            "Telephone connection to Munich and Hohenschwangau"
-          ],
-          defensiveFeatures: "Decorative only - no military purpose, purely romantic revival",
-          materials: ["Kelheim limestone for exterior", "Salzburg marble for interior", "Bavarian pine for woodwork", "Steel framework"],
-          dimensions: "Length: 150m, Width: 117m, Height: 213m above sea level",
-          rooms: "65 rooms planned, only 15 completed and furnished"
-        },
-        constructionDetails: {
-          chiefArchitect: "Eduard Riedel (1869-1874), Georg von Dollmann (1874-1884), Julius Hofmann (1884-1892)",
-          designer: "Christian Jank (theatrical set designer)",
-          cost: "6.2 million marks (equivalent to approximately 200 million euros today)",
-          workers: "Up to 200 workers during peak construction",
-          challenges: [
-            "Extreme Alpine location required innovative engineering",
-            "Transport of materials up steep mountain paths",
-            "Integration of modern technology with medieval aesthetics",
-            "Ludwig's constant design changes and perfectionism"
-          ]
-        },
-        engineeringDetails: {
-          foundationEngineering: {
-            geologicalBase: "Alpine limestone bedrock at 965 meters above sea level",
-            formationProcess: "Massive stone removal and reinforcement required due to steep mountain site",
-            engineeringAdvantages: [
-              "Commanding views over Bavarian Alps and Hohenschwangau Castle",
-              "Natural defensive position on rocky Alpine outcrop",
-              "Isolation provided privacy for reclusive King Ludwig II",
-              "Stable limestone foundation suitable for heavy masonry construction"
-            ]
-          },
-          constructionTechniques: {
-            industrialInnovations: [
-              "First large steam-powered crane used in German castle construction",
-              "Steel framework hidden within romantic revival masonry",
-              "Throne Hall supported by revolutionary steel girder lattice system",
-              "Modern building techniques disguised with medieval aesthetic"
-            ],
-            materialEngineering: [
-              "Brick walls clad with Kelheim limestone for aesthetic effect",
-              "Salzburg marble used for interior decorative elements",
-              "Steel framework provides structural integrity while maintaining romantic appearance",
-              "Bavarian pine timber for interior woodwork and roofing"
-            ]
-          },
-          innovativeFeatures: [
-            "Central heating system throughout all floors - revolutionary for 1880s",
-            "Running water and flush toilets on every floor",
-            "Electric lighting system when electricity was still experimental",
-            "Telephone connection to Munich and Hohenschwangau Castle",
-            "Electric call system for servants throughout the castle",
-            "Hot air heating system with elaborate ductwork"
-          ],
-          materialProperties: {
-            steelFramework: "Hidden steel members provide earthquake resistance and support for elaborate throne hall ceiling",
-            limestone: "Light-colored Kelheim limestone provides weather resistance and medieval aesthetic",
-            brick: "Load-bearing brick walls allow for thinner construction than solid stone",
-            marble: "Salzburg marble chosen for interior luxury and workability for detailed decoration"
-          }
-        },
-        keyFeatures: [
-          "Throne Hall with 13-meter-high ceiling and Byzantine-style dome",
-          "Minstrels' Hall inspired by Wartburg Castle",
-          "Artificial grotto recreation room with waterfall",
-          "Swan motifs throughout (Ludwig's heraldic symbol)",
-          "Wagner opera-themed murals and decorations",
-          "Advanced 19th-century amenities disguised in medieval setting"
-        ]
-      },
-      {
-        id: "edinburgh_castle",
-        castleName: "Edinburgh Castle",
-        country: "Scotland",
-        location: "Edinburgh, Scotland",
-        architecturalStyle: "Medieval fortress with Renaissance and Georgian additions",
-        yearBuilt: "12th century - 18th century (continuous development)",
-        shortDescription: "A historic fortress dominating Edinburgh's skyline from its position on Castle Rock, serving as Scotland's most important fortress for over 1,000 years.",
-        detailedDescription: "Edinburgh Castle stands on an extinct volcanic rock formation dating back 350 million years, making it one of Europe's most naturally defensible positions. Archaeological evidence suggests human occupation since the Iron Age, with the earliest recorded royal residence dating to the reign of Malcolm III in the 11th century. The castle has witnessed more sieges than any other place in Britain, serving as a royal residence, military garrison, and state prison. Its strategic importance stems from controlling the vital route between England and Scotland, making it a crucial stronghold during the Wars of Scottish Independence and numerous Anglo-Scottish conflicts.",
-        historicalTimeline: [
-          { year: "1100s", event: "Malcolm III establishes royal residence on Castle Rock" },
-          { year: "1124", event: "St Margaret's Chapel built by David I, oldest surviving structure" },
-          { year: "1296", event: "Edward I captures castle during Wars of Independence" },
-          { year: "1314", event: "Thomas Randolph recaptures castle for Robert the Bruce" },
-          { year: "1573", event: "Lang Siege - Mary Queen of Scots' supporters hold out for two years" },
-          { year: "1650", event: "Cromwell captures castle after three-month siege" },
-          { year: "1689", event: "Jacobite garrison surrenders to William of Orange" },
-          { year: "1745", event: "Last military action during Jacobite Rising" }
-        ],
-        dynastyInfo: {
-          dynasty: "Multiple Scottish dynasties and British Crown",
-          rulers: ["Malcolm III", "David I", "Robert the Bruce", "James VI/I", "House of Stuart", "House of Hanover", "House of Windsor"],
-          significance: "Crown fortress of Scotland, repository of Scottish Crown Jewels",
-          dynastyOrigin: "Royal fortress since 1100s, continuous Crown possession"
-        },
-        notableEvents: [
-          {
-            date: "1314",
-            event: "Thomas Randolph's daring night assault",
-            significance: "Scottish forces scaled the north face using a secret path, recapturing the castle for Robert the Bruce"
-          },
-          {
-            date: "1566",
-            event: "Birth of James VI in royal apartments",
-            significance: "Future King James I of England born in castle, uniting Scottish and English crowns"
-          },
-          {
-            date: "1996",
-            event: "Return of the Stone of Destiny",
-            significance: "Ancient coronation stone returned to Scotland after 700 years in Westminster Abbey"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Utilization of natural volcanic rock as foundation",
-            "Concentric defensive walls following rock contours",
-            "Massive curtain walls with projecting towers",
-            "Spur defensive system on vulnerable eastern approach",
-            "Integration of artillery positions for cannon defense"
-          ],
-          defensiveFeatures: "Naturally defended on three sides by precipitous cliffs, elaborate spur defense on vulnerable east side",
-          materials: ["Local sandstone", "Imported limestone for finer work", "Iron reinforcement", "Lead roofing"],
-          dimensions: "Covers approximately 35,737 square meters on Castle Rock summit",
-          rooms: "Multiple buildings including royal apartments, great hall, military barracks, and state rooms"
-        },
-        constructionDetails: {
-          chiefArchitects: "Various over centuries including Master James of St Andrews (Great Hall), William Burn (19th century restoration)",
-          evolutionPeriods: [
-            "Medieval core (12th-14th centuries)",
-            "Renaissance royal palace (15th-16th centuries)",
-            "Military fortress modifications (17th-18th centuries)",
-            "Victorian restoration and museum conversion (19th-20th centuries)"
-          ],
-          challenges: [
-            "Building on irregular volcanic rock surface",
-            "Incorporating defensive needs with royal residence requirements",
-            "Adapting medieval structures for artillery warfare",
-            "Preservation while maintaining military function"
-          ]
-        },
-        engineeringDetails: {
-          foundationEngineering: {
-            geologicalBase: "350-million-year-old volcanic plug formed from dolerite (coarser-grained basalt)",
-            formationProcess: "Volcanic pipe cooled to form extremely hard dolerite, resisted glacial erosion creating crag-and-tail formation",
-            engineeringAdvantages: [
-              "Natural defensive cliffs rising 80 meters above surrounding landscape",
-              "Summit 130 meters above sea level provides commanding position",
-              "Only accessible approach from east where ridge slopes gently",
-              "Impermeable basalt rock prevents water seepage but creates water supply challenges"
-            ]
-          },
-          constructionTechniques: {
-            stoneMasonry: [
-              "Medieval masons utilized volcanic stone and glacial debris from castle site",
-              "St Margaret's Chapel shows matrix-supported construction with big rocks in sand and gravel cement",
-              "Wall thickness varies from 1 meter to over 3 meters for defensive purposes",
-              "Different wall sections show evolution from rough volcanic stone to cut rectangular blocks"
-            ],
-            defensiveAdaptations: [
-              "Walls built to follow natural rock contours maximizing defensive advantage",
-              "Integration of natural cliff faces with built fortifications",
-              "Spur design on eastern approach forces attackers through multiple gates",
-              "Artillery adaptations for cannon warfare from 15th century onwards"
-            ]
-          },
-          siegeAdaptations: [
-            "26 recorded sieges over 1,100 years - most besieged place in Britain",
-            "Medieval defenses largely destroyed in 1573 Lang Siege by artillery bombardment",
-            "Fore Well provides siege-resistant water supply 28 meters deep into volcanic rock",
-            "Multiple defensive rings and gates force attackers through killing zones",
-            "Portcullis and drawbridge systems at vulnerable eastern entrance"
-          ],
-          materialProperties: {
-            volcanicRock: "Extremely hard dolerite provides excellent structural foundation but difficult to quarry and shape",
-            importedStone: "Limestone imported for decorative work and fine masonry requiring precision cutting",
-            mortar: "Traditional lime mortar used for flexibility during ground settlement",
-            ironwork: "Extensive use of iron for portcullis mechanisms, door hinges, and window grilles"
-          }
-        },
-        keyFeatures: [
-          "St Margaret's Chapel (1124) - oldest building in Edinburgh",
-          "Great Hall with magnificent hammerbeam roof",
-          "Scottish Crown Jewels and Stone of Destiny display",
-          "One O'Clock Gun fired daily since 1861",
-          "Mons Meg - massive 15th-century siege cannon",
-          "Royal apartments with 16th-century painted ceilings",
-          "Military museums covering 1,000 years of Scottish military history"
-        ]
-      },
-      {
-        id: "prague_castle",
-        castleName: "Prague Castle",
-        country: "Czech Republic",
-        location: "Prague, Bohemia",
-        architecturalStyle: "Romanesque, Gothic, Renaissance, Baroque fusion",
-        yearBuilt: "870-880 AD (continuous expansion over 1,100 years)",
-        shortDescription: "According to the Guinness Book of Records, Prague Castle is the largest ancient castle complex in the world. It has been the seat of power for kings of Bohemia, Holy Roman emperors, and presidents of Czechoslovakia and the Czech Republic.",
-        detailedDescription: "Prague Castle represents over 1,100 years of architectural evolution, beginning as a fortified settlement established by Prince Bořivoj I around 870-880 AD. The complex occupies an area of almost 70,000 square metres, making it the largest ancient castle in the world. Its architectural diversity reflects centuries of reconstruction, with each era adding new styles without unity. The castle reached its zenith under Charles IV, who transformed Prague into the imperial capital of the Holy Roman Empire. Archaeological evidence reveals continuous development from the Premyslid dynasty through the modern Czech Republic, with each period leaving distinct architectural and cultural imprints.",
-        historicalTimeline: [
-          { year: "870-880", event: "Prince Bořivoj I establishes fortified settlement on Hradčany Hill" },
-          { year: "925", event: "St. Vitus rotunda built, establishing Prague as spiritual center" },
-          { year: "1085", event: "Vratislav II becomes first King of Bohemia, elevating castle status" },
-          { year: "1344", event: "Charles IV lays foundation stone of Gothic St. Vitus Cathedral" },
-          { year: "1378", event: "Charles IV dies, leaving Prague as imperial capital" },
-          { year: "1483-1502", event: "Vladislav Hall constructed with revolutionary vault engineering" },
-          { year: "1541", event: "Great fire destroys much of castle, Renaissance reconstruction begins" },
-          { year: "1618", event: "Defenestration of Prague triggers Thirty Years' War" },
-          { year: "1918", event: "Becomes seat of Czechoslovak presidents" },
-          { year: "1929", event: "St. Vitus Cathedral finally completed after 585 years" }
-        ],
-        dynastyInfo: {
-          dynasty: "Multiple: Premyslid, Luxembourg, Habsburg, Modern Czech Republic",
-          rulers: ["Prince Bořivoj I (first Christian ruler)", "Charles IV (Holy Roman Emperor)", "Rudolf II (Habsburg)", "Václav Havel (first president)"],
-          significance: "Continuous seat of power for over 1,100 years, symbol of Czech statehood",
-          dynastyOrigin: "Founded 870 AD by Premyslid dynasty, evolved through medieval kingdoms to modern republic"
-        },
-        notableEvents: [
-          {
-            date: "1344",
-            event: "Foundation of St. Vitus Cathedral under Charles IV",
-            significance: "Marked Prague's transformation from provincial fortress to imperial capital, created architectural masterpiece spanning 585 years"
-          },
-          {
-            date: "1618",
-            event: "Second Defenestration of Prague",
-            significance: "Catholic officials thrown from castle windows, triggering Thirty Years' War that devastated Europe"
-          },
-          {
-            date: "1989",
-            event: "Velvet Revolution and Václav Havel's presidency",
-            significance: "Peaceful transition from communism, castle became symbol of democratic freedom"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Vladislav Hall's revolutionary ribbed vault - one of Europe's largest unsupported spaces",
-            "Integration of four distinct architectural periods without demolition",
-            "St. Vitus Cathedral's flying buttresses supporting massive Gothic walls",
-            "Benedikt Ried's geometric vault engineering in late Gothic style",
-            "Baroque facades concealing medieval interiors"
-          ],
-          defensiveFeatures: "Natural hilltop position 70 meters above Vltava River, massive walls, strategic gates controlling access routes",
-          materials: ["Local sandstone for detailed carvings", "Brick and mortar for structural walls", "Copper and gold for decorative elements", "Wood for roofing structures"],
-          dimensions: "Length: 570 meters, Average width: 130 meters, Total area: 70,000 square meters",
-          rooms: "Over 1,000 rooms across multiple buildings including state apartments, chapels, museums, and administrative offices"
-        },
-        constructionDetails: {
-          chiefArchitects: "Petr Parléř (St. Vitus Cathedral), Benedikt Ried (Vladislav Hall), various masters over 1,100 years",
-          evolutionPeriods: [
-            "Premyslid Period (9th-13th centuries): Romanesque foundations",
-            "Luxembourg Dynasty (14th century): Gothic transformation under Charles IV",
-            "Jagiellon Period (15th-16th centuries): Late Gothic innovations",
-            "Habsburg Era (16th-18th centuries): Renaissance and Baroque additions",
-            "Modern Restoration (19th-21st centuries): Completion and preservation"
-          ],
-          challenges: [
-            "Integrating 1,100 years of architectural styles cohesively",
-            "St. Vitus Cathedral construction spanning six centuries",
-            "Working around continuous governmental and ceremonial functions",
-            "Preserving historical integrity while modernizing infrastructure",
-            "Managing world's largest ancient castle complex"
-          ]
-        },
-        keyFeatures: [
-          "St. Vitus Cathedral with Gothic spires and Art Nouveau stained glass",
-          "Vladislav Hall with revolutionary ribbed vault engineering",
-          "Golden Lane with Renaissance craftsmen's houses",
-          "Old Royal Palace spanning multiple architectural periods",
-          "Basilica of St. George - Bohemia's oldest preserved church",
-          "Powder Tower with panoramic views of Prague",
-          "Crown Jewels chamber with Bohemian royal regalia"
-        ]
-      },
-      {
-        id: "versailles_palace",
-        castleName: "Palace of Versailles",
-        country: "France",
-        location: "Versailles, Île-de-France",
-        architecturalStyle: "French Baroque to Neoclassical",
-        yearBuilt: "1630s-1780s (continuous expansion over 150 years)",
-        shortDescription: "A testament to French architectural mastery spanning 150 years, Versailles evolved from a hunting lodge into the epitome of absolute monarchy and the pinnacle of European palace design.",
-        detailedDescription: "The Palace of Versailles represents the zenith of French royal architecture and the embodiment of absolute monarchy under Louis XIV, the Sun King. Beginning as a modest hunting lodge built by Louis XIII in the 1620s, it was transformed into the most magnificent palace in Europe through a century and a half of continuous construction. The palace served as the principal residence of French kings from 1682 until the French Revolution in 1789, housing up to 20,000 courtiers, servants, and visitors. Its creation required revolutionary landscape engineering, transforming marshland into elaborate terraced gardens, and pioneered new construction techniques that influenced palace design across Europe. The palace became the template for royal residences from Russia's Peterhof to Germany's Sanssouci.",
-        historicalTimeline: [
-          { year: "1607", event: "Future Louis XIII first visits site for hunting" },
-          { year: "1623-1624", event: "Louis XIII orders construction of modest hunting pavilion" },
-          { year: "1661", event: "Louis XIV begins massive expansion project" },
-          { year: "1668-1671", event: "Louis Le Vau's enveloppe construction adds state apartments" },
-          { year: "1678-1689", event: "Hall of Mirrors constructed under Jules Hardouin-Mansart" },
-          { year: "1682", event: "Louis XIV officially moves court from Paris to Versailles" },
-          { year: "1699-1710", event: "Royal Chapel construction completed" },
-          { year: "1715", event: "Death of Louis XIV, palace largely completed" },
-          { year: "1789", event: "French Revolution forces royal family to abandon Versailles" },
-          { year: "1919", event: "Treaty of Versailles signed in Hall of Mirrors, ending WWI" }
-        ],
-        dynastyInfo: {
-          dynasty: "House of Bourbon",
-          rulers: ["Louis XIII (founder)", "Louis XIV (the Sun King)", "Louis XV", "Louis XVI", "Marie Antoinette"],
-          significance: "Symbol of absolute monarchy and French royal power, center of European diplomacy",
-          dynastyOrigin: "Bourbon dynasty ruled France 1589-1792, Versailles their primary residence 1682-1789"
-        },
-        notableEvents: [
-          {
-            date: "1682",
-            event: "Court officially moves from Paris to Versailles",
-            significance: "Transformed French governance, concentrated nobility under royal control, established Versailles as Europe's political center"
-          },
-          {
-            date: "1783",
-            event: "Treaty of Paris signed ending American Revolutionary War",
-            significance: "Versailles served as diplomatic center where France's support for American independence was formalized"
-          },
-          {
-            date: "1919",
-            event: "Treaty of Versailles signed in Hall of Mirrors",
-            significance: "Symbolic venue chosen to end WWI where German Empire was proclaimed in 1871, completing historical circle"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Enveloppe technique wrapping original château without demolition",
-            "Hall of Mirrors spanning 230 feet with 17 arched mirrors opposite 17 windows",
-            "Revolutionary use of French plate glass technology",
-            "Integration of interior and exterior through fenestration design",
-            "Systematic application of classical proportions across massive scale"
-          ],
-          defensiveFeatures: "Ceremonial rather than military - open design emphasizing royal accessibility and magnificence over defense",
-          materials: ["Local limestone for structure", "French plate glass for mirrors", "Italian marble for decoration", "Gilded bronze for ornamental details", "Oak for interior paneling"],
-          dimensions: "Length: 680 meters, Total floor area: 67,000 square meters, Park area: 800 hectares",
-          rooms: "2,300 rooms including royal apartments, state rooms, servants' quarters, and ceremonial halls"
-        },
-        constructionDetails: {
-          chiefArchitects: "Louis Le Vau (1661-1670), Jules Hardouin-Mansart (1678-1708), Jacques-Ange Gabriel (18th century additions)",
-          designer: "André Le Nôtre (landscape architect), Charles Le Brun (interior decorator and painter)",
-          cost: "Estimated 25% of France's annual revenue during peak construction, equivalent to billions in modern currency",
-          workers: "Up to 36,000 workers during peak construction including 6,000 horses for earth moving",
-          challenges: [
-            "Transforming marshy terrain into stable foundation for massive palace",
-            "Creating elaborate water supply system for fountains across 800 hectares",
-            "Integrating existing hunting lodge into grand palace design",
-            "Managing construction while palace remained royal residence",
-            "Coordinating work of multiple master craftsmen across decades"
-          ]
-        },
-        engineeringDetails: {
-          landscapeEngineering: {
-            terraceConstruction: "Massive earth movement created formal French gardens with geometric precision",
-            waterManagement: "Complex hydraulic system including Machine de Marly pumping water from Seine River",
-            foundationWork: "Drainage of marshland and soil stabilization for heavy masonry construction"
-          },
-          constructionTechniques: {
-            enveloppeMethod: [
-              "Revolutionary technique of building around existing structure without demolition",
-              "Louis Le Vau's design wrapped Louis XIII's château in new classical facades",
-              "Maintained royal residence function during construction",
-              "Created unified architectural appearance from disparate building periods"
-            ],
-            glassInnovation: [
-              "French plate glass manufacturing revolutionized for Hall of Mirrors",
-              "17 arched mirrors each 12 feet high created unprecedented interior lighting",
-              "Glass technology advancement spurred by royal demand for magnificence",
-              "Mirror gallery became template for European palace design"
-            ]
-          }
-        },
-        keyFeatures: [
-          "Hall of Mirrors with 17 arched mirrors and crystal chandeliers",
-          "Royal Chapel with baroque ceiling painted by Antoine Coypel",
-          "King's Grand Apartment with salon dedicated to Roman gods",
-          "Queen's Apartment with elaborate baroque decoration",
-          "André Le Nôtre's geometric French gardens spanning 800 hectares",
-          "Grand Trianon and Petit Trianon private retreat pavilions",
-          "Orangery housing 3,000 trees in winter",
-          "Grand Canal extending 1.67 kilometers through palace grounds"
-        ]
-      },
-      {
-        id: "himeji_castle",
-        castleName: "Himeji Castle",
-        country: "Japan",
-        location: "Himeji, Hyogo Prefecture",
-        architecturalStyle: "Japanese castle architecture",
-        yearBuilt: "1333, rebuilt 1601-1609",
-        shortDescription: "Known as White Heron Castle due to its elegant, white appearance, this is one of Japan's most spectacular castles and a UNESCO World Heritage Site. It survived World War II and earthquakes, representing the pinnacle of Japanese castle design.",
-        keyFeatures: ["Six-story main keep", "Spiral defensive design", "White plastered walls", "Advanced defensive systems", "Cherry blossom views"]
-      },
-      {
-        id: "windsor_castle",
-        castleName: "Windsor Castle",
-        country: "United Kingdom",
-        location: "Windsor, Berkshire, England",
-        architecturalStyle: "Georgian and Victorian design on Medieval structure",
-        yearBuilt: "11th century (rebuilt multiple times)",
-        shortDescription: "The world's oldest occupied castle, Windsor embodies nearly a millennium of architectural evolution. Originally built after the Norman Conquest, it has continuously served as a royal residence for over 900 years.",
-        detailedDescription: "Windsor Castle stands as the world's oldest occupied castle and largest castle complex, representing 900 years of continuous royal residence and architectural evolution. Built by William the Conqueror circa 1070 as part of a defensive ring around London, it has undergone constant transformation from Norman motte-and-bailey fortress to the magnificent royal palace of today. The castle has served 39 monarchs, survived civil wars, world wars, and fires, each era leaving architectural and cultural layers that create a unique palimpsest of British royal history. Originally constructed on a 50-foot chalk mound with wooden fortifications, it evolved through stone keeps, Gothic halls, and baroque state apartments to become the preferred weekend residence of the modern British monarchy.",
-        historicalTimeline: [
-          { year: "1070", event: "William the Conqueror begins construction of motte-and-bailey castle" },
-          { year: "1165-1179", event: "Henry II replaces wooden structures with stone buildings" },
-          { year: "1350s", event: "Edward III transforms castle from fortress into Gothic palace" },
-          { year: "1475-1483", event: "Edward IV builds St George's Chapel" },
-          { year: "1680s", event: "Charles II reconstructs state apartments in baroque style" },
-          { year: "1820s", event: "George IV's Gothic Revival transformation under Jeffry Wyatville" },
-          { year: "1992", event: "Great Fire damages 100 rooms, restoration completed 1997" },
-          { year: "2018", event: "Prince Harry and Meghan Markle marry in St George's Chapel" }
-        ],
-        dynastyInfo: {
-          dynasty: "Continuous residence of British monarchy for 900+ years",
-          rulers: ["William the Conqueror", "Henry II", "Edward III", "Henry VIII", "George IV", "Queen Victoria", "Elizabeth II", "Charles III"],
-          significance: "Longest-occupied palace in Europe, working royal palace and weekend home",
-          dynastyOrigin: "Norman dynasty 1066, continuous royal residence through Plantagenet, Tudor, Stuart, Hanover, Windsor dynasties"
-        },
-        notableEvents: [
-          {
-            date: "1216",
-            event: "Siege during First Barons' War",
-            significance: "Castle successfully defended against rebel barons, proving strategic importance and defensive strength"
-          },
-          {
-            date: "1936",
-            event: "Edward VIII abdicates from Windsor Castle",
-            significance: "Constitutional crisis resolved when Edward VIII chose love over crown, enabling George VI's accession"
-          },
-          {
-            date: "1992",
-            event: "Great Fire destroys much of castle",
-            significance: "£37 million restoration became model for heritage conservation, Queen's 'annus horribilis'"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Motte-and-bailey design utilizing 50-foot chalk mound foundation",
-            "Continuous architectural evolution maintaining medieval footprint",
-            "Integration of Norman, Gothic, Georgian, and Victorian elements",
-            "St George's Chapel as pinnacle of Perpendicular Gothic style",
-            "Waterloo Chamber - longest room in castle spanning 98 feet"
-          ],
-          defensiveFeatures: "Strategic position commanding Thames valley, massive curtain walls, Round Tower commanding approaches, multiple defensive circuits",
-          materials: ["Chalk excavated from site for motte construction", "Bagshot Heath stone for medieval work", "Bedfordshire stone for internal buildings", "Caen stone imported from Normandy", "Modern steel and concrete for 20th-century reinforcement"],
-          dimensions: "Total area: 526,000 square feet, Longest facade: 1,900 feet, Round Tower height: 200 feet",
-          rooms: "1,000 rooms including state apartments, private apartments, chapels, and working spaces"
-        },
-        constructionDetails: {
-          chiefArchitects: "Gundulf of Rochester (Norman), Henry Yevele (medieval), Hugh May (baroque), Jeffry Wyatville (Gothic Revival)",
-          foundationEngineering: "Chalk mound excavated from surrounding ditch, stone shell keep replacing wooden structures, subsidence management through reinforced foundations",
-          evolutionPeriods: [
-            "Norman Period (1070-1154): Motte-and-bailey fortress establishment",
-            "Plantagenet Expansion (1154-1485): Stone castle development",
-            "Tudor Modifications (1485-1603): Residential palace conversion",
-            "Stuart Baroque (1603-1714): State apartments creation",
-            "Georgian Gothic Revival (1714-1837): Romantic castle restoration",
-            "Victorian Completion (1837-1901): Modern infrastructure integration",
-            "Modern Conservation (1901-present): Heritage preservation and adaptation"
-          ],
-          challenges: [
-            "Foundation subsidence on chalk mound requiring massive underpinning",
-            "Maintaining royal residence function during continuous reconstruction",
-            "Integrating 900 years of architectural styles cohesively",
-            "Fire damage restoration while preserving historical authenticity",
-            "Balancing public access with royal privacy and security"
-          ]
-        },
-        engineeringDetails: {
-          foundationEngineering: {
-            geologicalBase: "Chalk bedrock with 50-foot artificial mound created from excavated ditch material",
-            foundationChallenges: "Original stone keep suffered from subsidence and cracking requiring massive reinforcement",
-            solutionImplemented: "Henry II moved walls inward from motte edge and added massive foundations along south side for additional support"
-          },
-          constructionInnovations: {
-            defensiveAdaptations: [
-              "Concentric defensive design with multiple walls and towers",
-              "Strategic siting controlling Thames valley and approach routes to London",
-              "Round Tower design providing 360-degree surveillance and command",
-              "Integration with landscape using natural chalk escarpment"
-            ],
-            residentialEvolution: [
-              "Transformation from military fortress to comfortable royal residence",
-              "Creation of state apartments while maintaining defensive capabilities",
-              "Gothic Revival restoration balancing authenticity with modern comfort",
-              "Fire-resistant construction following 1992 disaster"
-            ]
-          }
-        },
-        keyFeatures: [
-          "St George's Chapel - masterpiece of Perpendicular Gothic architecture",
-          "Round Tower - Norman keep offering panoramic views",
-          "State Apartments with Waterloo Chamber and throne room",
-          "Queen Mary's Dolls' House - miniature masterpiece",
-          "Long Walk - 2.65-mile tree-lined avenue to castle",
-          "Great Kitchen - medieval kitchen still in use",
-          "Albert Memorial Chapel - Victorian Gothic memorial",
-          "Royal Archives and Library housing historic documents"
-        ]
-      },
-      {
-        id: "alhambra_palace",
-        castleName: "The Alhambra",
-        country: "Spain",
-        location: "Granada, Andalusia",
-        architecturalStyle: "Moorish (Islamic) Architecture",
-        yearBuilt: "1238-1358",
-        shortDescription: "The Alhambra stands as the finest example of Moorish architecture in the Western world, representing the sophisticated artistic and architectural achievements of Islamic Spain during the Nasrid dynasty.",
-        detailedDescription: "The Alhambra represents the pinnacle of Islamic art and architecture in medieval Europe, serving as both fortress and palace complex for the Nasrid sultans who ruled the last Muslim kingdom in Spain. Built over more than a century on the Sabika hill overlooking Granada, it embodies the Islamic concept of paradise on earth through its integration of architecture, water, light, and gardens. The complex demonstrates the sophisticated engineering and artistic capabilities of Islamic civilization, featuring revolutionary architectural techniques including muqarnas (honeycomb vaulting), intricate geometric patterns, and an advanced hydraulic system that supplied water throughout the hilltop complex. The name 'Al-Qal'a al-Hamra' means 'Red Castle' in Arabic, referring to the reddish color of its walls built from local red earth and clay.",
-        historicalTimeline: [
-          { year: "1238", event: "Muhammad I ibn al-Ahmar establishes Nasrid dynasty and begins fortress construction" },
-          { year: "1248-1273", event: "Muhammad II expands palace complex and defensive walls" },
-          { year: "1302-1309", event: "Muhammad III builds Court of Machuca and Palace of Partal" },
-          { year: "1333-1354", event: "Yusuf I constructs Court of Lions and Comares Palace" },
-          { year: "1354-1391", event: "Muhammad V completes most spectacular decorative programs" },
-          { year: "1492", event: "Catholic Monarchs Ferdinand and Isabella conquer Granada, ending Muslim rule" },
-          { year: "1526", event: "Charles V builds Renaissance palace within Islamic complex" },
-          { year: "1984", event: "UNESCO designates Alhambra as World Heritage Site" }
-        ],
-        dynastyInfo: {
-          dynasty: "Nasrid Dynasty (Banū al-Aḥmar)",
-          rulers: ["Muhammad I ibn al-Ahmar (founder)", "Yusuf I (great builder)", "Muhammad V (artistic patron)", "Boabdil (last sultan)"],
-          significance: "Last Muslim dynasty in Western Europe, patrons of Islamic art and architecture",
-          dynastyOrigin: "Founded 1238, ruled Granada until 1492, lasted 254 years as final Islamic kingdom in Spain"
-        },
-        notableEvents: [
-          {
-            date: "1354-1391",
-            event: "Golden age under Muhammad V",
-            significance: "Period of greatest artistic achievement, creation of Court of Lions and most intricate decorative programs"
-          },
-          {
-            date: "1492",
-            event: "Surrender to Catholic Monarchs",
-            significance: "End of 781 years of Muslim rule in Spain, Boabdil's surrender marked completion of Christian Reconquista"
-          },
-          {
-            date: "1829",
-            event: "Washington Irving's 'Tales of the Alhambra'",
-            significance: "American author's romantic writings sparked international interest and preservation movement"
-          }
-        ],
-        architecturalAnalysis: {
-          structuralInnovations: [
-            "Muqarnas (honeycomb) vaulting creating complex three-dimensional patterns",
-            "Integration of structural and decorative elements in unified design system",
-            "Advanced hydraulic engineering supplying water to hilltop location",
-            "Climate-responsive architecture with courtyards and water features for cooling",
-            "Mathematical precision in geometric patterns and proportional systems"
-          ],
-          defensiveFeatures: "Strategic hilltop position, massive outer walls with towers, controlled access through multiple gates, separation of palace and military areas",
-          materials: ["Local red clay and earth for walls", "White marble for columns and decorative elements", "Cedar wood for intricate ceilings", "Glazed ceramic tiles (azulejos)", "Gold and lapis lazuli for decorative accents"],
-          dimensions: "Total area: 142,000 square meters, Palace area: 13,000 square meters, Wall perimeter: 1.4 kilometers",
-          rooms: "Over 100 rooms including throne halls, royal apartments, baths, courtyards, and service areas"
-        },
-        constructionDetails: {
-          chiefArchitects: "Various master builders (ustad) including Ismail ibn al-Ahmar, Ahmad ibn Muhammad al-Tilimsani",
-          artisticProgram: "Complex integration of calligraphy, geometry, and vegetal motifs expressing Islamic cosmology",
-          constructionTechniques: [
-            "Tapia (rammed earth) construction for main walls",
-            "Brick and tile work for decorative elements",
-            "Carved stucco (yesería) for intricate wall decorations",
-            "Wooden marquetry (taracea) for ceilings and doors"
-          ],
-          challenges: [
-            "Supplying water to hilltop location through innovative hydraulic system",
-            "Creating large interior spaces using Islamic architectural vocabulary",
-            "Integrating defensive requirements with palatial luxury",
-            "Coordinating complex decorative programs across multiple building phases",
-            "Working with local materials to achieve sophisticated artistic effects"
-          ]
-        },
-        engineeringDetails: {
-          hydraulicSystem: {
-            waterSource: "Darro River channeled through acequia (irrigation canal) system",
-            distributionMethod: "Gravity-fed system using slope of hill and architectural levels",
-            innovations: [
-              "Complex network of channels, fountains, and pools throughout complex",
-              "Integration of water features with architectural decoration",
-              "Climate control through evaporative cooling in courtyards",
-              "Acoustic enhancement through water sounds masking conversations"
-            ]
-          },
-          architecturalMathematics: {
-            geometricPrinciples: [
-              "Based on Islamic mathematical traditions including star-and-polygon patterns",
-              "Use of modular proportional systems derived from Quranic numerology",
-              "Integration of geometric patterns at multiple scales from tile to architectural",
-              "Application of mathematical concepts of infinity through repetitive patterns"
-            ],
-            structuralGeometry: [
-              "Muqarnas vaults based on complex geometric calculations",
-              "Arches using pointed, horseshoe, and multifoil profiles",
-              "Column proportions following classical Islamic architectural treatises",
-              "Courtyard proportions creating optimal light and shadow patterns"
-            ]
-          }
-        },
-        keyFeatures: [
-          "Court of Lions with central fountain supported by 12 marble lions",
-          "Hall of Ambassadors with star-pattern muqarnas dome",
-          "Court of Myrtles reflecting pool and arcade galleries",
-          "Generalife gardens with terraced water features",
-          "Palace of Charles V - Renaissance addition within Islamic complex",
-          "Hall of Two Sisters with intricate honeycomb ceiling",
-          "Mirador de Daraxa with panoramic views over Granada",
-          "Royal Baths with star-shaped skylights and marble floors"
-        ]
-      },
-      {
-        id: "bran_castle",
-        castleName: "Bran Castle",
-        country: "Romania",
-        location: "Bran, Brasov County",
-        architecturalStyle: "Gothic Revival",
-        yearBuilt: "1377-1388",
-        shortDescription: "Often referred to as 'Dracula's Castle', this medieval fortress sits dramatically on a rocky outcrop. While Bram Stoker likely never visited, the castle's Gothic appearance made it the perfect inspiration for Count Dracula's Transylvanian home.",
-        keyFeatures: ["Gothic towers", "Secret passages", "Medieval courtyards", "Royal apartments", "Museum collections"]
-      },
-      {
-        id: "mont_saint_michel",
-        castleName: "Mont Saint-Michel",
-        country: "France",
-        location: "Normandy, Manche",
-        architecturalStyle: "Medieval abbey fortress",
-        yearBuilt: "8th century onwards",
-        shortDescription: "A tidal island and mainland commune featuring a medieval abbey built on a rocky tidal island. Accessible by causeway only at low tide, this architectural marvel appears to rise from the sea like a mystical fortress.",
-        keyFeatures: ["Gothic abbey church", "Cloister gardens", "Great Wheel", "Medieval ramparts", "Tidal causeway access"]
-      },
-      {
-        id: "hohenzollern_castle",
-        castleName: "Hohenzollern Castle",
-        country: "Germany",
-        location: "Baden-Württemberg",
-        architecturalStyle: "Gothic Revival",
-        yearBuilt: "1850-1867",
-        shortDescription: "Perched 855 meters above sea level, this castle is the ancestral seat of the imperial House of Hohenzollern. The current structure is the third castle built on this site, designed in the Gothic Revival style with stunning views of the Swabian Alps.",
-        keyFeatures: ["Crown of Prussia", "Military museum", "Ancestral portraits", "Gothic Revival architecture", "Panoramic Alpine views"]
-      }
-    ];
+    // Initialize enhanced castle data provider for unlimited scalability with validation
+    this.castleDataProvider = new EnhancedCastleDataProvider();
+    
+    // Hardcoded castle array removed - now using dynamic CastleDataProvider for unlimited scalability
+    // The new system can access Wikipedia API, generate algorithmic castles, and scale to 10,000+ castles
+    this.realWorldCastles = [];
   }
 
   async ensureDirectoryExists(dirPath) {
@@ -1189,31 +517,57 @@ section {
     }
   }
 
-  getRandomUnusedCastle(existingCastles) {
-    const existingIds = new Set(existingCastles.map(castle => castle.id));
-    const existingNames = new Set(existingCastles.map(castle => castle.castleName.toLowerCase()));
+  async getRandomUnusedCastle(existingCastles) {
+    const existingIds = existingCastles.map(castle => castle.id);
+    const existingNames = existingCastles.map(castle => castle.castleName.toLowerCase());
     
-    const availableCastles = this.realWorldCastles.filter(castle => 
-      !existingIds.has(castle.id) && 
-      !existingNames.has(castle.castleName.toLowerCase())
-    );
-    
-    if (availableCastles.length === 0) {
+    try {
+      // Use enhanced provider with validation and multiple sources
+      console.log('Fetching validated castle batch from multiple sources...');
+      const newCastleBatch = await this.castleDataProvider.getNextCastleBatch(existingIds, 10, {
+        sources: ['unesco', 'wikipedia', 'algorithmic'],
+        qualityLevel: 'enhanced',
+        ensureQuality: true
+      });
+      
+      if (!newCastleBatch || newCastleBatch.length === 0) {
+        console.log('No new validated castles available');
+        return null;
+      }
+      
+      // Additional duplicate filtering
+      const availableCastles = newCastleBatch.filter(castle => 
+        !existingNames.includes(castle.castleName.toLowerCase())
+      );
+      
+      if (availableCastles.length === 0) {
+        console.log('All fetched castles were duplicates');
+        return null;
+      }
+      
+      // Select highest quality castle
+      const sortedByQuality = availableCastles.sort((a, b) => 
+        (b.qualityScore || 0) - (a.qualityScore || 0)
+      );
+      
+      const selectedCastle = sortedByQuality[0];
+      console.log(`Selected: ${selectedCastle.castleName} (${selectedCastle.source}, Quality: ${selectedCastle.qualityScore || 'N/A'})`);
+      return selectedCastle;
+      
+    } catch (error) {
+      console.error('Error fetching validated castle:', error.message);
       return null;
     }
-    
-    const randomIndex = Math.floor(Math.random() * availableCastles.length);
-    return availableCastles[randomIndex];
   }
 
   async addNewCastle() {
     console.log('Phase 2: Adding new castle to collection...');
     
     const existingCastles = await this.loadExistingCastles();
-    const newCastle = this.getRandomUnusedCastle(existingCastles);
+    const newCastle = await this.getRandomUnusedCastle(existingCastles);
     
     if (!newCastle) {
-      console.log('No more unique castles available to add');
+      console.log('No more unique castles available to add - unlimited expansion system may need time to generate new data');
       return existingCastles;
     }
     
@@ -1222,7 +576,7 @@ section {
     const updatedCastles = [...existingCastles, newCastle];
     await this.atomicWriteFile(this.castlesJsonPath, JSON.stringify(updatedCastles, null, 2));
     
-    console.log(`Phase 2 completed: ${newCastle.castleName} added successfully`);
+    console.log(`Phase 2 completed: ${newCastle.castleName} added successfully (source: ${newCastle.source})`);
     return updatedCastles;
   }
 
@@ -1433,7 +787,7 @@ section {
                     </dl>
                     <h4>Engineering Advantages</h4>
                     <ul>
-                        ${castle.engineeringDetails.foundationEngineering.engineeringAdvantages.map(advantage => `<li>${advantage}</li>`).join('')}
+                        ${castle.engineeringDetails.foundationEngineering.engineeringAdvantages ? castle.engineeringDetails.foundationEngineering.engineeringAdvantages.map(advantage => `<li>${advantage}</li>`).join('') : '<li>No specific advantages documented</li>'}
                     </ul>
                 </div>` : ''}
                 ${castle.engineeringDetails.constructionTechniques ? `

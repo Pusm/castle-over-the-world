@@ -1,0 +1,751 @@
+[
+  {
+    "id": "neuschwanstein_castle",
+    "castleName": "Neuschwanstein Castle",
+    "country": "Germany",
+    "location": "Bavarian Alps, near Füssen",
+    "architecturalStyle": "Romantic Revival (Gothic Revival, Romanesque, Byzantine)",
+    "yearBuilt": "1869-1886",
+    "shortDescription": "A fairy-tale castle commissioned by King Ludwig II of Bavaria, Neuschwanstein embodies 19th-century Romantic ideals with its blend of medieval architectural styles. Despite contemporary critics dismissing it as 'kitsch,' it stands today as one of Europe's most iconic examples of historicism and has inspired countless fairy tale adaptations.",
+    "keyFeatures": [
+      "Double-helix staircase design",
+      "Throne Hall with Byzantine décor",
+      "Gothic Revival towers and spires",
+      "Advanced 19th-century technical achievements",
+      "Romanesque geometric forms",
+      "Inspiration for Disney's Sleeping Beauty Castle"
+    ],
+    "culturalSignificance": "Known as the Castle of the Holy Grail, Neuschwanstein represents the intersection of Romantic idealism and tragic fate. Its cultural impact extends far beyond Bavaria, inspiring Walt Disney's Sleeping Beauty Castle and becoming one of the world's most photographed buildings. Over 61 million visitors have explored its halls, making it a global symbol of fairy-tale architecture.",
+    "legends": [
+      "The Mad King's Dream: Ludwig II designed Neuschwanstein as his personal retreat from reality, creating a medieval fantasy world where he could escape the pressures of modern kingship",
+      "The Parsifal Connection: Ludwig increasingly identified himself with Parsifal, the legendary Grail King from Wagner's operas, reimagining his castle as the Castle of the Holy Grail",
+      "The Swan Knight Legend: The castle's name 'New Swan Stone' reflects Ludwig's obsession with the swan knight Lohengrin from Wagner's opera"
+    ],
+    "historicalEvents": [
+      "1864: 18-year-old Ludwig II became King of Bavaria without political experience",
+      "1869: Construction began on what Ludwig called 'New Hohenschwangau Castle'",
+      "1886: Ludwig was declared insane by his government and deposed",
+      "June 13, 1886: Ludwig II found dead under mysterious circumstances in Lake Starnberg",
+      "1886: Castle opened to the public shortly after Ludwig's death"
+    ],
+    "politicalSignificance": "Neuschwanstein became a symbol of royal excess and the costs of absolute monarchy. Ludwig's lavish spending on the castle contributed to Bavaria's financial crisis and ultimately led to his deposition. The castle represents the tension between romantic idealism and political reality in 19th-century Germany.",
+    "literaryConnections": "The castle walls are decorated with frescoes depicting scenes from Wagner's operas including Tannhäuser, Tristan und Isolde, Lohengrin, and Parsifal. Wagner privately referred to Ludwig as 'Parsifal,' and the king's tragic story inspired countless literary works about mad kings and romantic excess.",
+    "folklore": "Local Bavarian folklore tells of the 'Fairy Tale King' who built castles in the clouds. Peasants believed Ludwig was under an enchantment, building impossible dreams that would bankrupt the kingdom. The castle is said to be haunted by Ludwig's restless spirit, still wandering the unfinished halls of his greatest creation.",
+    "socialHistory": "Construction employed hundreds of craftsmen and workers, representing the peak of 19th-century craftsmanship. The castle's construction costs of 6.2 million gold marks (€47 million today) strained Bavaria's resources, leading to social tensions between the monarchy and its subjects who bore the tax burden.",
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Alpine limestone bedrock at 965 meters above sea level",
+        "formationProcess": "Massive stone removal and reinforcement required due to steep mountain site",
+        "engineeringAdvantages": [
+          "Commanding views over Bavarian Alps and Hohenschwangau Castle",
+          "Natural defensive position on rocky Alpine outcrop",
+          "Isolation provided privacy for reclusive King Ludwig II",
+          "Stable limestone foundation suitable for heavy masonry construction"
+        ]
+      },
+      "constructionTechniques": {
+        "industrialInnovations": [
+          "First large steam-powered crane used in German castle construction",
+          "Steel framework hidden within romantic revival masonry",
+          "Throne Hall supported by revolutionary steel girder lattice system",
+          "Modern building techniques disguised with medieval aesthetic"
+        ],
+        "materialEngineering": [
+          "Brick walls clad with Kelheim limestone for aesthetic effect",
+          "Salzburg marble used for interior decorative elements",
+          "Steel framework provides structural integrity while maintaining romantic appearance",
+          "Bavarian pine timber for interior woodwork and roofing"
+        ]
+      },
+      "innovativeFeatures": [
+        "Central heating system throughout all floors - revolutionary for 1880s",
+        "Running water and flush toilets on every floor",
+        "Electric lighting system when electricity was still experimental",
+        "Telephone connection to Munich and Hohenschwangau Castle",
+        "Electric call system for servants throughout the castle",
+        "Hot air heating system with elaborate ductwork"
+      ],
+      "materialProperties": {
+        "steelFramework": "Hidden steel members provide earthquake resistance and support for elaborate throne hall ceiling",
+        "limestone": "Light-colored Kelheim limestone provides weather resistance and medieval aesthetic",
+        "brick": "Load-bearing brick walls allow for thinner construction than solid stone",
+        "marble": "Salzburg marble chosen for interior luxury and workability for detailed decoration"
+      }
+    }
+  },
+  {
+    "id": "windsor_castle",
+    "castleName": "Windsor Castle",
+    "country": "United Kingdom",
+    "location": "Windsor, Berkshire, England",
+    "architecturalStyle": "Georgian and Victorian design on Medieval structure",
+    "yearBuilt": "11th century (rebuilt multiple times)",
+    "shortDescription": "The world's oldest occupied castle, Windsor embodies nearly a millennium of architectural evolution. Originally built after the Norman Conquest, it seamlessly blends Classical, Gothic, and Rococo styles within its medieval framework, serving as both a royal residence and a symbol of British monarchy through the ages.",
+    "keyFeatures": [
+      "Britain's oldest crown jewels (Honours of Scotland)",
+      "Georgian state apartments",
+      "Gothic features in modern interpretation",
+      "Jacobethan elements",
+      "Rococo decorative schemes",
+      "Finest expression of later Georgian taste"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Natural chalk cliff rising 100 feet above Thames River with artificial chalk motte construction",
+        "formationProcess": "Massive motte created from chalk rubble excavated from surrounding 52ft wide and 21ft deep defensive ditch",
+        "engineeringAdvantages": [
+          "Natural chalk cliff provides 100ft elevation advantage over surrounding terrain",
+          "Chalk material excellent for both excavation and construction, readily available on-site",
+          "Artificial motte 50 feet high creates commanding position 150ft total above river level",
+          "Chalk cliff site allows for natural defensive position with steep approaches on three sides"
+        ]
+      },
+      "constructionTechniques": {
+        "normanEngineering": [
+          "Original motte-and-bailey design utilizing excavated chalk for motte construction",
+          "Timber piles driven into chalk motte for stabilization and structural integrity",
+          "Thick chalk rubble layer with timber pile reinforcement creates massive plinth foundation",
+          "Transition from timber palisades to stone walls following original defensive alignments"
+        ],
+        "medievalMasonry": [
+          "Mortared flint and chalk rubble walls with battered plinth construction",
+          "Coursed flint rubble facing with chalk ashlar for precision masonry work",
+          "External buttressing systems supporting tall walls and towers",
+          "Excellent ashlar stone cutting demonstrating high-quality Norman craftsmanship"
+        ]
+      },
+      "defensiveEngineering": [
+        "Round Tower construction providing curved walls resistant to siege projectiles",
+        "Wall thickness up to 7.3 meters (24 feet) designed to withstand catapult bombardment",
+        "Sally-ports and hidden tunnels beneath Curfew Tower for surprise counterattacks",
+        "Multiple defensive rings utilizing natural cliff faces integrated with built fortifications",
+        "Strategic positioning as part of defensive ring around London with day's march spacing"
+      ],
+      "innovativeFeatures": [
+        "Shell keep design replacing original wooden tower while maintaining motte advantage",
+        "Integration of Georgian and Victorian residential improvements within medieval defensive structure",
+        "Sophisticated drainage systems managing water flow on chalk foundation",
+        "Chalk-lined passages and staircases with sloping barrel vault construction techniques"
+      ],
+      "materialProperties": {
+        "chalk": "Remarkably pure limestone (98% calcium carbonate) providing excellent workability and local availability",
+        "flint": "Local flint provides extremely hard facing material when combined with chalk rubble core construction",
+        "ashlar": "Precision-cut stone used for decorative elements and structural precision requiring high masonry skill",
+        "timber": "Timber pile reinforcement systems providing flexibility and load distribution in chalk foundation"
+      }
+    }
+  },
+  {
+    "id": "palace_of_versailles",
+    "castleName": "Palace of Versailles",
+    "country": "France",
+    "location": "Versailles, Île-de-France",
+    "architecturalStyle": "French Baroque to Neoclassical",
+    "yearBuilt": "1630s-1780s",
+    "shortDescription": "A testament to French architectural mastery spanning 150 years, Versailles evolved from a hunting lodge into the epitome of European palace design. Its influence on architecture and horticulture spread across the continent, inspiring countless royal residences and establishing the template for grandiose palatial complexes.",
+    "keyFeatures": [
+      "Hall of Mirrors",
+      "French Baroque chapel with Gothic elements",
+      "Neoclassical Ministers' Wings",
+      "Enveloppe inspired by Italian Renaissance villas",
+      "Extensive formal gardens",
+      "Symbol of absolute monarchy"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Stable Île-de-France limestone and clay subsoil supporting massive palace complex spanning 2,300 rooms",
+        "formationProcess": "Systematic expansion from original hunting lodge utilizing terraced construction on gradually sloping terrain",
+        "engineeringAdvantages": [
+          "Natural elevation provides drainage and commanding views over formal gardens extending 800 hectares",
+          "Limestone bedrock provides excellent foundation stability for monumental scale construction",
+          "Strategic position 20 kilometers southwest of Paris allows political isolation while maintaining access",
+          "Terraced site enables formal garden engineering with precise geometric water features and vista planning"
+        ]
+      },
+      "constructionTechniques": {
+        "frenchBaroque": [
+          "Jules Hardouin-Mansart's systematic brick and stone harmony construction methodology",
+          "Use of French materials over Italian - pink Languedoc marble, Campanian marble peristyles",
+          "Colossal order façades with classical columns and pilasters providing structural rhythm",
+          "Revolutionary cast iron pipeline systems replacing traditional terra cotta and wood conduits"
+        ],
+        "hydraulicEngineering": [
+          "Machine de Marly engineering marvel: 14 water wheels each 12 meters diameter driving 257 pumps",
+          "Multi-stage pumping system lifting 5,000 cubic meters daily from Seine River 150 meters elevation",
+          "Two intermediate pump relay stations enabling unprecedented hydraulic elevation differential",
+          "Standardized cast iron pipeline sections creating modular water distribution network throughout palace"
+        ]
+      },
+      "massiveScale": [
+        "Employed over 30,000 laborers, craftsmen, and engineers during peak construction phases",
+        "Material requirements: 850 metric tons steel and lead, 17,000 tons iron, 85,000 tons wood",
+        "6 miles of chains, 12,000 pounds tallow lubrication for hydraulic machinery maintenance",
+        "One-third of total construction budget dedicated to gardens and fountain engineering systems"
+      ],
+      "innovativeFeatures": [
+        "First palace complex with standardized modular cast iron water distribution eliminating welding requirements",
+        "Integration of residential palatial architecture with industrial-scale hydraulic engineering",
+        "Mathematical precision garden engineering with geometric water features spanning 1.6 kilometer Grand Canal",
+        "Advanced acoustic engineering in Hall of Mirrors utilizing 357 mirrors creating unprecedented interior light manipulation"
+      ],
+      "materialProperties": {
+        "languedocMarble": "Pink Languedoc marble provides distinctive French Baroque coloration and exceptional workability for detailed sculptural elements",
+        "castIron": "Revolutionary standardized cast iron sections enable rapid assembly and maintenance of extensive pipeline networks",
+        "brickAndStone": "Hardouin-Mansart's brick and stone harmony technique combining structural integrity with aesthetic French classical proportions",
+        "gilding": "Extensive gold leaf application requiring specialized techniques for weather resistance on massive exterior and interior surfaces"
+      }
+    }
+  },
+  {
+    "id": "himeji_castle",
+    "castleName": "Himeji Castle",
+    "country": "Japan",
+    "location": "Himeji, Hyōgo Prefecture",
+    "architecturalStyle": "Japanese Medieval (Azuchi-Momoyama period)",
+    "yearBuilt": "1333 (rebuilt 1601-1609)",
+    "shortDescription": "Known as the 'White Heron Castle' for its elegant white appearance, Himeji represents the pinnacle of Japanese castle architecture. This UNESCO World Heritage site has survived 700 years virtually intact, showcasing sophisticated defensive systems and the refined aesthetic principles of Japanese design.",
+    "keyFeatures": [
+      "Network of 83 interconnected rooms",
+      "Advanced defensive maze systems",
+      "Traditional wooden construction",
+      "White plastered walls resembling heron wings",
+      "Complex multi-story design",
+      "Survived WWII bombing and earthquakes"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Stone retaining walls using mortarless construction for earthquake resistance",
+        "formationProcess": "Massive stone foundations using diverse materials including tombstones and millstones",
+        "engineeringAdvantages": [
+          "Mortarless stone construction provides flexibility during earthquakes",
+          "Survived 1995 Great Hanshin earthquake with no damage",
+          "Curved stone walls (musha-gaeshi) deflect projectiles and prevent scaling",
+          "Multiple defensive layers force attackers through complex maze-like passages"
+        ]
+      },
+      "constructionTechniques": {
+        "earthquakeEngineering": [
+          "Mortarless stone walls flex during seismic activity without collapsing",
+          "Wooden superstructure uses traditional Japanese joinery for flexibility",
+          "Foundation stones arranged without mortar to allow controlled movement",
+          "Sake bottle test: during 1995 earthquake, sake bottle remained upright on top floor altar"
+        ],
+        "defensiveInnovations": [
+          "Over 1,000 loopholes (sama) in various shapes for archer and gunner fire positions",
+          "Stone drop windows (ishi-otoshi-mado) for dropping projectiles on attackers",
+          "Spiral approach system forces attackers through eight fortified gates",
+          "Complex maze design with multiple 180-degree turns creating killing zones"
+        ]
+      },
+      "materialEngineering": [
+        "White plaster (shiro-shikkui) made from stone-derived and shellfish lime provides fire resistance",
+        "Plaster applied to both interior and exterior walls for maximum protection",
+        "Plaster composition varies by location but typically includes lime from multiple sources",
+        "Roof tiles sealed with plaster to prevent fire damage from projectiles"
+      ],
+      "materialProperties": {
+        "whitePlaster": "Natural lime-based plaster provides fire resistance, humidity control, and reflects sunlight to disorient attackers",
+        "wood": "Primarily pine construction uses traditional Japanese joinery without nails for earthquake flexibility",
+        "stone": "Diverse stone types including recycled tombstones and millstones provide massive foundation stability",
+        "ironwork": "Minimal iron use - primarily traditional Japanese wooden joinery and rope techniques"
+      }
+    }
+  },
+  {
+    "id": "edinburgh_castle",
+    "castleName": "Edinburgh Castle",
+    "country": "Scotland",
+    "location": "Edinburgh, Scotland",
+    "architecturalStyle": "Medieval Scottish fortress (multiple periods)",
+    "yearBuilt": "12th century (on 2nd century foundations)",
+    "shortDescription": "Perched dramatically on Castle Rock, Edinburgh Castle has dominated Scotland's capital for nearly two millennia. This ancient fortress guards the Scottish Crown Jewels and embodies the turbulent history of Scotland, serving as both royal residence and military stronghold throughout the centuries.",
+    "keyFeatures": [
+      "Honours of Scotland (oldest crown jewels)",
+      "Castle Rock volcanic foundation",
+      "Great Hall with impressive timber roof",
+      "St Margaret's Chapel (oldest building)",
+      "One O'Clock Gun daily ceremony",
+      "Spectacular views over Edinburgh"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "350-million-year-old volcanic plug formed from dolerite (coarser-grained basalt)",
+        "formationProcess": "Volcanic pipe cooled to form extremely hard dolerite, resisted glacial erosion creating crag-and-tail formation",
+        "engineeringAdvantages": [
+          "Natural defensive cliffs rising 80 meters above surrounding landscape",
+          "Summit 130 meters above sea level provides commanding position",
+          "Only accessible approach from east where ridge slopes gently",
+          "Impermeable basalt rock prevents water seepage but creates water supply challenges"
+        ]
+      },
+      "constructionTechniques": {
+        "stoneMasonry": [
+          "Medieval masons utilized volcanic stone and glacial debris from castle site",
+          "St Margaret's Chapel shows matrix-supported construction with big rocks in sand and gravel cement",
+          "Wall thickness varies from 1 meter to over 3 meters for defensive purposes",
+          "Different wall sections show evolution from rough volcanic stone to cut rectangular blocks"
+        ],
+        "defensiveAdaptations": [
+          "Walls built to follow natural rock contours maximizing defensive advantage",
+          "Integration of natural cliff faces with built fortifications",
+          "Spur design on eastern approach forces attackers through multiple gates",
+          "Artillery adaptations for cannon warfare from 15th century onwards"
+        ]
+      },
+      "siegeAdaptations": [
+        "26 recorded sieges over 1,100 years - most besieged place in Britain",
+        "Medieval defenses largely destroyed in 1573 Lang Siege by artillery bombardment",
+        "Fore Well provides siege-resistant water supply 28 meters deep into volcanic rock",
+        "Multiple defensive rings and gates force attackers through killing zones",
+        "Portcullis and drawbridge systems at vulnerable eastern entrance"
+      ],
+      "materialProperties": {
+        "volcanicRock": "Extremely hard dolerite provides excellent structural foundation but difficult to quarry and shape",
+        "importedStone": "Limestone imported for decorative work and fine masonry requiring precision cutting",
+        "mortar": "Traditional lime mortar used for flexibility during ground settlement",
+        "ironwork": "Extensive use of iron for portcullis mechanisms, door hinges, and window grilles"
+      }
+    }
+  },
+  {
+    "id": "prague_castle",
+    "castleName": "Prague Castle",
+    "country": "Czech Republic",
+    "location": "Prague, Hradčany",
+    "architecturalStyle": "Romanesque, Gothic, Renaissance, Baroque blend",
+    "yearBuilt": "9th century (continuously expanded)",
+    "shortDescription": "According to Guinness World Records, Prague Castle is the largest ancient castle complex in the world, spanning nearly 70,000 square meters. This millennium-spanning architectural marvel reflects the changing styles and powers that have shaped Central Europe, from Bohemian kings to Habsburg emperors.",
+    "keyFeatures": [
+      "Largest ancient castle complex (70,000 sq meters)",
+      "St. Vitus Cathedral with Gothic spires",
+      "Old Royal Palace with Vladislav Hall",
+      "Renaissance and Baroque additions",
+      "Official residence of Czech presidents",
+      "Architectural timeline of 1000+ years"
+    ]
+  },
+  {
+    "id": "chateau_de_chambord",
+    "castleName": "Château de Chambord",
+    "country": "France",
+    "location": "Loire Valley, Loir-et-Cher",
+    "architecturalStyle": "French Renaissance",
+    "yearBuilt": "1519-1547",
+    "shortDescription": "A masterpiece of French Renaissance architecture, Chambord showcases the architectural revolution that swept France in the 16th century. With its distinctive double-helix staircase possibly designed by Leonardo da Vinci, this château represents the perfect fusion of French medieval traditions with Italian Renaissance innovation.",
+    "keyFeatures": [
+      "440 rooms and 365 fireplaces",
+      "Double-helix staircase (possibly da Vinci design)",
+      "Distinctive French Renaissance silhouette",
+      "UNESCO World Heritage Site since 1981",
+      "Innovative roof terraces and towers",
+      "Largest château in Loire Valley"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Marshy terrain near Cosson River requiring extensive drainage and ground preparation",
+        "formationProcess": "Challenging foundation construction on drained marshland utilizing advanced 16th-century water management",
+        "engineeringAdvantages": [
+          "Isolated marshy location provides privacy and security for royal retreat",
+          "Cosson River proximity enables water supply and transportation access",
+          "Flat Loire Valley terrain allows for massive horizontal expansion and formal gardens",
+          "Drainage engineering creates stable foundation suitable for monumental Renaissance architecture"
+        ]
+      },
+      "constructionTechniques": {
+        "renaissanceInnovation": [
+          "Greek cross central plan with four symmetrical wings - unprecedented in French civil architecture",
+          "Leonardo da Vinci's influence on double helix staircase enabling simultaneous opposing circulation",
+          "Italian-French architectural fusion combining Loire Valley masonry with Renaissance proportions",
+          "Advanced stone coffering techniques reducing structural weight while maintaining strength"
+        ],
+        "daVinciEngineering": [
+          "Double helix staircase with hollowed central core and twinned helical ramps around open axis",
+          "Sophisticated latrine system with dual contiguous underground pits and vaulted passageways",
+          "Central illumination system using lighthouse design at highest point for natural lighting",
+          "Advanced ventilation engineering with air duct systems integrating waste management"
+        ]
+      },
+      "massiveScaleConstruction": [
+        "Peak construction employed 1,800 workers simultaneously for complex masonry operations",
+        "Required 220,000 tonnes of tuffeau chalk limestone for primary construction material",
+        "28-year construction timeline (1519-1547) demonstrating sustained engineering commitment",
+        "Over 800 sculpted columns requiring master stonemasons and advanced carving techniques"
+      ],
+      "innovativeFeatures": [
+        "First French château with Italian-style Greek cross plan symmetrical design",
+        "Revolutionary double helix circulation preventing user intersection while maintaining visual contact",
+        "Advanced waterproofing systems for elaborate roof terraces with 365 chimneys and turrets",
+        "Decorative defensive elements (towers, moat) serving symbolic rather than military functions"
+      ],
+      "materialProperties": {
+        "tuffeauChalk": "Low resistance siliceous limestone providing excellent workability for detailed Renaissance sculpture",
+        "slate": "Roof construction and inlaid panels imitating Italian marble marquetry with weather resistance",
+        "limestone": "Massive foundation blocks enabling structural stability on challenging marshy subsoil",
+        "ironwork": "Advanced metal reinforcement systems supporting innovative double helix staircase engineering"
+      }
+    }
+  },
+  {
+    "id": "alhambra_palace",
+    "castleName": "The Alhambra",
+    "country": "Spain",
+    "location": "Granada, Andalusia",
+    "architecturalStyle": "Moorish (Islamic) Architecture",
+    "yearBuilt": "1238-1358",
+    "shortDescription": "The Alhambra stands as the finest example of Moorish architecture in the Western world, representing the sophisticated artistic achievement of Islamic Spain. Built by the Nasrid dynasty, this palace-fortress complex showcases intricate geometric patterns, muqarnas vaulting, and garden courtyards that influenced architectural traditions across the Mediterranean.",
+    "keyFeatures": [
+      "Intricate Islamic geometric patterns",
+      "Court of Lions with fountain system",
+      "Muqarnas (stalactite) vaulting",
+      "Arabic calligraphy decorations",
+      "Palatial gardens and water features",
+      "UNESCO World Heritage Site"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Granada plateau constructed using rammed earth (tapial) foundation system",
+        "formationProcess": "Muros de tapial construction compressing soil mixed with aggregates, lime and water into formwork",
+        "engineeringAdvantages": [
+          "Rammed earth construction provides excellent thermal mass for climate control",
+          "Elevated plateau position commands strategic views over Granada valley",
+          "Natural defensive position protected by steep cliffs and ravines",
+          "Tapial construction allows for rapid, cost-effective large-scale building"
+        ]
+      },
+      "constructionTechniques": {
+        "hydraulicEngineering": [
+          "Sultan's Canal (Saqiyat al-Sultan) brings mountain water to plateau via sophisticated elevation devices",
+          "Internal network of stone-lined acequias (canals) for water distribution throughout complex",
+          "Qanāt-like conduits and albercones (cisterns) for water storage and redirection",
+          "Integrated fountain and pool systems providing climate control and acoustic effects"
+        ],
+        "structuralSystems": [
+          "Rectangular courtyard units with central water features as basic architectural module",
+          "Arcaded porticoes flanking courtyards on two or four sides",
+          "Slender columns supporting delicate muqarnas vaulting systems",
+          "Precise geometric planning integrating decorative and structural elements"
+        ]
+      },
+      "materialEngineering": [
+        "Red clay bricks provide structural framework with excellent thermal properties",
+        "Gypsum plaster applied over rammed earth walls for smooth decorative surface",
+        "Pine timber used for roofs, ceilings, doors, and window shutters",
+        "Ceramics and natural pigments create intricate tile work and geometric patterns"
+      ],
+      "innovativeFeatures": [
+        "Sophisticated water distribution creating acoustic effects and climate control throughout palace",
+        "Muqarnas honeycomb vaulting systems providing structural support with minimal material",
+        "Integration of gardens and architecture for natural cooling and humidity control",
+        "Advanced geometric design principles creating optical illusions and spatial complexity"
+      ],
+      "materialProperties": {
+        "rammedEarth": "Tapial construction provides excellent thermal mass, earthquake flexibility, and rapid construction capability",
+        "gypsumPlaster": "Smooth decorative surface enabling intricate carved geometric patterns and Arabic calligraphy",
+        "ceramics": "Glazed tile work provides waterproofing and decorative geometric patterns resistant to weathering",
+        "pineTimber": "Lightweight roofing material with natural insect resistance suitable for Mediterranean climate"
+      }
+    }
+  },
+  {
+    "id": "warwick_castle",
+    "castleName": "Warwick Castle",
+    "country": "England",
+    "location": "Warwick, Warwickshire",
+    "architecturalStyle": "Norman Medieval with later additions",
+    "yearBuilt": "1068 (William the Conqueror era)",
+    "shortDescription": "Built by William the Conqueror in 1068, Warwick Castle exemplifies the evolution from Norman military fortress to stately home. This well-preserved medieval castle combines formidable defensive architecture with later residential improvements, showcasing nearly a thousand years of English castle development and aristocratic life.",
+    "keyFeatures": [
+      "Great Hall with medieval weaponry displays",
+      "14th-century towers and battlements",
+      "Dungeon with torture chamber",
+      "State rooms with period furnishings",
+      "Working trebuchet (largest in the world)",
+      "Peacock Garden and conservatory"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Sandstone bluff at River Avon bend with natural cliff formation providing defensive elevation",
+        "formationProcess": "Direct construction on bedrock with Caesar's Tower foundations extending to river level solid rock",
+        "engineeringAdvantages": [
+          "Natural sandstone cliff provides impregnable defensive position above River Avon",
+          "Bedrock foundation ensures maximum structural stability for heavy stone construction",
+          "River bend location creates natural moat effect on three sides of castle",
+          "Strategic position controls Fosse Way and river valley crossing critical to regional transportation"
+        ]
+      },
+      "constructionTechniques": {
+        "normanEvolution": [
+          "Original 1068 motte-and-bailey wooden construction for rapid territorial control",
+          "12th-century Henry II stone reconstruction replacing timber with permanent fortification",
+          "Shell keep innovation with stone buildings constructed against curtain wall",
+          "Integration of Norman bailey into new stone castle design maintaining defensive principles"
+        ],
+        "medievalMasonry": [
+          "Rubble construction using irregularly-shaped stone for internal walls with cost efficiency",
+          "Ashlar masonry employing regularly-cut quality stone for exterior walls and precision jointing",
+          "Cavity wall construction with rubble fill rather than solid stone reducing material requirements",
+          "Lime mortar technique requiring 20-50cm daily construction rate due to slow setting time"
+        ]
+      },
+      "siegeEngineering": [
+        "World's largest working trebuchet: 60 feet tall, 22 tonnes weight, 650-foot projectile range",
+        "Trebuchet counterweight system using 6-tonne counterweight with 4:1 arm ratio mechanical advantage",
+        "Dry moat construction on northern approach where river protection unavailable",
+        "Drawbridge and multiple entrance design forcing attackers through controlled access points"
+      ],
+      "innovativeFeatures": [
+        "Strategic domination of Fosse Way Roman road and river crossing transportation hub",
+        "Integration of natural cliff formation with built fortifications maximizing defensive potential",
+        "Evolution from rapid Norman wooden fortress to sophisticated stone stronghold demonstrating conquest consolidation",
+        "Working siege engine demonstration providing authentic medieval warfare engineering education"
+      ],
+      "materialProperties": {
+        "sandstone": "Local sandstone provides excellent workability for detailed masonry while offering superior structural strength",
+        "limeMortar": "Traditional lime mortar enables flexibility for ground settlement while requiring careful timing for construction",
+        "ashlarStone": "Precision-cut ashlar stone demonstrates advanced medieval quarrying and transportation techniques",
+        "rubbleFill": "Cavity wall rubble fill construction technique reduces material costs while maintaining structural integrity"
+      }
+    }
+  },
+  {
+    "id": "alcazar_of_segovia",
+    "castleName": "Alcázar of Segovia",
+    "country": "Spain",
+    "location": "Segovia, Castile and León",
+    "architecturalStyle": "Moorish, Gothic, and Renaissance",
+    "yearBuilt": "12th century (on Roman/Moorish foundations)",
+    "shortDescription": "Rising dramatically from a rocky crag, the Alcázar of Segovia showcases the layered history of medieval Spain. Built on Roman foundations and expanded by Moorish, then Christian rulers, this distinctive bow-shaped castle-palace represents the cultural synthesis that defined medieval Iberia.",
+    "keyFeatures": [
+      "Distinctive bow-shaped design",
+      "Throne Room with Mudéjar ceiling",
+      "Torre del Homenaje (Keep Tower)",
+      "Royal apartments with period furnishings",
+      "Strategic hilltop position",
+      "UNESCO World Heritage Site"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "Ship bow-shaped rocky outcrop at confluence of Eresma and Clamores rivers with Roman castrum foundations",
+        "formationProcess": "Natural erosion by Rio Eresma creating distinctive ship-like promontory ideal for defensive construction",
+        "engineeringAdvantages": [
+          "Ship bow-shaped rocky crag provides impregnable defensive position with commanding valley views",
+          "River confluence location offers natural water supply and transportation access",
+          "Rocky outcrop eliminates need for extensive foundation excavation enabling direct bedrock construction",
+          "Strategic position controls approach routes to Segovia from western approaches"
+        ]
+      },
+      "constructionTechniques": {
+        "layeredEvolution": [
+          "Roman castrum foundation providing structural base for subsequent construction phases",
+          "Moorish wooden fortress construction utilizing Al'qasr Arabic architectural principles",
+          "12th-century Christian stone reconstruction replacing wooden Moorish structures with permanent fortification",
+          "13th-14th century House of Trastámara expansion creating current palatial-fortress configuration"
+        ],
+        "mudéjarIntegration": [
+          "Gothic-Mudéjar architectural fusion combining Christian and Islamic construction techniques",
+          "Mudéjar plaster work with double inscription friezes and decorative ceiling treatments",
+          "Azulejo tile work and carved arch construction demonstrating Islamic artistic influence",
+          "Barrel vault construction techniques adapted from both Gothic and Islamic architectural traditions"
+        ]
+      },
+      "defensiveEngineering": [
+        "Torre del Homenaje (Juan II Tower) rising 80 meters with ten enormous watchtowers",
+        "Stone walls reaching 30 meters height with strategic tower and bastion reinforcement",
+        "26-meter deep defensive moat system with drawbridge and stone bridge access control",
+        "Two main courtyard design (Patio de Armas and Patio del Reloj) providing internal defensive layers"
+      ],
+      "innovativeFeatures": [
+        "Unique bow-shaped castle design maximizing defensive potential of natural rocky outcrop",
+        "Architectural evolution spanning Roman, Moorish, and Christian construction techniques in single structure",
+        "Torre del Homenaje engineering achievement representing Spanish palatial-military architecture pinnacle",
+        "Integration of palace comfort with fortress security through Mudéjar decorative sophistication"
+      ],
+      "materialProperties": {
+        "stone": "Local stone construction providing durability and integration with rocky foundation outcrop",
+        "mudéjarPlaster": "Islamic-influenced decorative plaster enabling detailed ceiling and wall ornamentation",
+        "slate": "Philip II slate spire additions reflecting central European castle architecture influence",
+        "azulejoTiles": "Ceramic tile work demonstrating Islamic artistic techniques adapted for Christian palatial decoration"
+      }
+    }
+  },
+  {
+    "id": "mont_saint_michel",
+    "castleName": "Mont Saint-Michel",
+    "country": "France",
+    "location": "Normandy, Manche",
+    "architecturalStyle": "Medieval abbey fortress",
+    "yearBuilt": "8th century onwards",
+    "shortDescription": "A tidal island and mainland commune featuring a medieval abbey built on a rocky tidal island. Accessible by causeway only at low tide, this architectural marvel appears to rise from the sea like a mystical fortress.",
+    "keyFeatures": [
+      "Gothic abbey church",
+      "Cloister gardens",
+      "Great Wheel",
+      "Medieval ramparts",
+      "Tidal causeway access"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "525 million year old leucogranite outcrop solidified from molten magma intrusion during Cambrian period",
+        "formationProcess": "Natural granite pyramid foundation utilizing bedrock integration for structural stability on tidal island",
+        "engineeringAdvantages": [
+          "Leucogranite provides exceptional foundation strength superior to surrounding eroded coastal rocks",
+          "Natural pyramidal granite shape enables vertical construction to 35-meter height",
+          "Tidal island isolation creates natural defensive position accessible only during low tide",
+          "Granite outcrop resistance to marine erosion ensures millennium-long structural stability"
+        ]
+      },
+      "constructionTechniques": {
+        "marineEngineering": [
+          "Advanced drainage systems with strategically placed channels and culverts directing tidal water flow",
+          "Massive granite block transport from Brittany and Chausey Islands using foot-hauling techniques",
+          "Three-level abbey construction adapting to natural pyramidal granite outcrop constraints",
+          "Underground crypt support systems distributing weight across irregular rocky foundation"
+        ],
+        "tidalAdaptation": [
+          "Foundation engineering withstanding 14-meter tidal range - Europe's highest tidal variations",
+          "Defensive accessibility design enabling pilgrimage during low tide while providing isolation during high tide",
+          "Structural integration allowing abbey complex to function during extreme tidal forces",
+          "Marine erosion resistance construction techniques developed for saltwater environment"
+        ]
+      },
+      "architecturalEvolution": [
+        "Romanesque foundation (10th-12th centuries) utilizing thick walls and rounded arches for stability",
+        "Gothic 'Merveille' construction (13th century) achieving 35-meter height with pointed arches and ribbed vaults",
+        "Sixteen powerful buttresses supporting three-layered vertical structure on limited island space",
+        "1300-year continuous construction timeline demonstrating evolving medieval engineering techniques"
+      ],
+      "innovativeFeatures": [
+        "World's first major abbey constructed on active tidal island with extreme marine conditions",
+        "Revolutionary vertical monastery design maximizing limited rocky outcrop space",
+        "Integration of defensive military architecture with monastic spiritual architecture",
+        "Crypte des Gros Piliers with 12 massive pillars each 5 meters circumference supporting abbey church"
+      ],
+      "materialProperties": {
+        "leucogranite": "525 million year old granite provides unparalleled foundation stability and marine erosion resistance",
+        "importedGranite": "Massive granite blocks from Brittany quarries selected for superior structural properties",
+        "coenStone": "Norman Caen stone used for detailed architectural elements requiring precision carving",
+        "mortarSystems": "Marine-adapted mortar techniques developed for saltwater exposure and tidal force resistance"
+      }
+    }
+  },
+  {
+    "id": "bran_castle",
+    "castleName": "Bran Castle",
+    "country": "Romania",
+    "location": "Bran, Brasov County",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1377-1388",
+    "shortDescription": "Often referred to as 'Dracula's Castle', this medieval fortress sits dramatically on a rocky outcrop. While Bram Stoker likely never visited, the castle's Gothic appearance made it the perfect inspiration for Count Dracula's Transylvanian home.",
+    "keyFeatures": [
+      "Gothic towers",
+      "Secret passages",
+      "Medieval courtyards",
+      "Royal apartments",
+      "Museum collections"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "60-meter cliff within narrow Bran Gorge rocky passageway between Brasov and Arges counties",
+        "formationProcess": "Direct construction on irregular rocky outcrop requiring adaptive foundation techniques for cliff-edge stability",
+        "engineeringAdvantages": [
+          "Rocky cliff position provides commanding strategic control over Bran Gorge passage",
+          "Natural defensive elevation with steep approaches on multiple sides",
+          "Solid rock foundation eliminates concerns about foundation settlement or erosion",
+          "Strategic position controls crucial trade route and customs collection between Transylvania regions"
+        ]
+      },
+      "constructionTechniques": {
+        "rapidConstruction": [
+          "Remarkable 5-year construction timeline (1377-1382) demonstrating efficient medieval project management",
+          "Community support from Brasov citizens enabling accelerated building through shared labor resources",
+          "Hybrid wood and stone construction combining speed of timber framing with durability of stone masonry",
+          "Irregular architecture adapted to rocky terrain constraints rather than uniform geometric design"
+        ],
+        "gothicEngineering": [
+          "Pointed arch construction distributing ceiling weight efficiently to ground rather than surrounding walls",
+          "Ribbed vaulting techniques creating grand halls while maintaining structural integrity",
+          "Strategic narrow window placement optimizing defensive functionality with natural lighting",
+          "Secret stone passage construction enabling discreet multi-level movement for defensive purposes"
+        ]
+      },
+      "rockEngineering": [
+        "57-meter deep well carved through solid granite rock during original 1377 construction",
+        "60-foot deep water access system demonstrating advanced medieval drilling techniques through bedrock",
+        "Irregular foundation adaptation maximizing use of natural rocky outcrop contours",
+        "Cliff-edge construction requiring specialized anchoring and buttressing techniques"
+      ],
+      "innovativeFeatures": [
+        "First medieval fortress in region utilizing cliff-edge construction for maximum defensive advantage",
+        "Integration of natural rock formations with built defensive walls creating seamless fortification",
+        "Advanced underground reservoir system carved into granite providing siege-resistant water supply",
+        "Strategic customs fortress design combining military defense with economic trade route control"
+      ],
+      "materialProperties": {
+        "hybridConstruction": "Wood and stone combination enabling rapid construction while providing durability and defensive capability",
+        "graniteRock": "Local granite provides exceptional foundation stability and enables deep well construction",
+        "stoneMasonry": "Stone blocks from Magura Bran quarries selected for structural strength and weather resistance",
+        "timberFraming": "Wooden structural elements allow flexibility and speed of construction on irregular rocky terrain"
+      }
+    }
+  },
+  {
+    "id": "hohenzollern_castle",
+    "castleName": "Hohenzollern Castle",
+    "country": "Germany",
+    "location": "Baden-Württemberg",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1850-1867",
+    "shortDescription": "Perched 855 meters above sea level, this castle is the ancestral seat of the imperial House of Hohenzollern. The current structure is the third castle built on this site, designed in the Gothic Revival style with stunning views of the Swabian Alps.",
+    "keyFeatures": [
+      "Crown of Prussia",
+      "Military museum",
+      "Ancestral portraits",
+      "Gothic Revival architecture",
+      "Panoramic Alpine views"
+    ],
+    "engineeringDetails": {
+      "foundationEngineering": {
+        "geologicalBase": "855 meters above sea level mountaintop position on existing medieval foundation walls and casemates",
+        "formationProcess": "Third castle construction utilizing foundation walls from previous two castles for structural stability and cost efficiency",
+        "engineeringAdvantages": [
+          "Extreme elevation provides commanding views over Swabian Alps and regional approach routes",
+          "Existing medieval foundation walls reduce construction costs and provide proven structural stability",
+          "Mountaintop isolation offers natural defensive position with limited access routes",
+          "Strategic position controls regional transportation and military movements across southern Germany"
+        ]
+      },
+      "constructionTechniques": {
+        "gothicRevivalEngineering": [
+          "Friedrich August Stüler's design influenced by English Gothic Revival and Loire Valley châteaux",
+          "Pointed arches, ribbed vaults, and flying buttresses recreating medieval aesthetic with 19th-century materials",
+          "Horseshoe-shaped multi-story castle protected by bastion ring utilizing modern defensive principles",
+          "Integration of ornate decoration with towers and pinnacles demonstrating advanced masonry techniques"
+        ],
+        "historicalPreservation": [
+          "Catholic St. Michael's Chapel from 15th century seamlessly integrated into new Gothic Revival design",
+          "Existing underground casemates incorporated as foundation for three-story Gothic Revival buildings",
+          "Specialized military engineering for spiral ramp designed by fortress architect Moritz of Prittwitz",
+          "Careful balance between historical authenticity and 19th-century architectural innovation"
+        ]
+      },
+      "modernEngineering": [
+        "21-year construction timeline (1846-1867) demonstrating sophisticated 19th-century project management",
+        "Advanced construction techniques combining Gothic aesthetic with industrial-age materials and methods",
+        "Integration of modern amenities within medieval-style architecture maintaining historical appearance",
+        "Bastion ring fortification adapting traditional defensive design to 19th-century military requirements"
+      ],
+      "innovativeFeatures": [
+        "First major Gothic Revival castle in Germany utilizing existing medieval foundations for authenticity",
+        "Masterful integration of 15th-century chapel with 19th-century Gothic Revival architecture",
+        "Advanced spiral ramp engineering providing controlled access to mountaintop fortress position",
+        "Family memorial design combining residential palatial function with symbolic dynastic representation"
+      ],
+      "materialProperties": {
+        "gothicRevivalMasonry": "19th-century stone cutting techniques enabling precise recreation of medieval Gothic architectural elements",
+        "industrialMaterials": "Modern building materials disguised within Gothic Revival aesthetic maintaining historical appearance",
+        "preservedElements": "Original 15th-century St. Michael's Chapel stone and architectural details preserved within new construction",
+        "defensiveStone": "Robust masonry construction for bastion ring providing both aesthetic beauty and functional defensive capability"
+      }
+    }
+  }
+]
