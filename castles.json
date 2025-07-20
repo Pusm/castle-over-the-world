@@ -1,0 +1,220 @@
+[
+  {
+    "id": "neuschwanstein_castle",
+    "castleName": "Neuschwanstein Castle",
+    "country": "Germany",
+    "location": "Bavarian Alps, near Füssen",
+    "architecturalStyle": "Romantic Revival (Gothic Revival, Romanesque, Byzantine)",
+    "yearBuilt": "1869-1886",
+    "shortDescription": "A fairy-tale castle commissioned by King Ludwig II of Bavaria, Neuschwanstein embodies 19th-century Romantic ideals with its blend of medieval architectural styles. Despite contemporary critics dismissing it as 'kitsch,' it stands today as one of Europe's most iconic examples of historicism and has inspired countless fairy tale adaptations.",
+    "keyFeatures": [
+      "Double-helix staircase design",
+      "Throne Hall with Byzantine décor",
+      "Gothic Revival towers and spires",
+      "Advanced 19th-century technical achievements",
+      "Romanesque geometric forms",
+      "Inspiration for Disney's Sleeping Beauty Castle"
+    ]
+  },
+  {
+    "id": "windsor_castle",
+    "castleName": "Windsor Castle",
+    "country": "United Kingdom",
+    "location": "Windsor, Berkshire, England",
+    "architecturalStyle": "Georgian and Victorian design on Medieval structure",
+    "yearBuilt": "11th century (rebuilt multiple times)",
+    "shortDescription": "The world's oldest occupied castle, Windsor embodies nearly a millennium of architectural evolution. Originally built after the Norman Conquest, it seamlessly blends Classical, Gothic, and Rococo styles within its medieval framework, serving as both a royal residence and a symbol of British monarchy through the ages.",
+    "keyFeatures": [
+      "Britain's oldest crown jewels (Honours of Scotland)",
+      "Georgian state apartments",
+      "Gothic features in modern interpretation",
+      "Jacobethan elements",
+      "Rococo decorative schemes",
+      "Finest expression of later Georgian taste"
+    ]
+  },
+  {
+    "id": "palace_of_versailles",
+    "castleName": "Palace of Versailles",
+    "country": "France",
+    "location": "Versailles, Île-de-France",
+    "architecturalStyle": "French Baroque to Neoclassical",
+    "yearBuilt": "1630s-1780s",
+    "shortDescription": "A testament to French architectural mastery spanning 150 years, Versailles evolved from a hunting lodge into the epitome of European palace design. Its influence on architecture and horticulture spread across the continent, inspiring countless royal residences and establishing the template for grandiose palatial complexes.",
+    "keyFeatures": [
+      "Hall of Mirrors",
+      "French Baroque chapel with Gothic elements",
+      "Neoclassical Ministers' Wings",
+      "Enveloppe inspired by Italian Renaissance villas",
+      "Extensive formal gardens",
+      "Symbol of absolute monarchy"
+    ]
+  },
+  {
+    "id": "himeji_castle",
+    "castleName": "Himeji Castle",
+    "country": "Japan",
+    "location": "Himeji, Hyōgo Prefecture",
+    "architecturalStyle": "Japanese Medieval (Azuchi-Momoyama period)",
+    "yearBuilt": "1333 (rebuilt 1601-1609)",
+    "shortDescription": "Known as the 'White Heron Castle' for its elegant white appearance, Himeji represents the pinnacle of Japanese castle architecture. This UNESCO World Heritage site has survived 700 years virtually intact, showcasing sophisticated defensive systems and the refined aesthetic principles of Japanese design.",
+    "keyFeatures": [
+      "Network of 83 interconnected rooms",
+      "Advanced defensive maze systems",
+      "Traditional wooden construction",
+      "White plastered walls resembling heron wings",
+      "Complex multi-story design",
+      "Survived WWII bombing and earthquakes"
+    ]
+  },
+  {
+    "id": "edinburgh_castle",
+    "castleName": "Edinburgh Castle",
+    "country": "Scotland",
+    "location": "Edinburgh, Scotland",
+    "architecturalStyle": "Medieval Scottish fortress (multiple periods)",
+    "yearBuilt": "12th century (on 2nd century foundations)",
+    "shortDescription": "Perched dramatically on Castle Rock, Edinburgh Castle has dominated Scotland's capital for nearly two millennia. This ancient fortress guards the Scottish Crown Jewels and embodies the turbulent history of Scotland, serving as both royal residence and military stronghold throughout the centuries.",
+    "keyFeatures": [
+      "Honours of Scotland (oldest crown jewels)",
+      "Castle Rock volcanic foundation",
+      "Great Hall with impressive timber roof",
+      "St Margaret's Chapel (oldest building)",
+      "One O'Clock Gun daily ceremony",
+      "Spectacular views over Edinburgh"
+    ]
+  },
+  {
+    "id": "prague_castle",
+    "castleName": "Prague Castle",
+    "country": "Czech Republic",
+    "location": "Prague, Hradčany",
+    "architecturalStyle": "Romanesque, Gothic, Renaissance, Baroque blend",
+    "yearBuilt": "9th century (continuously expanded)",
+    "shortDescription": "According to Guinness World Records, Prague Castle is the largest ancient castle complex in the world, spanning nearly 70,000 square meters. This millennium-spanning architectural marvel reflects the changing styles and powers that have shaped Central Europe, from Bohemian kings to Habsburg emperors.",
+    "keyFeatures": [
+      "Largest ancient castle complex (70,000 sq meters)",
+      "St. Vitus Cathedral with Gothic spires",
+      "Old Royal Palace with Vladislav Hall",
+      "Renaissance and Baroque additions",
+      "Official residence of Czech presidents",
+      "Architectural timeline of 1000+ years"
+    ]
+  },
+  {
+    "id": "chateau_de_chambord",
+    "castleName": "Château de Chambord",
+    "country": "France",
+    "location": "Loire Valley, Loir-et-Cher",
+    "architecturalStyle": "French Renaissance",
+    "yearBuilt": "1519-1547",
+    "shortDescription": "A masterpiece of French Renaissance architecture, Chambord showcases the architectural revolution that swept France in the 16th century. With its distinctive double-helix staircase possibly designed by Leonardo da Vinci, this château represents the perfect fusion of French medieval traditions with Italian Renaissance innovation.",
+    "keyFeatures": [
+      "440 rooms and 365 fireplaces",
+      "Double-helix staircase (possibly da Vinci design)",
+      "Distinctive French Renaissance silhouette",
+      "UNESCO World Heritage Site since 1981",
+      "Innovative roof terraces and towers",
+      "Largest château in Loire Valley"
+    ]
+  },
+  {
+    "id": "alhambra_palace",
+    "castleName": "The Alhambra",
+    "country": "Spain",
+    "location": "Granada, Andalusia",
+    "architecturalStyle": "Moorish (Islamic) Architecture",
+    "yearBuilt": "1238-1358",
+    "shortDescription": "The Alhambra stands as the finest example of Moorish architecture in the Western world, representing the sophisticated artistic achievement of Islamic Spain. Built by the Nasrid dynasty, this palace-fortress complex showcases intricate geometric patterns, muqarnas vaulting, and garden courtyards that influenced architectural traditions across the Mediterranean.",
+    "keyFeatures": [
+      "Intricate Islamic geometric patterns",
+      "Court of Lions with fountain system",
+      "Muqarnas (stalactite) vaulting",
+      "Arabic calligraphy decorations",
+      "Palatial gardens and water features",
+      "UNESCO World Heritage Site"
+    ]
+  },
+  {
+    "id": "warwick_castle",
+    "castleName": "Warwick Castle",
+    "country": "England",
+    "location": "Warwick, Warwickshire",
+    "architecturalStyle": "Norman Medieval with later additions",
+    "yearBuilt": "1068 (William the Conqueror era)",
+    "shortDescription": "Built by William the Conqueror in 1068, Warwick Castle exemplifies the evolution from Norman military fortress to stately home. This well-preserved medieval castle combines formidable defensive architecture with later residential improvements, showcasing nearly a thousand years of English castle development and aristocratic life.",
+    "keyFeatures": [
+      "Great Hall with medieval weaponry displays",
+      "14th-century towers and battlements",
+      "Dungeon with torture chamber",
+      "State rooms with period furnishings",
+      "Working trebuchet (largest in the world)",
+      "Peacock Garden and conservatory"
+    ]
+  },
+  {
+    "id": "alcazar_of_segovia",
+    "castleName": "Alcázar of Segovia",
+    "country": "Spain",
+    "location": "Segovia, Castile and León",
+    "architecturalStyle": "Moorish, Gothic, and Renaissance",
+    "yearBuilt": "12th century (on Roman/Moorish foundations)",
+    "shortDescription": "Rising dramatically from a rocky crag, the Alcázar of Segovia showcases the layered history of medieval Spain. Built on Roman foundations and expanded by Moorish, then Christian rulers, this distinctive bow-shaped castle-palace represents the cultural synthesis that defined medieval Iberia.",
+    "keyFeatures": [
+      "Distinctive bow-shaped design",
+      "Throne Room with Mudéjar ceiling",
+      "Torre del Homenaje (Keep Tower)",
+      "Royal apartments with period furnishings",
+      "Strategic hilltop position",
+      "UNESCO World Heritage Site"
+    ]
+  },
+  {
+    "id": "mont_saint_michel",
+    "castleName": "Mont Saint-Michel",
+    "country": "France",
+    "location": "Normandy, Manche",
+    "architecturalStyle": "Medieval abbey fortress",
+    "yearBuilt": "8th century onwards",
+    "shortDescription": "A tidal island and mainland commune featuring a medieval abbey built on a rocky tidal island. Accessible by causeway only at low tide, this architectural marvel appears to rise from the sea like a mystical fortress.",
+    "keyFeatures": [
+      "Gothic abbey church",
+      "Cloister gardens",
+      "Great Wheel",
+      "Medieval ramparts",
+      "Tidal causeway access"
+    ]
+  },
+  {
+    "id": "bran_castle",
+    "castleName": "Bran Castle",
+    "country": "Romania",
+    "location": "Bran, Brasov County",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1377-1388",
+    "shortDescription": "Often referred to as 'Dracula's Castle', this medieval fortress sits dramatically on a rocky outcrop. While Bram Stoker likely never visited, the castle's Gothic appearance made it the perfect inspiration for Count Dracula's Transylvanian home.",
+    "keyFeatures": [
+      "Gothic towers",
+      "Secret passages",
+      "Medieval courtyards",
+      "Royal apartments",
+      "Museum collections"
+    ]
+  },
+  {
+    "id": "hohenzollern_castle",
+    "castleName": "Hohenzollern Castle",
+    "country": "Germany",
+    "location": "Baden-Württemberg",
+    "architecturalStyle": "Gothic Revival",
+    "yearBuilt": "1850-1867",
+    "shortDescription": "Perched 855 meters above sea level, this castle is the ancestral seat of the imperial House of Hohenzollern. The current structure is the third castle built on this site, designed in the Gothic Revival style with stunning views of the Swabian Alps.",
+    "keyFeatures": [
+      "Crown of Prussia",
+      "Military museum",
+      "Ancestral portraits",
+      "Gothic Revival architecture",
+      "Panoramic Alpine views"
+    ]
+  }
+]
