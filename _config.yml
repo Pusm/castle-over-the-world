@@ -1,0 +1,7 @@
+title: "Castles Over The World"
+description: "A comprehensive encyclopedia of world castles"
+baseurl: ""
+url: "https://pusm.github.io"
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
